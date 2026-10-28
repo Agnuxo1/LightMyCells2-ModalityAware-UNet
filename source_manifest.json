@@ -301,5 +301,6 @@
    "private_sha256": "50cae69269612486c718eb23ec336e8038916c502e57f1eedfcfccedd456d18a",
    "relation": "identical to executed/private source"
   }
- }
+ },
+ "note": "sha256 values are over the LF bytes checked out from git (see .gitattributes)."
 }
