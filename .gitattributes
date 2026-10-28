@@ -1,0 +1,14 @@
+README.md text eol=lf
+docs/DELIVERY_20261027.md text eol=lf
+docs/ENMIENDA_3_20261027.md text eol=lf
+docs/MODEL_CARD_20261027.md text eol=lf
+docs/REPRODUCING_SUPERVISED_MIP.md text eol=lf
+source_manifest_20261027.json text eol=lf
+src/submission/* text eol=lf
+src/mip_supervised/* text eol=lf
+evidence/ed2_20261027/* -text
+tools/check_ed2_20261027.py text eol=lf
+docs/UPDATE_CONTAINER_V3_20261027.md text eol=lf
+docs/SUBMISSION_METHODS_DRAFT_20261027.md text eol=lf
+docs/UPDATE_MIP_INTERFACE_20261027.md text eol=lf
+tools/check_phase_interfaces.py text eol=lf

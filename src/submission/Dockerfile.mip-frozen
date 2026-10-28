@@ -1,0 +1,4 @@
+FROM lmc2-selfcontained-20261027-v3
+USER root
+COPY --chown=user:user inference.py /opt/app/inference.py
+USER user

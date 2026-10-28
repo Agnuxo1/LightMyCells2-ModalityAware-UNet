@@ -1,0 +1,172 @@
+{
+  "scope": "synthetic and raw real ed1 held-out images; numerical identity to scipy/skimage, not unreleased ed2 evaluator",
+  "n_fov": 7,
+  "n_pairs": 16,
+  "worst_error": 1.3156142841808105e-14,
+  "rows": [
+    {
+      "fov": "S20_315",
+      "fold": 2,
+      "modality": "DIC",
+      "organelle": "Mitochondria",
+      "ssim_reference": 0.3611974669492716,
+      "pcc_reference": 0.18651658855827996,
+      "max_error": 1.3156142841808105e-14,
+      "gt_sha256": "5f5a410f0d1c79f215c9804a15f770673014ea052b243e3d1d3a1ef81509caa0"
+    },
+    {
+      "fov": "S20_315",
+      "fold": 2,
+      "modality": "DIC",
+      "organelle": "Nucleus",
+      "ssim_reference": 0.4715685083670605,
+      "pcc_reference": 0.4915015230195207,
+      "max_error": 1.0769163338864018e-14,
+      "gt_sha256": "2bd31a614b70aede080c8f4af89710d1ed0f974399a14c6023c6e73229ae8bc9"
+    },
+    {
+      "fov": "S20_315",
+      "fold": 2,
+      "modality": "DIC",
+      "organelle": "Tubulin",
+      "ssim_reference": 0.3791121890058486,
+      "pcc_reference": 0.03373050600011542,
+      "max_error": 1.0103029524088925e-14,
+      "gt_sha256": "87667625c68e8a7ba6a15e7d0f22aacf4f435af991ccee168da6bf1ca9b48f57"
+    },
+    {
+      "fov": "S25_686",
+      "fold": 0,
+      "modality": "BF",
+      "organelle": "Nucleus",
+      "ssim_reference": 0.5800605900602599,
+      "pcc_reference": 0.8160852595240353,
+      "max_error": 1.7763568394002505e-15,
+      "gt_sha256": "1ef8ab7ac96e09c3a6252d0c479af0e55b64a9c745e421e6b32dfe0a88736056"
+    },
+    {
+      "fov": "S25_686",
+      "fold": 0,
+      "modality": "BF",
+      "organelle": "Mitochondria",
+      "ssim_reference": 0.3481719799674274,
+      "pcc_reference": 0.32205320868123655,
+      "max_error": 1.887379141862766e-15,
+      "gt_sha256": "1982b75c6ebebcc91cad1524b91c96d3377b911a259660a9f566206fdeb1a306"
+    },
+    {
+      "fov": "S27_2480",
+      "fold": 2,
+      "modality": "PC",
+      "organelle": "Nucleus",
+      "ssim_reference": 0.780412026413463,
+      "pcc_reference": 0.5748404301051921,
+      "max_error": 2.9976021664879227e-15,
+      "gt_sha256": "40ac4f510162c38a22d04b3a7b8fed304a3ad02e92bf3d5791eea9c8d7e1fd7f"
+    },
+    {
+      "fov": "S27_2480",
+      "fold": 2,
+      "modality": "PC",
+      "organelle": "Mitochondria",
+      "ssim_reference": 0.8224407918351211,
+      "pcc_reference": 0.8066940417268631,
+      "max_error": 6.439293542825908e-15,
+      "gt_sha256": "04654993aa21c67e694bf83bb15966a0e15b18d3f56d484db5ddb69ffb8edbf4"
+    },
+    {
+      "fov": "S29_2530",
+      "fold": 3,
+      "modality": "PC",
+      "organelle": "Nucleus",
+      "ssim_reference": 0.7954360978967931,
+      "pcc_reference": 0.4631831289653603,
+      "max_error": 5.551115123125783e-16,
+      "gt_sha256": "ecd1a57b786ad9329e47e0258f6616f43c647ba811cf512175cbdf413c500c58"
+    },
+    {
+      "fov": "S29_2530",
+      "fold": 3,
+      "modality": "PC",
+      "organelle": "Tubulin",
+      "ssim_reference": 0.32128223608309614,
+      "pcc_reference": 0.5293182119365254,
+      "max_error": 2.1094237467877974e-15,
+      "gt_sha256": "f030e616c8d72fae89cf486aa98ab192d1ff91a6e9177a679c13792e671de023"
+    },
+    {
+      "fov": "S30_2570",
+      "fold": 3,
+      "modality": "BF",
+      "organelle": "Nucleus",
+      "ssim_reference": 0.8511857669991297,
+      "pcc_reference": 0.6292668489700046,
+      "max_error": 4.440892098500626e-16,
+      "gt_sha256": "892168af461638fa07847a3f063905c06a18a5911bac303c8ff9705540df6e7a"
+    },
+    {
+      "fov": "S30_2570",
+      "fold": 3,
+      "modality": "BF",
+      "organelle": "Tubulin",
+      "ssim_reference": 0.4249706385063801,
+      "pcc_reference": 0.3568117898362018,
+      "max_error": 4.440892098500626e-16,
+      "gt_sha256": "134f9ec618b4836d972f1b5ed17c4172503cd2df67502610999a73fc72ccdba7"
+    },
+    {
+      "fov": "S3_56",
+      "fold": 3,
+      "modality": "BF",
+      "organelle": "Actin",
+      "ssim_reference": 0.4325315987951098,
+      "pcc_reference": 0.6633342849043381,
+      "max_error": 1.9984014443252818e-15,
+      "gt_sha256": "55621d78b83ad35571ff4bf69af34c4cbd4a5a8109e5494e0fb6f12bdda04454"
+    },
+    {
+      "fov": "S3_56",
+      "fold": 3,
+      "modality": "BF",
+      "organelle": "Mitochondria",
+      "ssim_reference": 0.43437762009523356,
+      "pcc_reference": 0.7400958533865242,
+      "max_error": 5.10702591327572e-15,
+      "gt_sha256": "90d632dce848e3dcca1af64ed5baaebf8d5f25547899389cbc0ff20539c1721d"
+    },
+    {
+      "fov": "S3_56",
+      "fold": 3,
+      "modality": "BF",
+      "organelle": "Nucleus",
+      "ssim_reference": 0.2797330502536474,
+      "pcc_reference": 0.272946402095823,
+      "max_error": 5.384581669432009e-15,
+      "gt_sha256": "e879e91eb39d22d39e4630d818f89f120199f3b409b3f05e527f1d369ae1aed2"
+    },
+    {
+      "fov": "S5_99",
+      "fold": 1,
+      "modality": "PC",
+      "organelle": "Actin",
+      "ssim_reference": 0.568721946399826,
+      "pcc_reference": 0.6764457115765821,
+      "max_error": 7.438494264988549e-15,
+      "gt_sha256": "239f603cb814140601b43d98c0a3962d4ea3da45b5e247b8df86d0d00962d7fa"
+    },
+    {
+      "fov": "S5_99",
+      "fold": 1,
+      "modality": "PC",
+      "organelle": "Nucleus",
+      "ssim_reference": 0.6636489693762804,
+      "pcc_reference": 0.5004193812294568,
+      "max_error": 9.992007221626409e-16,
+      "gt_sha256": "ed06c93de1344d4bed64899f12b4b7d35619de254d0238a85287a63819bb5dac"
+    }
+  ],
+  "seconds": 73.98804341300274,
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "torch": "2.14.1+cu130",
+  "peak_gpu_mib": 895.3828125
+}

@@ -1,0 +1,2615 @@
+{
+  "status": "complete_with_metric_warnings",
+  "estimand": "Mean z planes within modality, modalities within FOV, then equal FOV; equal-study sensitivity also reported.",
+  "coverage": {
+    "0": {
+      "expected_rows": 8375,
+      "observed_rows": 8375,
+      "missing": 0,
+      "unexpected": 0,
+      "duplicates": 0,
+      "invalid": 0,
+      "complete": true,
+      "missing_examples": [],
+      "invalid_examples": []
+    },
+    "1": {
+      "expected_rows": 2624,
+      "observed_rows": 2624,
+      "missing": 0,
+      "unexpected": 0,
+      "duplicates": 0,
+      "invalid": 0,
+      "complete": true,
+      "missing_examples": [],
+      "invalid_examples": []
+    },
+    "2": {
+      "expected_rows": 2099,
+      "observed_rows": 2099,
+      "missing": 0,
+      "unexpected": 0,
+      "duplicates": 0,
+      "invalid": 0,
+      "complete": true,
+      "missing_examples": [],
+      "invalid_examples": []
+    },
+    "3": {
+      "expected_rows": 1259,
+      "observed_rows": 1259,
+      "missing": 0,
+      "unexpected": 0,
+      "duplicates": 0,
+      "invalid": 0,
+      "complete": true,
+      "missing_examples": [],
+      "invalid_examples": []
+    },
+    "4": {
+      "expected_rows": 1175,
+      "observed_rows": 1175,
+      "missing": 0,
+      "unexpected": 0,
+      "duplicates": 0,
+      "invalid": 0,
+      "complete": true,
+      "missing_examples": [],
+      "invalid_examples": []
+    }
+  },
+  "metric_warnings": [
+    {
+      "fold": 3,
+      "key": [
+        "val",
+        "S29_2542",
+        "PC",
+        0,
+        "Tubulin"
+      ],
+      "reason": "constant reference verified in source TIFF; all reference-based metrics undefined"
+    },
+    {
+      "fold": 3,
+      "key": [
+        "val",
+        "S29_2542",
+        "PC",
+        0,
+        "Tubulin"
+      ],
+      "metric": "ssim",
+      "value": "nan"
+    },
+    {
+      "fold": 3,
+      "key": [
+        "val",
+        "S29_2542",
+        "PC",
+        0,
+        "Tubulin"
+      ],
+      "metric": "pcc",
+      "value": "nan"
+    },
+    {
+      "fold": 3,
+      "key": [
+        "val",
+        "S29_2542",
+        "PC",
+        0,
+        "Tubulin"
+      ],
+      "metric": "ssim_raw",
+      "value": "nan"
+    },
+    {
+      "fold": 3,
+      "key": [
+        "val",
+        "S29_2542",
+        "PC",
+        0,
+        "Tubulin"
+      ],
+      "metric": "ssim_tl_trivial",
+      "value": "nan"
+    },
+    {
+      "fold": 3,
+      "key": [
+        "val",
+        "S29_2542",
+        "PC",
+        0,
+        "Tubulin"
+      ],
+      "metric": "pcc_tl_trivial",
+      "value": "nan"
+    },
+    {
+      "fold": 3,
+      "key": [
+        "val",
+        "S29_2542",
+        "PC",
+        10,
+        "Tubulin"
+      ],
+      "reason": "constant reference verified in source TIFF; all reference-based metrics undefined"
+    },
+    {
+      "fold": 3,
+      "key": [
+        "val",
+        "S29_2542",
+        "PC",
+        10,
+        "Tubulin"
+      ],
+      "metric": "ssim",
+      "value": "nan"
+    },
+    {
+      "fold": 3,
+      "key": [
+        "val",
+        "S29_2542",
+        "PC",
+        10,
+        "Tubulin"
+      ],
+      "metric": "pcc",
+      "value": "nan"
+    },
+    {
+      "fold": 3,
+      "key": [
+        "val",
+        "S29_2542",
+        "PC",
+        10,
+        "Tubulin"
+      ],
+      "metric": "ssim_raw",
+      "value": "nan"
+    },
+    {
+      "fold": 3,
+      "key": [
+        "val",
+        "S29_2542",
+        "PC",
+        10,
+        "Tubulin"
+      ],
+      "metric": "ssim_tl_trivial",
+      "value": "nan"
+    },
+    {
+      "fold": 3,
+      "key": [
+        "val",
+        "S29_2542",
+        "PC",
+        10,
+        "Tubulin"
+      ],
+      "metric": "pcc_tl_trivial",
+      "value": "nan"
+    },
+    {
+      "fold": 3,
+      "key": [
+        "val",
+        "S29_2542",
+        "PC",
+        19,
+        "Tubulin"
+      ],
+      "reason": "constant reference verified in source TIFF; all reference-based metrics undefined"
+    },
+    {
+      "fold": 3,
+      "key": [
+        "val",
+        "S29_2542",
+        "PC",
+        19,
+        "Tubulin"
+      ],
+      "metric": "ssim",
+      "value": "nan"
+    },
+    {
+      "fold": 3,
+      "key": [
+        "val",
+        "S29_2542",
+        "PC",
+        19,
+        "Tubulin"
+      ],
+      "metric": "pcc",
+      "value": "nan"
+    },
+    {
+      "fold": 3,
+      "key": [
+        "val",
+        "S29_2542",
+        "PC",
+        19,
+        "Tubulin"
+      ],
+      "metric": "ssim_raw",
+      "value": "nan"
+    },
+    {
+      "fold": 3,
+      "key": [
+        "val",
+        "S29_2542",
+        "PC",
+        19,
+        "Tubulin"
+      ],
+      "metric": "ssim_tl_trivial",
+      "value": "nan"
+    },
+    {
+      "fold": 3,
+      "key": [
+        "val",
+        "S29_2542",
+        "PC",
+        19,
+        "Tubulin"
+      ],
+      "metric": "pcc_tl_trivial",
+      "value": "nan"
+    }
+  ],
+  "study_disjoint": true,
+  "study_folds": {
+    "1": [
+      "ood"
+    ],
+    "2": [
+      "1"
+    ],
+    "3": [
+      "3"
+    ],
+    "4": [
+      "1"
+    ],
+    "5": [
+      "1"
+    ],
+    "6": [
+      "1"
+    ],
+    "7": [
+      "4"
+    ],
+    "8": [
+      "4"
+    ],
+    "9": [
+      "4"
+    ],
+    "10": [
+      "4"
+    ],
+    "11": [
+      "4"
+    ],
+    "12": [
+      "4"
+    ],
+    "13": [
+      "4"
+    ],
+    "14": [
+      "4"
+    ],
+    "15": [
+      "4"
+    ],
+    "16": [
+      "ood"
+    ],
+    "17": [
+      "ood"
+    ],
+    "18": [
+      "3"
+    ],
+    "19": [
+      "4"
+    ],
+    "20": [
+      "2"
+    ],
+    "21": [
+      "0"
+    ],
+    "22": [
+      "3"
+    ],
+    "23": [
+      "4"
+    ],
+    "24": [
+      "2"
+    ],
+    "25": [
+      "0"
+    ],
+    "26": [
+      "1"
+    ],
+    "27": [
+      "2"
+    ],
+    "28": [
+      "ood"
+    ],
+    "29": [
+      "3"
+    ],
+    "30": [
+      "3"
+    ]
+  },
+  "val": {
+    "Nucleus": {
+      "n_fov": 2441,
+      "n_studies": 26,
+      "valid_fov_per_metric": {
+        "ssim": 2441,
+        "pcc": 2441,
+        "ssim_raw": 2441,
+        "ssim_tl_trivial": 2441,
+        "pcc_tl_trivial": 2441
+      },
+      "fov_mean": {
+        "ssim": 0.5639106730109165,
+        "pcc": 0.5376081759051327,
+        "ssim_raw": 0.65453103842187,
+        "ssim_tl_trivial": 0.08543163509619622,
+        "pcc_tl_trivial": 0.040574236322779914
+      },
+      "study_mean": {
+        "ssim": 0.6655461452827677,
+        "pcc": 0.5948839905734267,
+        "ssim_raw": 0.7128414907082,
+        "ssim_tl_trivial": 0.09451830689001703,
+        "pcc_tl_trivial": 0.03699258139525806
+      },
+      "by_study": {
+        "10": {
+          "n_fov": 8,
+          "ssim": 0.8105223859597852,
+          "pcc": 0.8607775464024957,
+          "ssim_raw": 0.8417471268493089,
+          "ssim_tl_trivial": 0.022002497422656468,
+          "pcc_tl_trivial": -0.1400022088398862
+        },
+        "11": {
+          "n_fov": 4,
+          "ssim": 0.8239433391527449,
+          "pcc": 0.8476376318906267,
+          "ssim_raw": 0.7922377500288791,
+          "ssim_tl_trivial": 0.01643257895598717,
+          "pcc_tl_trivial": -0.04064012326488709
+        },
+        "12": {
+          "n_fov": 8,
+          "ssim": 0.8366998558802055,
+          "pcc": 0.8176921085833988,
+          "ssim_raw": 0.7174909791772022,
+          "ssim_tl_trivial": 0.0694571215053817,
+          "pcc_tl_trivial": 0.02067039950884876
+        },
+        "13": {
+          "n_fov": 8,
+          "ssim": 0.8067752785551812,
+          "pcc": 0.844567068855524,
+          "ssim_raw": 0.8210544477048476,
+          "ssim_tl_trivial": 0.15025047354253937,
+          "pcc_tl_trivial": 0.24009523781289024
+        },
+        "14": {
+          "n_fov": 8,
+          "ssim": 0.6815781221939725,
+          "pcc": 0.782733135656641,
+          "ssim_raw": 0.7689124030139274,
+          "ssim_tl_trivial": 0.04453974720623941,
+          "pcc_tl_trivial": 0.019537490181209993
+        },
+        "15": {
+          "n_fov": 4,
+          "ssim": 0.7434986611591518,
+          "pcc": 0.6982516402958024,
+          "ssim_raw": 0.7745178665838611,
+          "ssim_tl_trivial": 0.3752402336100137,
+          "pcc_tl_trivial": 0.17486814719271643
+        },
+        "18": {
+          "n_fov": 23,
+          "ssim": 0.6491569911196204,
+          "pcc": 0.72790939167496,
+          "ssim_raw": 0.7363631175124513,
+          "ssim_tl_trivial": 0.21876345108687584,
+          "pcc_tl_trivial": 0.11225538214775092
+        },
+        "19": {
+          "n_fov": 23,
+          "ssim": 0.8160536637599259,
+          "pcc": 0.6951235023908339,
+          "ssim_raw": 0.8468112782121672,
+          "ssim_tl_trivial": 0.06674641739766735,
+          "pcc_tl_trivial": 0.021135734877194168
+        },
+        "2": {
+          "n_fov": 10,
+          "ssim": 0.443632788480974,
+          "pcc": 0.6242062205565093,
+          "ssim_raw": 0.356814653688874,
+          "ssim_tl_trivial": 0.015931454892554427,
+          "pcc_tl_trivial": 0.003131564138252741
+        },
+        "20": {
+          "n_fov": 23,
+          "ssim": 0.4148028713829664,
+          "pcc": 0.32673593031829234,
+          "ssim_raw": 0.5242138631442879,
+          "ssim_tl_trivial": 0.2757152880197943,
+          "pcc_tl_trivial": 0.06506625844283737
+        },
+        "21": {
+          "n_fov": 23,
+          "ssim": 0.8215649835071926,
+          "pcc": 0.6681962142382023,
+          "ssim_raw": 0.8811091554586711,
+          "ssim_tl_trivial": 0.04198299487051261,
+          "pcc_tl_trivial": 0.10438443072761859
+        },
+        "22": {
+          "n_fov": 23,
+          "ssim": 0.638901641575972,
+          "pcc": 0.6681546345571983,
+          "ssim_raw": 0.7441009299954787,
+          "ssim_tl_trivial": 0.17777868375305425,
+          "pcc_tl_trivial": 0.11525080997520581
+        },
+        "23": {
+          "n_fov": 23,
+          "ssim": 0.8095146851761387,
+          "pcc": 0.6654854458715467,
+          "ssim_raw": 0.8160099131376334,
+          "ssim_tl_trivial": 0.04185538619619398,
+          "pcc_tl_trivial": 0.07876438583780222
+        },
+        "24": {
+          "n_fov": 23,
+          "ssim": 0.5037832863809139,
+          "pcc": 0.5111331843278992,
+          "ssim_raw": 0.6022388779365858,
+          "ssim_tl_trivial": 0.19286321778982574,
+          "pcc_tl_trivial": 0.05775304307868982
+        },
+        "25": {
+          "n_fov": 1289,
+          "ssim": 0.5335975598130658,
+          "pcc": 0.571330807790418,
+          "ssim_raw": 0.6429344281587622,
+          "ssim_tl_trivial": 0.0768160511624537,
+          "pcc_tl_trivial": 0.04155039898352988
+        },
+        "26": {
+          "n_fov": 587,
+          "ssim": 0.4868672079934191,
+          "pcc": 0.4047624583158967,
+          "ssim_raw": 0.5956697798562169,
+          "ssim_tl_trivial": 0.07360854669865849,
+          "pcc_tl_trivial": 0.02590660027266569
+        },
+        "27": {
+          "n_fov": 197,
+          "ssim": 0.7811024739136576,
+          "pcc": 0.6726873214675684,
+          "ssim_raw": 0.7505771272669184,
+          "ssim_tl_trivial": 0.15593279149387035,
+          "pcc_tl_trivial": 0.05670160534874757
+        },
+        "29": {
+          "n_fov": 48,
+          "ssim": 0.7771674804726137,
+          "pcc": 0.5087349494525113,
+          "ssim_raw": 0.8117212266253672,
+          "ssim_tl_trivial": 0.05126693918947264,
+          "pcc_tl_trivial": 0.019842565786423877
+        },
+        "3": {
+          "n_fov": 8,
+          "ssim": 0.3269223741850813,
+          "pcc": 0.35254016462653526,
+          "ssim_raw": 0.32692237418508097,
+          "ssim_tl_trivial": 0.01082013741024523,
+          "pcc_tl_trivial": 0.008482190225206217
+        },
+        "30": {
+          "n_fov": 24,
+          "ssim": 0.7835277260278735,
+          "pcc": 0.6370845233700239,
+          "ssim_raw": 0.7971902525237824,
+          "ssim_tl_trivial": 0.042637667023506326,
+          "pcc_tl_trivial": 0.007690140069122731
+        },
+        "4": {
+          "n_fov": 31,
+          "ssim": 0.5942299167242707,
+          "pcc": 0.17278717887160533,
+          "ssim_raw": 0.793150975156125,
+          "ssim_tl_trivial": 0.06999996624742938,
+          "pcc_tl_trivial": 0.16794179181208935
+        },
+        "5": {
+          "n_fov": 10,
+          "ssim": 0.5715732505090808,
+          "pcc": 0.28376509254541166,
+          "ssim_raw": 0.7433692607970838,
+          "ssim_tl_trivial": 0.04657304914350293,
+          "pcc_tl_trivial": -0.00938138500307173
+        },
+        "6": {
+          "n_fov": 10,
+          "ssim": 0.582090725954864,
+          "pcc": 0.11924719396470251,
+          "ssim_raw": 0.703314796392231,
+          "ssim_tl_trivial": 0.060690068650899674,
+          "pcc_tl_trivial": -0.061226470964133806
+        },
+        "7": {
+          "n_fov": 10,
+          "ssim": 0.4937355951156357,
+          "pcc": 0.4333727506084224,
+          "ssim_raw": 0.5096525693284191,
+          "ssim_tl_trivial": 0.06432341062942919,
+          "pcc_tl_trivial": -0.011012107087319456
+        },
+        "8": {
+          "n_fov": 8,
+          "ssim": 0.7389664332778301,
+          "pcc": 0.7338163180004194,
+          "ssim_raw": 0.7825783430838734,
+          "ssim_tl_trivial": 0.06125321384124913,
+          "pcc_tl_trivial": 0.02147354152525015
+        },
+        "9": {
+          "n_fov": 8,
+          "ssim": 0.8339904790798237,
+          "pcc": 0.8382513402756475,
+          "ssim_raw": 0.8531752625951645,
+          "ssim_tl_trivial": 0.03399459140042941,
+          "pcc_tl_trivial": -0.13843230650804472
+        }
+      },
+      "n_folds_with_org": 5,
+      "fold_macro_mean": {
+        "ssim": 0.6448675745829949,
+        "pcc": 0.5805129206161187,
+        "ssim_raw": 0.7008762944196598,
+        "ssim_tl_trivial": 0.09778144595216633,
+        "pcc_tl_trivial": 0.041558003812152404
+      }
+    },
+    "Mitochondria": {
+      "n_fov": 1727,
+      "n_studies": 19,
+      "valid_fov_per_metric": {
+        "ssim": 1727,
+        "pcc": 1727,
+        "ssim_raw": 1727,
+        "ssim_tl_trivial": 1727,
+        "pcc_tl_trivial": 1727
+      },
+      "fov_mean": {
+        "ssim": 0.43482433547306054,
+        "pcc": 0.446251732646223,
+        "ssim_raw": 0.5210666735457382,
+        "ssim_tl_trivial": 0.10464294162408669,
+        "pcc_tl_trivial": 0.03788284324905165
+      },
+      "study_mean": {
+        "ssim": 0.5879488685031052,
+        "pcc": 0.5222526963924417,
+        "ssim_raw": 0.618670147983535,
+        "ssim_tl_trivial": 0.14625989544613813,
+        "pcc_tl_trivial": 0.007127461012474047
+      },
+      "by_study": {
+        "10": {
+          "n_fov": 8,
+          "ssim": 0.7269511160817665,
+          "pcc": 0.7215374370111242,
+          "ssim_raw": 0.7348859037024378,
+          "ssim_tl_trivial": 0.039904755251658305,
+          "pcc_tl_trivial": -0.25023557196125296
+        },
+        "11": {
+          "n_fov": 4,
+          "ssim": 0.7061577784206321,
+          "pcc": 0.8091485360670909,
+          "ssim_raw": 0.8115539601515314,
+          "ssim_tl_trivial": 0.034959690949879295,
+          "pcc_tl_trivial": -0.07968416070519457
+        },
+        "12": {
+          "n_fov": 8,
+          "ssim": 0.7814368335351111,
+          "pcc": 0.7662540572998444,
+          "ssim_raw": 0.8328800283595474,
+          "ssim_tl_trivial": 0.12927947985956048,
+          "pcc_tl_trivial": -0.02035525175766374
+        },
+        "13": {
+          "n_fov": 8,
+          "ssim": 0.7413631755111599,
+          "pcc": 0.7342292594738132,
+          "ssim_raw": 0.7414431562747955,
+          "ssim_tl_trivial": 0.19492941146150394,
+          "pcc_tl_trivial": 0.19824953941391607
+        },
+        "14": {
+          "n_fov": 8,
+          "ssim": 0.7106590651398961,
+          "pcc": 0.549008380709188,
+          "ssim_raw": 0.7158085664349989,
+          "ssim_tl_trivial": 0.05256805153589275,
+          "pcc_tl_trivial": -0.011292650181392448
+        },
+        "15": {
+          "n_fov": 4,
+          "ssim": 0.6347625499012985,
+          "pcc": 0.529068265543475,
+          "ssim_raw": 0.6101670983017058,
+          "ssim_tl_trivial": 0.4247694655858156,
+          "pcc_tl_trivial": 0.21424171886194576
+        },
+        "18": {
+          "n_fov": 23,
+          "ssim": 0.540687415873382,
+          "pcc": 0.44616035177563795,
+          "ssim_raw": 0.5460114125775098,
+          "ssim_tl_trivial": 0.29002366812259545,
+          "pcc_tl_trivial": 0.044483129657900085
+        },
+        "19": {
+          "n_fov": 23,
+          "ssim": 0.6463734365937637,
+          "pcc": 0.6665869795905325,
+          "ssim_raw": 0.7457571369049505,
+          "ssim_tl_trivial": 0.1401955951615361,
+          "pcc_tl_trivial": -0.01785884204632412
+        },
+        "2": {
+          "n_fov": 9,
+          "ssim": 0.5017629026128232,
+          "pcc": 0.5992051530505798,
+          "ssim_raw": 0.4320914930334307,
+          "ssim_tl_trivial": 0.1111230028473521,
+          "pcc_tl_trivial": -0.03720573042525458
+        },
+        "20": {
+          "n_fov": 23,
+          "ssim": 0.4334512266408967,
+          "pcc": 0.17223090516507394,
+          "ssim_raw": 0.5078002228570412,
+          "ssim_tl_trivial": 0.28686990377925237,
+          "pcc_tl_trivial": 0.018345421227146184
+        },
+        "22": {
+          "n_fov": 23,
+          "ssim": 0.5208865219426138,
+          "pcc": 0.33745402140607894,
+          "ssim_raw": 0.6761249831741785,
+          "ssim_tl_trivial": 0.22293014653317905,
+          "pcc_tl_trivial": 0.004948142484241984
+        },
+        "23": {
+          "n_fov": 23,
+          "ssim": 0.689852265538627,
+          "pcc": 0.6634322858279186,
+          "ssim_raw": 0.7561702363483511,
+          "ssim_tl_trivial": 0.11593279123919453,
+          "pcc_tl_trivial": 0.09009483238133535
+        },
+        "24": {
+          "n_fov": 23,
+          "ssim": 0.3681602940819686,
+          "pcc": 0.12245904781109469,
+          "ssim_raw": 0.5108840058271313,
+          "ssim_tl_trivial": 0.19686044431854316,
+          "pcc_tl_trivial": -0.013525123879589394
+        },
+        "25": {
+          "n_fov": 1289,
+          "ssim": 0.3785150636788645,
+          "pcc": 0.4215284195935211,
+          "ssim_raw": 0.4925430656874582,
+          "ssim_tl_trivial": 0.07916077155093615,
+          "pcc_tl_trivial": 0.03716181514593507
+        },
+        "27": {
+          "n_fov": 197,
+          "ssim": 0.6582956540724084,
+          "pcc": 0.6260428724102716,
+          "ssim_raw": 0.6095671290073029,
+          "ssim_tl_trivial": 0.2057826570880296,
+          "pcc_tl_trivial": 0.06971819706619153
+        },
+        "3": {
+          "n_fov": 7,
+          "ssim": 0.3519945464624277,
+          "pcc": 0.4905916392099168,
+          "ssim_raw": 0.3270178900358183,
+          "ssim_tl_trivial": 0.05183538805546905,
+          "pcc_tl_trivial": 0.046829394717192004
+        },
+        "4": {
+          "n_fov": 31,
+          "ssim": 0.41306390018528194,
+          "pcc": 0.0919010374995915,
+          "ssim_raw": 0.39691386336765994,
+          "ssim_tl_trivial": 0.051148969766709004,
+          "pcc_tl_trivial": 0.0993140752244312
+        },
+        "8": {
+          "n_fov": 8,
+          "ssim": 0.6934237451323575,
+          "pcc": 0.5176750231613121,
+          "ssim_raw": 0.656722634771977,
+          "ssim_tl_trivial": 0.10028178220339863,
+          "pcc_tl_trivial": -0.008480927196099988
+        },
+        "9": {
+          "n_fov": 8,
+          "ssim": 0.67323101015372,
+          "pcc": 0.6582875588503259,
+          "ssim_raw": 0.6503900248693402,
+          "ssim_tl_trivial": 0.050382038166119046,
+          "pcc_tl_trivial": -0.24932624879045656
+        }
+      },
+      "n_folds_with_org": 5,
+      "fold_macro_mean": {
+        "ssim": 0.5243060750599606,
+        "pcc": 0.4459611219095819,
+        "ssim_raw": 0.5591434198414724,
+        "ssim_tl_trivial": 0.14122929909354504,
+        "pcc_tl_trivial": 0.03703151815064616
+      }
+    },
+    "Tubulin": {
+      "n_fov": 182,
+      "n_studies": 7,
+      "valid_fov_per_metric": {
+        "ssim": 181,
+        "pcc": 181,
+        "ssim_raw": 181,
+        "ssim_tl_trivial": 181,
+        "pcc_tl_trivial": 181
+      },
+      "fov_mean": {
+        "ssim": 0.37058096703588994,
+        "pcc": 0.36937046083609026,
+        "ssim_raw": 0.6085477252100895,
+        "ssim_tl_trivial": 0.3000427994942818,
+        "pcc_tl_trivial": 0.09726748240456118
+      },
+      "study_mean": {
+        "ssim": 0.39650578644386614,
+        "pcc": 0.38868742708189113,
+        "ssim_raw": 0.6028504806544436,
+        "ssim_tl_trivial": 0.2754430600793138,
+        "pcc_tl_trivial": 0.08255839552763226
+      },
+      "by_study": {
+        "20": {
+          "n_fov": 23,
+          "ssim": 0.4625840990636797,
+          "pcc": 0.1823993021789617,
+          "ssim_raw": 0.5431370607932817,
+          "ssim_tl_trivial": 0.2720803021642679,
+          "pcc_tl_trivial": -0.03640559206693984
+        },
+        "21": {
+          "n_fov": 23,
+          "ssim": 0.47584835881740406,
+          "pcc": 0.7672018164905654,
+          "ssim_raw": 0.8309520622879208,
+          "ssim_tl_trivial": 0.3114593635679084,
+          "pcc_tl_trivial": 0.154190636239952
+        },
+        "24": {
+          "n_fov": 23,
+          "ssim": 0.5134772563114612,
+          "pcc": 0.3413262898351045,
+          "ssim_raw": 0.6147215736851247,
+          "ssim_tl_trivial": 0.32292671573702747,
+          "pcc_tl_trivial": 0.05304023990965571
+        },
+        "29": {
+          "n_fov": 48,
+          "ssim": 0.3278830775603045,
+          "pcc": 0.38040511973727553,
+          "ssim_raw": 0.7720862169790508,
+          "ssim_tl_trivial": 0.4274373697003443,
+          "pcc_tl_trivial": 0.14172940563398814
+        },
+        "30": {
+          "n_fov": 24,
+          "ssim": 0.33321068219376637,
+          "pcc": 0.4713747631097628,
+          "ssim_raw": 0.7926474344278179,
+          "ssim_tl_trivial": 0.47164022605108863,
+          "pcc_tl_trivial": 0.15722435090256723
+        },
+        "4": {
+          "n_fov": 31,
+          "ssim": 0.17372858464182683,
+          "pcc": 0.10436386148685128,
+          "ssim_raw": 0.11565768804945531,
+          "ssim_tl_trivial": 0.0392630333421626,
+          "pcc_tl_trivial": 0.10287947686300614
+        },
+        "7": {
+          "n_fov": 10,
+          "ssim": 0.4888084465186204,
+          "pcc": 0.4737408367347168,
+          "ssim_raw": 0.5507513283584541,
+          "ssim_tl_trivial": 0.08329440999239719,
+          "pcc_tl_trivial": 0.00525025121119651
+        }
+      },
+      "n_folds_with_org": 5,
+      "fold_macro_mean": {
+        "ssim": 0.3912200051330413,
+        "pcc": 0.40366494648830165,
+        "ssim_raw": 0.5710653767201983,
+        "ssim_tl_trivial": 0.23477989923017897,
+        "pcc_tl_trivial": 0.08352096436952239
+      }
+    },
+    "Actin": {
+      "n_fov": 27,
+      "n_studies": 3,
+      "valid_fov_per_metric": {
+        "ssim": 27,
+        "pcc": 27,
+        "ssim_raw": 27,
+        "ssim_tl_trivial": 27,
+        "pcc_tl_trivial": 27
+      },
+      "fov_mean": {
+        "ssim": 0.39729806395173417,
+        "pcc": 0.37763261648056207,
+        "ssim_raw": 0.3981843366787962,
+        "ssim_tl_trivial": 0.0834757175303706,
+        "pcc_tl_trivial": 0.006559093637320089
+      },
+      "study_mean": {
+        "ssim": 0.3984056416171531,
+        "pcc": 0.3833030291063322,
+        "ssim_raw": 0.3923083468681683,
+        "ssim_tl_trivial": 0.08420557589080241,
+        "pcc_tl_trivial": 0.01106356735479916
+      },
+      "by_study": {
+        "3": {
+          "n_fov": 7,
+          "ssim": 0.4083738406059231,
+          "pcc": 0.4343367427382635,
+          "ssim_raw": 0.3394244385725168,
+          "ssim_tl_trivial": 0.09077430113468872,
+          "pcc_tl_trivial": 0.05160383081211079
+        },
+        "5": {
+          "n_fov": 10,
+          "ssim": 0.4403373166097007,
+          "pcc": 0.39135838073915713,
+          "ssim_raw": 0.48880939475908014,
+          "ssim_tl_trivial": 0.07569235063853638,
+          "pcc_tl_trivial": 0.030519689838938047
+        },
+        "6": {
+          "n_fov": 10,
+          "ssim": 0.3465057676358354,
+          "pcc": 0.32421396384157597,
+          "ssim_raw": 0.348691207272908,
+          "ssim_tl_trivial": 0.08615007589918214,
+          "pcc_tl_trivial": -0.048932818586651355
+        }
+      },
+      "n_folds_with_org": 2,
+      "fold_macro_mean": {
+        "ssim": 0.4008976913643456,
+        "pcc": 0.39606145751431504,
+        "ssim_raw": 0.3790873697942554,
+        "ssim_tl_trivial": 0.08584775720177398,
+        "pcc_tl_trivial": 0.02119863321912707
+      }
+    }
+  },
+  "ood": {
+    "Nucleus": {
+      "n_unique_fov": 92,
+      "n_model_evaluations": 5,
+      "model_mean": {
+        "ssim": 0.6626841357262657,
+        "pcc": 0.45015943680869797,
+        "ssim_raw": 0.7064080774219957,
+        "ssim_tl_trivial": 0.1832972826335285,
+        "pcc_tl_trivial": 0.03950668909317839
+      },
+      "model_sd": {
+        "ssim": 0.013729733189462107,
+        "pcc": 0.02067392622741317,
+        "ssim_raw": 0.02184162248630349,
+        "ssim_tl_trivial": 0.0,
+        "pcc_tl_trivial": 0.0
+      },
+      "interpretation": "Fixed OOD bank; model variability, not five independent samples."
+    },
+    "Mitochondria": {
+      "n_unique_fov": 92,
+      "n_model_evaluations": 5,
+      "model_mean": {
+        "ssim": 0.48687337646109413,
+        "pcc": 0.4268649626430741,
+        "ssim_raw": 0.4912359738735541,
+        "ssim_tl_trivial": 0.17168335587367192,
+        "pcc_tl_trivial": 0.03688188745074689
+      },
+      "model_sd": {
+        "ssim": 0.012652522001003122,
+        "pcc": 0.017006060975062944,
+        "ssim_raw": 0.014231635527165675,
+        "ssim_tl_trivial": 0.0,
+        "pcc_tl_trivial": 0.0
+      },
+      "interpretation": "Fixed OOD bank; model variability, not five independent samples."
+    },
+    "Tubulin": {
+      "n_unique_fov": 41,
+      "n_model_evaluations": 5,
+      "model_mean": {
+        "ssim": 0.6081285659997061,
+        "pcc": 0.572647391880199,
+        "ssim_raw": 0.6564781536516798,
+        "ssim_tl_trivial": 0.2333205178176663,
+        "pcc_tl_trivial": 0.015172518485631085
+      },
+      "model_sd": {
+        "ssim": 0.016807282762311474,
+        "pcc": 0.03976215748571514,
+        "ssim_raw": 0.013852787607299879,
+        "ssim_tl_trivial": 0.0,
+        "pcc_tl_trivial": 0.0
+      },
+      "interpretation": "Fixed OOD bank; model variability, not five independent samples."
+    }
+  },
+  "per_fold": {
+    "ood|Mitochondria|0": {
+      "n_fov": 92,
+      "n_studies": 3,
+      "valid_fov_per_metric": {
+        "ssim": 92,
+        "pcc": 92,
+        "ssim_raw": 92,
+        "ssim_tl_trivial": 92,
+        "pcc_tl_trivial": 92
+      },
+      "fov_mean": {
+        "ssim": 0.47525695478635577,
+        "pcc": 0.4499362171325591,
+        "ssim_raw": 0.47160285748668046,
+        "ssim_tl_trivial": 0.17168335587367192,
+        "pcc_tl_trivial": 0.03688188745074689
+      },
+      "study_mean": {
+        "ssim": 0.5102521677663008,
+        "pcc": 0.5166724353298653,
+        "ssim_raw": 0.5094415659138523,
+        "ssim_tl_trivial": 0.20469833319359518,
+        "pcc_tl_trivial": 0.059276312136730236
+      },
+      "by_study": {
+        "1": {
+          "n_fov": 43,
+          "ssim": 0.39319560961105693,
+          "pcc": 0.3038616960492342,
+          "ssim_raw": 0.3763852145988937,
+          "ssim_tl_trivial": 0.10474679481810233,
+          "pcc_tl_trivial": 0.000548703644198292
+        },
+        "16": {
+          "n_fov": 33,
+          "ssim": 0.5067796663566916,
+          "pcc": 0.4935052521783872,
+          "ssim_raw": 0.5159921723964449,
+          "ssim_tl_trivial": 0.18477560511744032,
+          "pcc_tl_trivial": 0.03135621555954759
+        },
+        "28": {
+          "n_fov": 16,
+          "ssim": 0.6307812273311537,
+          "pcc": 0.7526503577619744,
+          "ssim_raw": 0.6359473107462181,
+          "ssim_tl_trivial": 0.3245725996452429,
+          "pcc_tl_trivial": 0.14592401720644482
+        }
+      }
+    },
+    "ood|Mitochondria|1": {
+      "n_fov": 92,
+      "n_studies": 3,
+      "valid_fov_per_metric": {
+        "ssim": 92,
+        "pcc": 92,
+        "ssim_raw": 92,
+        "ssim_tl_trivial": 92,
+        "pcc_tl_trivial": 92
+      },
+      "fov_mean": {
+        "ssim": 0.48077440953438666,
+        "pcc": 0.40265393616991146,
+        "ssim_raw": 0.48776705879550736,
+        "ssim_tl_trivial": 0.17168335587367192,
+        "pcc_tl_trivial": 0.03688188745074689
+      },
+      "study_mean": {
+        "ssim": 0.5117181259736597,
+        "pcc": 0.476052623705578,
+        "ssim_raw": 0.5217645774438284,
+        "ssim_tl_trivial": 0.20469833319359518,
+        "pcc_tl_trivial": 0.059276312136730236
+      },
+      "by_study": {
+        "1": {
+          "n_fov": 43,
+          "ssim": 0.41408010722981453,
+          "pcc": 0.27082449291821986,
+          "ssim_raw": 0.40264069457570417,
+          "ssim_tl_trivial": 0.10474679481810233,
+          "pcc_tl_trivial": 0.000548703644198292
+        },
+        "16": {
+          "n_fov": 33,
+          "ssim": 0.4993301608954654,
+          "pcc": 0.4047867577042456,
+          "ssim_raw": 0.5269747610787587,
+          "ssim_tl_trivial": 0.18477560511744032,
+          "pcc_tl_trivial": 0.03135621555954759
+        },
+        "28": {
+          "n_fov": 16,
+          "ssim": 0.6217441097956994,
+          "pcc": 0.7525466204942686,
+          "ssim_raw": 0.6356782766770224,
+          "ssim_tl_trivial": 0.3245725996452429,
+          "pcc_tl_trivial": 0.14592401720644482
+        }
+      }
+    },
+    "ood|Mitochondria|2": {
+      "n_fov": 92,
+      "n_studies": 3,
+      "valid_fov_per_metric": {
+        "ssim": 92,
+        "pcc": 92,
+        "ssim_raw": 92,
+        "ssim_tl_trivial": 92,
+        "pcc_tl_trivial": 92
+      },
+      "fov_mean": {
+        "ssim": 0.47743313865833026,
+        "pcc": 0.4249666793543098,
+        "ssim_raw": 0.4867109244124988,
+        "ssim_tl_trivial": 0.17168335587367192,
+        "pcc_tl_trivial": 0.03688188745074689
+      },
+      "study_mean": {
+        "ssim": 0.5055453208287664,
+        "pcc": 0.4884468009686333,
+        "ssim_raw": 0.5211869036508407,
+        "ssim_tl_trivial": 0.20469833319359518,
+        "pcc_tl_trivial": 0.059276312136730236
+      },
+      "by_study": {
+        "1": {
+          "n_fov": 43,
+          "ssim": 0.4359243962297144,
+          "pcc": 0.27639276814051367,
+          "ssim_raw": 0.43316525087695645,
+          "ssim_tl_trivial": 0.10474679481810233,
+          "pcc_tl_trivial": 0.000548703644198292
+        },
+        "16": {
+          "n_fov": 33,
+          "ssim": 0.463983215210783,
+          "pcc": 0.4816990184887197,
+          "ssim_raw": 0.47441011159010066,
+          "ssim_tl_trivial": 0.18477560511744032,
+          "pcc_tl_trivial": 0.03135621555954759
+        },
+        "28": {
+          "n_fov": 16,
+          "ssim": 0.6167283510458016,
+          "pcc": 0.7072486162766666,
+          "ssim_raw": 0.655985348485465,
+          "ssim_tl_trivial": 0.3245725996452429,
+          "pcc_tl_trivial": 0.14592401720644482
+        }
+      }
+    },
+    "ood|Mitochondria|3": {
+      "n_fov": 92,
+      "n_studies": 3,
+      "valid_fov_per_metric": {
+        "ssim": 92,
+        "pcc": 92,
+        "ssim_raw": 92,
+        "ssim_tl_trivial": 92,
+        "pcc_tl_trivial": 92
+      },
+      "fov_mean": {
+        "ssim": 0.49817363731804515,
+        "pcc": 0.4245013697992672,
+        "ssim_raw": 0.5027515483486616,
+        "ssim_tl_trivial": 0.17168335587367192,
+        "pcc_tl_trivial": 0.03688188745074689
+      },
+      "study_mean": {
+        "ssim": 0.5286706318489964,
+        "pcc": 0.4944095578541529,
+        "ssim_raw": 0.533277182277309,
+        "ssim_tl_trivial": 0.20469833319359518,
+        "pcc_tl_trivial": 0.059276312136730236
+      },
+      "by_study": {
+        "1": {
+          "n_fov": 43,
+          "ssim": 0.43060041167694324,
+          "pcc": 0.2851161358858256,
+          "ssim_raw": 0.42210304922415076,
+          "ssim_tl_trivial": 0.10474679481810233,
+          "pcc_tl_trivial": 0.000548703644198292
+        },
+        "16": {
+          "n_fov": 33,
+          "ssim": 0.5193866581900505,
+          "pcc": 0.4484900926832915,
+          "ssim_raw": 0.5446503158655278,
+          "ssim_tl_trivial": 0.18477560511744032,
+          "pcc_tl_trivial": 0.03135621555954759
+        },
+        "28": {
+          "n_fov": 16,
+          "ssim": 0.6360248256799955,
+          "pcc": 0.7496224449933416,
+          "ssim_raw": 0.6330781817422484,
+          "ssim_tl_trivial": 0.3245725996452429,
+          "pcc_tl_trivial": 0.14592401720644482
+        }
+      }
+    },
+    "ood|Mitochondria|4": {
+      "n_fov": 92,
+      "n_studies": 3,
+      "valid_fov_per_metric": {
+        "ssim": 92,
+        "pcc": 92,
+        "ssim_raw": 92,
+        "ssim_tl_trivial": 92,
+        "pcc_tl_trivial": 92
+      },
+      "fov_mean": {
+        "ssim": 0.5027287420083528,
+        "pcc": 0.43226661075932293,
+        "ssim_raw": 0.5073474803244222,
+        "ssim_tl_trivial": 0.17168335587367192,
+        "pcc_tl_trivial": 0.03688188745074689
+      },
+      "study_mean": {
+        "ssim": 0.5292968714525363,
+        "pcc": 0.49803194560478115,
+        "ssim_raw": 0.5360157024239105,
+        "ssim_tl_trivial": 0.20469833319359518,
+        "pcc_tl_trivial": 0.059276312136730236
+      },
+      "by_study": {
+        "1": {
+          "n_fov": 43,
+          "ssim": 0.4452412740366086,
+          "pcc": 0.2986696299109244,
+          "ssim_raw": 0.44011973705910695,
+          "ssim_tl_trivial": 0.10474679481810233,
+          "pcc_tl_trivial": 0.000548703644198292
+        },
+        "16": {
+          "n_fov": 33,
+          "ssim": 0.5190164727093104,
+          "pcc": 0.4587596937196033,
+          "ssim_raw": 0.5331753866413677,
+          "ssim_tl_trivial": 0.18477560511744032,
+          "pcc_tl_trivial": 0.03135621555954759
+        },
+        "28": {
+          "n_fov": 16,
+          "ssim": 0.6236328676116901,
+          "pcc": 0.7366665131838158,
+          "ssim_raw": 0.6347519835712571,
+          "ssim_tl_trivial": 0.3245725996452429,
+          "pcc_tl_trivial": 0.14592401720644482
+        }
+      }
+    },
+    "ood|Nucleus|0": {
+      "n_fov": 92,
+      "n_studies": 3,
+      "valid_fov_per_metric": {
+        "ssim": 92,
+        "pcc": 92,
+        "ssim_raw": 92,
+        "ssim_tl_trivial": 92,
+        "pcc_tl_trivial": 92
+      },
+      "fov_mean": {
+        "ssim": 0.6445763191819808,
+        "pcc": 0.4509388882569005,
+        "ssim_raw": 0.6699653635063466,
+        "ssim_tl_trivial": 0.1832972826335285,
+        "pcc_tl_trivial": 0.03950668909317839
+      },
+      "study_mean": {
+        "ssim": 0.6437774398532198,
+        "pcc": 0.4852410269782853,
+        "ssim_raw": 0.6695136891097581,
+        "ssim_tl_trivial": 0.19362945198028444,
+        "pcc_tl_trivial": 0.05599955294752672
+      },
+      "by_study": {
+        "1": {
+          "n_fov": 43,
+          "ssim": 0.6360529254429359,
+          "pcc": 0.36621909158138927,
+          "ssim_raw": 0.6813504680367627,
+          "ssim_tl_trivial": 0.23056461865968664,
+          "pcc_tl_trivial": 0.02686990608109471
+        },
+        "17": {
+          "n_fov": 41,
+          "ssim": 0.6541972853867334,
+          "pcc": 0.5158462080850719,
+          "ssim_raw": 0.6582187431109999,
+          "ssim_tl_trivial": 0.12565095459602316,
+          "pcc_tl_trivial": 0.040914527666468366
+        },
+        "28": {
+          "n_fov": 8,
+          "ssim": 0.6410821087299902,
+          "pcc": 0.5736577812683947,
+          "ssim_raw": 0.6689718561815117,
+          "ssim_tl_trivial": 0.22467278268514354,
+          "pcc_tl_trivial": 0.10021422509501708
+        }
+      }
+    },
+    "ood|Nucleus|1": {
+      "n_fov": 92,
+      "n_studies": 3,
+      "valid_fov_per_metric": {
+        "ssim": 92,
+        "pcc": 92,
+        "ssim_raw": 92,
+        "ssim_tl_trivial": 92,
+        "pcc_tl_trivial": 92
+      },
+      "fov_mean": {
+        "ssim": 0.6650193989583766,
+        "pcc": 0.44383044059131044,
+        "ssim_raw": 0.7142590557034222,
+        "ssim_tl_trivial": 0.1832972826335285,
+        "pcc_tl_trivial": 0.03950668909317839
+      },
+      "study_mean": {
+        "ssim": 0.6626061535502,
+        "pcc": 0.47901838934926727,
+        "ssim_raw": 0.7055167844568423,
+        "ssim_tl_trivial": 0.19362945198028444,
+        "pcc_tl_trivial": 0.05599955294752672
+      },
+      "by_study": {
+        "1": {
+          "n_fov": 43,
+          "ssim": 0.6910067583709567,
+          "pcc": 0.3243655203864221,
+          "ssim_raw": 0.7683817485261076,
+          "ssim_tl_trivial": 0.23056461865968664,
+          "pcc_tl_trivial": 0.02686990608109471
+        },
+        "17": {
+          "n_fov": 41,
+          "ssim": 0.6392121356358292,
+          "pcc": 0.5449444235301023,
+          "ssim_raw": 0.6632142151314201,
+          "ssim_tl_trivial": 0.12565095459602316,
+          "pcc_tl_trivial": 0.040914527666468366
+        },
+        "28": {
+          "n_fov": 8,
+          "ssim": 0.657599566643814,
+          "pcc": 0.5677452241312774,
+          "ssim_raw": 0.684954389712999,
+          "ssim_tl_trivial": 0.22467278268514354,
+          "pcc_tl_trivial": 0.10021422509501708
+        }
+      }
+    },
+    "ood|Nucleus|2": {
+      "n_fov": 92,
+      "n_studies": 3,
+      "valid_fov_per_metric": {
+        "ssim": 92,
+        "pcc": 92,
+        "ssim_raw": 92,
+        "ssim_tl_trivial": 92,
+        "pcc_tl_trivial": 92
+      },
+      "fov_mean": {
+        "ssim": 0.6819806742152195,
+        "pcc": 0.46468193362542504,
+        "ssim_raw": 0.7112122068285182,
+        "ssim_tl_trivial": 0.1832972826335285,
+        "pcc_tl_trivial": 0.03950668909317839
+      },
+      "study_mean": {
+        "ssim": 0.6656756720398821,
+        "pcc": 0.5051047230202034,
+        "ssim_raw": 0.6924949607858519,
+        "ssim_tl_trivial": 0.19362945198028444,
+        "pcc_tl_trivial": 0.05599955294752672
+      },
+      "by_study": {
+        "1": {
+          "n_fov": 43,
+          "ssim": 0.7081142523005792,
+          "pcc": 0.3603142199936814,
+          "ssim_raw": 0.7735549192284222,
+          "ssim_tl_trivial": 0.23056461865968664,
+          "pcc_tl_trivial": 0.02686990608109471
+        },
+        "17": {
+          "n_fov": 41,
+          "ssim": 0.6661214263128105,
+          "pcc": 0.5459765709477387,
+          "ssim_raw": 0.6587036907990439,
+          "ssim_tl_trivial": 0.12565095459602316,
+          "pcc_tl_trivial": 0.040914527666468366
+        },
+        "28": {
+          "n_fov": 8,
+          "ssim": 0.6227913375062566,
+          "pcc": 0.60902337811919,
+          "ssim_raw": 0.6452262723300896,
+          "ssim_tl_trivial": 0.22467278268514354,
+          "pcc_tl_trivial": 0.10021422509501708
+        }
+      }
+    },
+    "ood|Nucleus|3": {
+      "n_fov": 92,
+      "n_studies": 3,
+      "valid_fov_per_metric": {
+        "ssim": 92,
+        "pcc": 92,
+        "ssim_raw": 92,
+        "ssim_tl_trivial": 92,
+        "pcc_tl_trivial": 92
+      },
+      "fov_mean": {
+        "ssim": 0.6655107260363198,
+        "pcc": 0.4722983369975806,
+        "ssim_raw": 0.7079938285994508,
+        "ssim_tl_trivial": 0.1832972826335285,
+        "pcc_tl_trivial": 0.03950668909317839
+      },
+      "study_mean": {
+        "ssim": 0.6642991462062503,
+        "pcc": 0.4966912074627168,
+        "ssim_raw": 0.7034826364695401,
+        "ssim_tl_trivial": 0.19362945198028444,
+        "pcc_tl_trivial": 0.05599955294752672
+      },
+      "by_study": {
+        "1": {
+          "n_fov": 43,
+          "ssim": 0.6985866031454602,
+          "pcc": 0.3770886559733664,
+          "ssim_raw": 0.762604159025396,
+          "ssim_tl_trivial": 0.23056461865968664,
+          "pcc_tl_trivial": 0.02686990608109471
+        },
+        "17": {
+          "n_fov": 41,
+          "ssim": 0.6313113992818276,
+          "pcc": 0.555538032291042,
+          "ssim_raw": 0.6533546481815653,
+          "ssim_tl_trivial": 0.12565095459602316,
+          "pcc_tl_trivial": 0.040914527666468366
+        },
+        "28": {
+          "n_fov": 8,
+          "ssim": 0.6629994361914633,
+          "pcc": 0.5574469341237419,
+          "ssim_raw": 0.6944891022016589,
+          "ssim_tl_trivial": 0.22467278268514354,
+          "pcc_tl_trivial": 0.10021422509501708
+        }
+      }
+    },
+    "ood|Nucleus|4": {
+      "n_fov": 92,
+      "n_studies": 3,
+      "valid_fov_per_metric": {
+        "ssim": 92,
+        "pcc": 92,
+        "ssim_raw": 92,
+        "ssim_tl_trivial": 92,
+        "pcc_tl_trivial": 92
+      },
+      "fov_mean": {
+        "ssim": 0.6563335602394318,
+        "pcc": 0.4190475845722733,
+        "ssim_raw": 0.728609932472241,
+        "ssim_tl_trivial": 0.1832972826335285,
+        "pcc_tl_trivial": 0.03950668909317839
+      },
+      "study_mean": {
+        "ssim": 0.6558248658981166,
+        "pcc": 0.444022234275259,
+        "ssim_raw": 0.7177659866723616,
+        "ssim_tl_trivial": 0.19362945198028444,
+        "pcc_tl_trivial": 0.05599955294752672
+      },
+      "by_study": {
+        "1": {
+          "n_fov": 43,
+          "ssim": 0.676374382246647,
+          "pcc": 0.3507264284236752,
+          "ssim_raw": 0.7620172467501148,
+          "ssim_tl_trivial": 0.23056461865968664,
+          "pcc_tl_trivial": 0.02686990608109471
+        },
+        "17": {
+          "n_fov": 41,
+          "ssim": 0.6354481024800084,
+          "pcc": 0.4733460352489181,
+          "ssim_raw": 0.7010644385168324,
+          "ssim_tl_trivial": 0.12565095459602316,
+          "pcc_tl_trivial": 0.040914527666468366
+        },
+        "28": {
+          "n_fov": 8,
+          "ssim": 0.6556521129676944,
+          "pcc": 0.5079942391531838,
+          "ssim_raw": 0.6902162747501376,
+          "ssim_tl_trivial": 0.22467278268514354,
+          "pcc_tl_trivial": 0.10021422509501708
+        }
+      }
+    },
+    "ood|Tubulin|0": {
+      "n_fov": 41,
+      "n_studies": 1,
+      "valid_fov_per_metric": {
+        "ssim": 41,
+        "pcc": 41,
+        "ssim_raw": 41,
+        "ssim_tl_trivial": 41,
+        "pcc_tl_trivial": 41
+      },
+      "fov_mean": {
+        "ssim": 0.624545740475572,
+        "pcc": 0.5973485323498466,
+        "ssim_raw": 0.6779463196309555,
+        "ssim_tl_trivial": 0.2333205178176663,
+        "pcc_tl_trivial": 0.015172518485631085
+      },
+      "study_mean": {
+        "ssim": 0.624545740475572,
+        "pcc": 0.5973485323498466,
+        "ssim_raw": 0.6779463196309555,
+        "ssim_tl_trivial": 0.2333205178176663,
+        "pcc_tl_trivial": 0.015172518485631085
+      },
+      "by_study": {
+        "17": {
+          "n_fov": 41,
+          "ssim": 0.624545740475572,
+          "pcc": 0.5973485323498466,
+          "ssim_raw": 0.6779463196309555,
+          "ssim_tl_trivial": 0.2333205178176663,
+          "pcc_tl_trivial": 0.015172518485631085
+        }
+      }
+    },
+    "ood|Tubulin|1": {
+      "n_fov": 41,
+      "n_studies": 1,
+      "valid_fov_per_metric": {
+        "ssim": 41,
+        "pcc": 41,
+        "ssim_raw": 41,
+        "ssim_tl_trivial": 41,
+        "pcc_tl_trivial": 41
+      },
+      "fov_mean": {
+        "ssim": 0.5833561656257563,
+        "pcc": 0.5125398637686573,
+        "ssim_raw": 0.6539905666451602,
+        "ssim_tl_trivial": 0.2333205178176663,
+        "pcc_tl_trivial": 0.015172518485631085
+      },
+      "study_mean": {
+        "ssim": 0.5833561656257563,
+        "pcc": 0.5125398637686573,
+        "ssim_raw": 0.6539905666451602,
+        "ssim_tl_trivial": 0.2333205178176663,
+        "pcc_tl_trivial": 0.015172518485631085
+      },
+      "by_study": {
+        "17": {
+          "n_fov": 41,
+          "ssim": 0.5833561656257563,
+          "pcc": 0.5125398637686573,
+          "ssim_raw": 0.6539905666451602,
+          "ssim_tl_trivial": 0.2333205178176663,
+          "pcc_tl_trivial": 0.015172518485631085
+        }
+      }
+    },
+    "ood|Tubulin|2": {
+      "n_fov": 41,
+      "n_studies": 1,
+      "valid_fov_per_metric": {
+        "ssim": 41,
+        "pcc": 41,
+        "ssim_raw": 41,
+        "ssim_tl_trivial": 41,
+        "pcc_tl_trivial": 41
+      },
+      "fov_mean": {
+        "ssim": 0.6224055060062281,
+        "pcc": 0.614457145424716,
+        "ssim_raw": 0.6590534041037234,
+        "ssim_tl_trivial": 0.2333205178176663,
+        "pcc_tl_trivial": 0.015172518485631085
+      },
+      "study_mean": {
+        "ssim": 0.6224055060062281,
+        "pcc": 0.614457145424716,
+        "ssim_raw": 0.6590534041037234,
+        "ssim_tl_trivial": 0.2333205178176663,
+        "pcc_tl_trivial": 0.015172518485631085
+      },
+      "by_study": {
+        "17": {
+          "n_fov": 41,
+          "ssim": 0.6224055060062281,
+          "pcc": 0.614457145424716,
+          "ssim_raw": 0.6590534041037234,
+          "ssim_tl_trivial": 0.2333205178176663,
+          "pcc_tl_trivial": 0.015172518485631085
+        }
+      }
+    },
+    "ood|Tubulin|3": {
+      "n_fov": 41,
+      "n_studies": 1,
+      "valid_fov_per_metric": {
+        "ssim": 41,
+        "pcc": 41,
+        "ssim_raw": 41,
+        "ssim_tl_trivial": 41,
+        "pcc_tl_trivial": 41
+      },
+      "fov_mean": {
+        "ssim": 0.6087299562986348,
+        "pcc": 0.5823394740229074,
+        "ssim_raw": 0.6512486554862253,
+        "ssim_tl_trivial": 0.2333205178176663,
+        "pcc_tl_trivial": 0.015172518485631085
+      },
+      "study_mean": {
+        "ssim": 0.6087299562986348,
+        "pcc": 0.5823394740229074,
+        "ssim_raw": 0.6512486554862253,
+        "ssim_tl_trivial": 0.2333205178176663,
+        "pcc_tl_trivial": 0.015172518485631085
+      },
+      "by_study": {
+        "17": {
+          "n_fov": 41,
+          "ssim": 0.6087299562986348,
+          "pcc": 0.5823394740229074,
+          "ssim_raw": 0.6512486554862253,
+          "ssim_tl_trivial": 0.2333205178176663,
+          "pcc_tl_trivial": 0.015172518485631085
+        }
+      }
+    },
+    "ood|Tubulin|4": {
+      "n_fov": 41,
+      "n_studies": 1,
+      "valid_fov_per_metric": {
+        "ssim": 41,
+        "pcc": 41,
+        "ssim_raw": 41,
+        "ssim_tl_trivial": 41,
+        "pcc_tl_trivial": 41
+      },
+      "fov_mean": {
+        "ssim": 0.6016054615923395,
+        "pcc": 0.5565519438348677,
+        "ssim_raw": 0.6401518223923348,
+        "ssim_tl_trivial": 0.2333205178176663,
+        "pcc_tl_trivial": 0.015172518485631085
+      },
+      "study_mean": {
+        "ssim": 0.6016054615923395,
+        "pcc": 0.5565519438348677,
+        "ssim_raw": 0.6401518223923348,
+        "ssim_tl_trivial": 0.2333205178176663,
+        "pcc_tl_trivial": 0.015172518485631085
+      },
+      "by_study": {
+        "17": {
+          "n_fov": 41,
+          "ssim": 0.6016054615923395,
+          "pcc": 0.5565519438348677,
+          "ssim_raw": 0.6401518223923348,
+          "ssim_tl_trivial": 0.2333205178176663,
+          "pcc_tl_trivial": 0.015172518485631085
+        }
+      }
+    },
+    "val|Actin|1": {
+      "n_fov": 20,
+      "n_studies": 2,
+      "valid_fov_per_metric": {
+        "ssim": 20,
+        "pcc": 20,
+        "ssim_raw": 20,
+        "ssim_tl_trivial": 20,
+        "pcc_tl_trivial": 20
+      },
+      "fov_mean": {
+        "ssim": 0.3934215421227681,
+        "pcc": 0.3577861722903666,
+        "ssim_raw": 0.41875030101599403,
+        "ssim_tl_trivial": 0.08092121326885926,
+        "pcc_tl_trivial": -0.009206564373856656
+      },
+      "study_mean": {
+        "ssim": 0.39342154212276803,
+        "pcc": 0.3577861722903666,
+        "ssim_raw": 0.4187503010159941,
+        "ssim_tl_trivial": 0.08092121326885926,
+        "pcc_tl_trivial": -0.009206564373856654
+      },
+      "by_study": {
+        "5": {
+          "n_fov": 10,
+          "ssim": 0.4403373166097007,
+          "pcc": 0.39135838073915713,
+          "ssim_raw": 0.48880939475908014,
+          "ssim_tl_trivial": 0.07569235063853638,
+          "pcc_tl_trivial": 0.030519689838938047
+        },
+        "6": {
+          "n_fov": 10,
+          "ssim": 0.3465057676358354,
+          "pcc": 0.32421396384157597,
+          "ssim_raw": 0.348691207272908,
+          "ssim_tl_trivial": 0.08615007589918214,
+          "pcc_tl_trivial": -0.048932818586651355
+        }
+      }
+    },
+    "val|Actin|3": {
+      "n_fov": 7,
+      "n_studies": 1,
+      "valid_fov_per_metric": {
+        "ssim": 7,
+        "pcc": 7,
+        "ssim_raw": 7,
+        "ssim_tl_trivial": 7,
+        "pcc_tl_trivial": 7
+      },
+      "fov_mean": {
+        "ssim": 0.4083738406059231,
+        "pcc": 0.4343367427382635,
+        "ssim_raw": 0.3394244385725168,
+        "ssim_tl_trivial": 0.09077430113468872,
+        "pcc_tl_trivial": 0.05160383081211079
+      },
+      "study_mean": {
+        "ssim": 0.4083738406059231,
+        "pcc": 0.4343367427382635,
+        "ssim_raw": 0.3394244385725168,
+        "ssim_tl_trivial": 0.09077430113468872,
+        "pcc_tl_trivial": 0.05160383081211079
+      },
+      "by_study": {
+        "3": {
+          "n_fov": 7,
+          "ssim": 0.4083738406059231,
+          "pcc": 0.4343367427382635,
+          "ssim_raw": 0.3394244385725168,
+          "ssim_tl_trivial": 0.09077430113468872,
+          "pcc_tl_trivial": 0.05160383081211079
+        }
+      }
+    },
+    "val|Mitochondria|0": {
+      "n_fov": 1289,
+      "n_studies": 1,
+      "valid_fov_per_metric": {
+        "ssim": 1289,
+        "pcc": 1289,
+        "ssim_raw": 1289,
+        "ssim_tl_trivial": 1289,
+        "pcc_tl_trivial": 1289
+      },
+      "fov_mean": {
+        "ssim": 0.3785150636788645,
+        "pcc": 0.4215284195935211,
+        "ssim_raw": 0.4925430656874582,
+        "ssim_tl_trivial": 0.07916077155093615,
+        "pcc_tl_trivial": 0.03716181514593507
+      },
+      "study_mean": {
+        "ssim": 0.3785150636788645,
+        "pcc": 0.4215284195935211,
+        "ssim_raw": 0.4925430656874582,
+        "ssim_tl_trivial": 0.07916077155093615,
+        "pcc_tl_trivial": 0.03716181514593507
+      },
+      "by_study": {
+        "25": {
+          "n_fov": 1289,
+          "ssim": 0.3785150636788645,
+          "pcc": 0.4215284195935211,
+          "ssim_raw": 0.4925430656874582,
+          "ssim_tl_trivial": 0.07916077155093615,
+          "pcc_tl_trivial": 0.03716181514593507
+        }
+      }
+    },
+    "val|Mitochondria|1": {
+      "n_fov": 40,
+      "n_studies": 2,
+      "valid_fov_per_metric": {
+        "ssim": 40,
+        "pcc": 40,
+        "ssim_raw": 40,
+        "ssim_tl_trivial": 40,
+        "pcc_tl_trivial": 40
+      },
+      "fov_mean": {
+        "ssim": 0.4330211757314787,
+        "pcc": 0.20604446349856384,
+        "ssim_raw": 0.40482883004245834,
+        "ssim_tl_trivial": 0.0646431272098537,
+        "pcc_tl_trivial": 0.0685971189532519
+      },
+      "study_mean": {
+        "ssim": 0.45741340139905257,
+        "pcc": 0.3455530952750856,
+        "ssim_raw": 0.4145026782005453,
+        "ssim_tl_trivial": 0.08113598630703056,
+        "pcc_tl_trivial": 0.03105417239958831
+      },
+      "by_study": {
+        "2": {
+          "n_fov": 9,
+          "ssim": 0.5017629026128232,
+          "pcc": 0.5992051530505798,
+          "ssim_raw": 0.4320914930334307,
+          "ssim_tl_trivial": 0.1111230028473521,
+          "pcc_tl_trivial": -0.03720573042525458
+        },
+        "4": {
+          "n_fov": 31,
+          "ssim": 0.41306390018528194,
+          "pcc": 0.0919010374995915,
+          "ssim_raw": 0.39691386336765994,
+          "ssim_tl_trivial": 0.051148969766709004,
+          "pcc_tl_trivial": 0.0993140752244312
+        }
+      }
+    },
+    "val|Mitochondria|2": {
+      "n_fov": 243,
+      "n_studies": 3,
+      "valid_fov_per_metric": {
+        "ssim": 243,
+        "pcc": 243,
+        "ssim_raw": 243,
+        "ssim_tl_trivial": 243,
+        "pcc_tl_trivial": 243
+      },
+      "fov_mean": {
+        "ssim": 0.6095527112300015,
+        "pcc": 0.5354251637171826,
+        "ssim_raw": 0.5905944924863155,
+        "ssim_tl_trivial": 0.21261309239749435,
+        "pcc_tl_trivial": 0.05697675580672238
+      },
+      "study_mean": {
+        "ssim": 0.4866357249317579,
+        "pcc": 0.30691094179548006,
+        "ssim_raw": 0.5427504525638251,
+        "ssim_tl_trivial": 0.22983766839527503,
+        "pcc_tl_trivial": 0.024846164804582776
+      },
+      "by_study": {
+        "20": {
+          "n_fov": 23,
+          "ssim": 0.4334512266408967,
+          "pcc": 0.17223090516507394,
+          "ssim_raw": 0.5078002228570412,
+          "ssim_tl_trivial": 0.28686990377925237,
+          "pcc_tl_trivial": 0.018345421227146184
+        },
+        "24": {
+          "n_fov": 23,
+          "ssim": 0.3681602940819686,
+          "pcc": 0.12245904781109469,
+          "ssim_raw": 0.5108840058271313,
+          "ssim_tl_trivial": 0.19686044431854316,
+          "pcc_tl_trivial": -0.013525123879589394
+        },
+        "27": {
+          "n_fov": 197,
+          "ssim": 0.6582956540724084,
+          "pcc": 0.6260428724102716,
+          "ssim_raw": 0.6095671290073029,
+          "ssim_tl_trivial": 0.2057826570880296,
+          "pcc_tl_trivial": 0.06971819706619153
+        }
+      }
+    },
+    "val|Mitochondria|3": {
+      "n_fov": 53,
+      "n_studies": 3,
+      "valid_fov_per_metric": {
+        "ssim": 53,
+        "pcc": 53,
+        "ssim_raw": 53,
+        "ssim_tl_trivial": 53,
+        "pcc_tl_trivial": 53
+      },
+      "fov_mean": {
+        "ssim": 0.5071728753774509,
+        "pcc": 0.4048541897669605,
+        "ssim_raw": 0.5735521194818785,
+        "ssim_tl_trivial": 0.2294487821409641,
+        "pcc_tl_trivial": 0.02763632117527569
+      },
+      "study_mean": {
+        "ssim": 0.47118949475947447,
+        "pcc": 0.42473533746387787,
+        "ssim_raw": 0.5163847619291688,
+        "ssim_tl_trivial": 0.18826306757041453,
+        "pcc_tl_trivial": 0.032086888953111355
+      },
+      "by_study": {
+        "18": {
+          "n_fov": 23,
+          "ssim": 0.540687415873382,
+          "pcc": 0.44616035177563795,
+          "ssim_raw": 0.5460114125775098,
+          "ssim_tl_trivial": 0.29002366812259545,
+          "pcc_tl_trivial": 0.044483129657900085
+        },
+        "22": {
+          "n_fov": 23,
+          "ssim": 0.5208865219426138,
+          "pcc": 0.33745402140607894,
+          "ssim_raw": 0.6761249831741785,
+          "ssim_tl_trivial": 0.22293014653317905,
+          "pcc_tl_trivial": 0.004948142484241984
+        },
+        "3": {
+          "n_fov": 7,
+          "ssim": 0.3519945464624277,
+          "pcc": 0.4905916392099168,
+          "ssim_raw": 0.3270178900358183,
+          "ssim_tl_trivial": 0.05183538805546905,
+          "pcc_tl_trivial": 0.046829394717192004
+        }
+      }
+    },
+    "val|Mitochondria|4": {
+      "n_fov": 102,
+      "n_studies": 10,
+      "valid_fov_per_metric": {
+        "ssim": 102,
+        "pcc": 102,
+        "ssim_raw": 102,
+        "ssim_tl_trivial": 102,
+        "pcc_tl_trivial": 102
+      },
+      "fov_mean": {
+        "ssim": 0.6932685492820078,
+        "pcc": 0.6619533729716814,
+        "ssim_raw": 0.7341985915092516,
+        "ssim_tl_trivial": 0.12028072216847695,
+        "pcc_tl_trivial": -0.005214420327954255
+      },
+      "study_mean": {
+        "ssim": 0.7004210976008333,
+        "pcc": 0.6615227783534625,
+        "ssim_raw": 0.7255778746119635,
+        "ssim_tl_trivial": 0.12832030614145587,
+        "pcc_tl_trivial": -0.01346475619811872
+      },
+      "by_study": {
+        "10": {
+          "n_fov": 8,
+          "ssim": 0.7269511160817665,
+          "pcc": 0.7215374370111242,
+          "ssim_raw": 0.7348859037024378,
+          "ssim_tl_trivial": 0.039904755251658305,
+          "pcc_tl_trivial": -0.25023557196125296
+        },
+        "11": {
+          "n_fov": 4,
+          "ssim": 0.7061577784206321,
+          "pcc": 0.8091485360670909,
+          "ssim_raw": 0.8115539601515314,
+          "ssim_tl_trivial": 0.034959690949879295,
+          "pcc_tl_trivial": -0.07968416070519457
+        },
+        "12": {
+          "n_fov": 8,
+          "ssim": 0.7814368335351111,
+          "pcc": 0.7662540572998444,
+          "ssim_raw": 0.8328800283595474,
+          "ssim_tl_trivial": 0.12927947985956048,
+          "pcc_tl_trivial": -0.02035525175766374
+        },
+        "13": {
+          "n_fov": 8,
+          "ssim": 0.7413631755111599,
+          "pcc": 0.7342292594738132,
+          "ssim_raw": 0.7414431562747955,
+          "ssim_tl_trivial": 0.19492941146150394,
+          "pcc_tl_trivial": 0.19824953941391607
+        },
+        "14": {
+          "n_fov": 8,
+          "ssim": 0.7106590651398961,
+          "pcc": 0.549008380709188,
+          "ssim_raw": 0.7158085664349989,
+          "ssim_tl_trivial": 0.05256805153589275,
+          "pcc_tl_trivial": -0.011292650181392448
+        },
+        "15": {
+          "n_fov": 4,
+          "ssim": 0.6347625499012985,
+          "pcc": 0.529068265543475,
+          "ssim_raw": 0.6101670983017058,
+          "ssim_tl_trivial": 0.4247694655858156,
+          "pcc_tl_trivial": 0.21424171886194576
+        },
+        "19": {
+          "n_fov": 23,
+          "ssim": 0.6463734365937637,
+          "pcc": 0.6665869795905325,
+          "ssim_raw": 0.7457571369049505,
+          "ssim_tl_trivial": 0.1401955951615361,
+          "pcc_tl_trivial": -0.01785884204632412
+        },
+        "23": {
+          "n_fov": 23,
+          "ssim": 0.689852265538627,
+          "pcc": 0.6634322858279186,
+          "ssim_raw": 0.7561702363483511,
+          "ssim_tl_trivial": 0.11593279123919453,
+          "pcc_tl_trivial": 0.09009483238133535
+        },
+        "8": {
+          "n_fov": 8,
+          "ssim": 0.6934237451323575,
+          "pcc": 0.5176750231613121,
+          "ssim_raw": 0.656722634771977,
+          "ssim_tl_trivial": 0.10028178220339863,
+          "pcc_tl_trivial": -0.008480927196099988
+        },
+        "9": {
+          "n_fov": 8,
+          "ssim": 0.67323101015372,
+          "pcc": 0.6582875588503259,
+          "ssim_raw": 0.6503900248693402,
+          "ssim_tl_trivial": 0.050382038166119046,
+          "pcc_tl_trivial": -0.24932624879045656
+        }
+      }
+    },
+    "val|Nucleus|0": {
+      "n_fov": 1312,
+      "n_studies": 2,
+      "valid_fov_per_metric": {
+        "ssim": 1312,
+        "pcc": 1312,
+        "ssim_raw": 1312,
+        "ssim_tl_trivial": 1312,
+        "pcc_tl_trivial": 1312
+      },
+      "fov_mean": {
+        "ssim": 0.5386457692223379,
+        "pcc": 0.5730289056168654,
+        "ssim_raw": 0.6471097473111235,
+        "ssim_tl_trivial": 0.07620541069392119,
+        "pcc_tl_trivial": 0.042651910210750946
+      },
+      "study_mean": {
+        "ssim": 0.6775812716601293,
+        "pcc": 0.6197635110143102,
+        "ssim_raw": 0.7620217918087167,
+        "ssim_tl_trivial": 0.05939952301648316,
+        "pcc_tl_trivial": 0.07296741485557423
+      },
+      "by_study": {
+        "21": {
+          "n_fov": 23,
+          "ssim": 0.8215649835071926,
+          "pcc": 0.6681962142382023,
+          "ssim_raw": 0.8811091554586711,
+          "ssim_tl_trivial": 0.04198299487051261,
+          "pcc_tl_trivial": 0.10438443072761859
+        },
+        "25": {
+          "n_fov": 1289,
+          "ssim": 0.5335975598130658,
+          "pcc": 0.571330807790418,
+          "ssim_raw": 0.6429344281587622,
+          "ssim_tl_trivial": 0.0768160511624537,
+          "pcc_tl_trivial": 0.04155039898352988
+        }
+      }
+    },
+    "val|Nucleus|1": {
+      "n_fov": 648,
+      "n_studies": 5,
+      "valid_fov_per_metric": {
+        "ssim": 648,
+        "pcc": 648,
+        "ssim_raw": 648,
+        "ssim_tl_trivial": 648,
+        "pcc_tl_trivial": 648
+      },
+      "fov_mean": {
+        "ssim": 0.4941128798766028,
+        "pcc": 0.39077801025789716,
+        "ssim_raw": 0.6053716483244154,
+        "ssim_tl_trivial": 0.0719292617170562,
+        "pcc_tl_trivial": 0.03046081325299383
+      },
+      "study_mean": {
+        "ssim": 0.5356787779325217,
+        "pcc": 0.3209536288508251,
+        "ssim_raw": 0.6384638931781061,
+        "ssim_tl_trivial": 0.05336061712660898,
+        "pcc_tl_trivial": 0.02527442005116045
+      },
+      "by_study": {
+        "2": {
+          "n_fov": 10,
+          "ssim": 0.443632788480974,
+          "pcc": 0.6242062205565093,
+          "ssim_raw": 0.356814653688874,
+          "ssim_tl_trivial": 0.015931454892554427,
+          "pcc_tl_trivial": 0.003131564138252741
+        },
+        "26": {
+          "n_fov": 587,
+          "ssim": 0.4868672079934191,
+          "pcc": 0.4047624583158967,
+          "ssim_raw": 0.5956697798562169,
+          "ssim_tl_trivial": 0.07360854669865849,
+          "pcc_tl_trivial": 0.02590660027266569
+        },
+        "4": {
+          "n_fov": 31,
+          "ssim": 0.5942299167242707,
+          "pcc": 0.17278717887160533,
+          "ssim_raw": 0.793150975156125,
+          "ssim_tl_trivial": 0.06999996624742938,
+          "pcc_tl_trivial": 0.16794179181208935
+        },
+        "5": {
+          "n_fov": 10,
+          "ssim": 0.5715732505090808,
+          "pcc": 0.28376509254541166,
+          "ssim_raw": 0.7433692607970838,
+          "ssim_tl_trivial": 0.04657304914350293,
+          "pcc_tl_trivial": -0.00938138500307173
+        },
+        "6": {
+          "n_fov": 10,
+          "ssim": 0.582090725954864,
+          "pcc": 0.11924719396470251,
+          "ssim_raw": 0.703314796392231,
+          "ssim_tl_trivial": 0.060690068650899674,
+          "pcc_tl_trivial": -0.061226470964133806
+        }
+      }
+    },
+    "val|Nucleus|2": {
+      "n_fov": 243,
+      "n_studies": 3,
+      "valid_fov_per_metric": {
+        "ssim": 243,
+        "pcc": 243,
+        "ssim_raw": 243,
+        "ssim_tl_trivial": 243,
+        "pcc_tl_trivial": 243
+      },
+      "fov_mean": {
+        "ssim": 0.7201838230023037,
+        "pcc": 0.6246518187900139,
+        "ssim_raw": 0.7151115519195186,
+        "ssim_tl_trivial": 0.17076570188441859,
+        "pcc_tl_trivial": 0.05759284028270945
+      },
+      "study_mean": {
+        "ssim": 0.566562877225846,
+        "pcc": 0.5035188120379199,
+        "ssim_raw": 0.6256766227825974,
+        "ssim_tl_trivial": 0.2081704324344968,
+        "pcc_tl_trivial": 0.05984030229009159
+      },
+      "by_study": {
+        "20": {
+          "n_fov": 23,
+          "ssim": 0.4148028713829664,
+          "pcc": 0.32673593031829234,
+          "ssim_raw": 0.5242138631442879,
+          "ssim_tl_trivial": 0.2757152880197943,
+          "pcc_tl_trivial": 0.06506625844283737
+        },
+        "24": {
+          "n_fov": 23,
+          "ssim": 0.5037832863809139,
+          "pcc": 0.5111331843278992,
+          "ssim_raw": 0.6022388779365858,
+          "ssim_tl_trivial": 0.19286321778982574,
+          "pcc_tl_trivial": 0.05775304307868982
+        },
+        "27": {
+          "n_fov": 197,
+          "ssim": 0.7811024739136576,
+          "pcc": 0.6726873214675684,
+          "ssim_raw": 0.7505771272669184,
+          "ssim_tl_trivial": 0.15593279149387035,
+          "pcc_tl_trivial": 0.05670160534874757
+        }
+      }
+    },
+    "val|Nucleus|3": {
+      "n_fov": 126,
+      "n_studies": 5,
+      "valid_fov_per_metric": {
+        "ssim": 126,
+        "pcc": 126,
+        "ssim_raw": 126,
+        "ssim_tl_trivial": 126,
+        "pcc_tl_trivial": 126
+      },
+      "fov_mean": {
+        "ssim": 0.7011859685145532,
+        "pcc": 0.5923738099599447,
+        "ssim_raw": 0.7520733097202494,
+        "ssim_tl_trivial": 0.10072339119253328,
+        "pcc_tl_trivial": 0.05109132111140434
+      },
+      "study_mean": {
+        "ssim": 0.6351352426762322,
+        "pcc": 0.5788847327362457,
+        "ssim_raw": 0.6832595801684321,
+        "ssim_tl_trivial": 0.10025337569263086,
+        "pcc_tl_trivial": 0.052704217640741916
+      },
+      "by_study": {
+        "18": {
+          "n_fov": 23,
+          "ssim": 0.6491569911196204,
+          "pcc": 0.72790939167496,
+          "ssim_raw": 0.7363631175124513,
+          "ssim_tl_trivial": 0.21876345108687584,
+          "pcc_tl_trivial": 0.11225538214775092
+        },
+        "22": {
+          "n_fov": 23,
+          "ssim": 0.638901641575972,
+          "pcc": 0.6681546345571983,
+          "ssim_raw": 0.7441009299954787,
+          "ssim_tl_trivial": 0.17777868375305425,
+          "pcc_tl_trivial": 0.11525080997520581
+        },
+        "29": {
+          "n_fov": 48,
+          "ssim": 0.7771674804726137,
+          "pcc": 0.5087349494525113,
+          "ssim_raw": 0.8117212266253672,
+          "ssim_tl_trivial": 0.05126693918947264,
+          "pcc_tl_trivial": 0.019842565786423877
+        },
+        "3": {
+          "n_fov": 8,
+          "ssim": 0.3269223741850813,
+          "pcc": 0.35254016462653526,
+          "ssim_raw": 0.32692237418508097,
+          "ssim_tl_trivial": 0.01082013741024523,
+          "pcc_tl_trivial": 0.008482190225206217
+        },
+        "30": {
+          "n_fov": 24,
+          "ssim": 0.7835277260278735,
+          "pcc": 0.6370845233700239,
+          "ssim_raw": 0.7971902525237824,
+          "ssim_tl_trivial": 0.042637667023506326,
+          "pcc_tl_trivial": 0.007690140069122731
+        }
+      }
+    },
+    "val|Nucleus|4": {
+      "n_fov": 112,
+      "n_studies": 11,
+      "valid_fov_per_metric": {
+        "ssim": 112,
+        "pcc": 112,
+        "ssim_raw": 112,
+        "ssim_tl_trivial": 112,
+        "pcc_tl_trivial": 112
+      },
+      "fov_mean": {
+        "ssim": 0.7702094322991769,
+        "pcc": 0.7217320584558724,
+        "ssim_raw": 0.7847152148229924,
+        "ssim_tl_trivial": 0.06928346427290241,
+        "pcc_tl_trivial": 0.025993134202903438
+      },
+      "study_mean": {
+        "ssim": 0.763207136300945,
+        "pcc": 0.7470644080755781,
+        "ssim_raw": 0.7749261763377531,
+        "ssim_tl_trivial": 0.08600869742798062,
+        "pcc_tl_trivial": 0.022405290112343136
+      },
+      "by_study": {
+        "10": {
+          "n_fov": 8,
+          "ssim": 0.8105223859597852,
+          "pcc": 0.8607775464024957,
+          "ssim_raw": 0.8417471268493089,
+          "ssim_tl_trivial": 0.022002497422656468,
+          "pcc_tl_trivial": -0.1400022088398862
+        },
+        "11": {
+          "n_fov": 4,
+          "ssim": 0.8239433391527449,
+          "pcc": 0.8476376318906267,
+          "ssim_raw": 0.7922377500288791,
+          "ssim_tl_trivial": 0.01643257895598717,
+          "pcc_tl_trivial": -0.04064012326488709
+        },
+        "12": {
+          "n_fov": 8,
+          "ssim": 0.8366998558802055,
+          "pcc": 0.8176921085833988,
+          "ssim_raw": 0.7174909791772022,
+          "ssim_tl_trivial": 0.0694571215053817,
+          "pcc_tl_trivial": 0.02067039950884876
+        },
+        "13": {
+          "n_fov": 8,
+          "ssim": 0.8067752785551812,
+          "pcc": 0.844567068855524,
+          "ssim_raw": 0.8210544477048476,
+          "ssim_tl_trivial": 0.15025047354253937,
+          "pcc_tl_trivial": 0.24009523781289024
+        },
+        "14": {
+          "n_fov": 8,
+          "ssim": 0.6815781221939725,
+          "pcc": 0.782733135656641,
+          "ssim_raw": 0.7689124030139274,
+          "ssim_tl_trivial": 0.04453974720623941,
+          "pcc_tl_trivial": 0.019537490181209993
+        },
+        "15": {
+          "n_fov": 4,
+          "ssim": 0.7434986611591518,
+          "pcc": 0.6982516402958024,
+          "ssim_raw": 0.7745178665838611,
+          "ssim_tl_trivial": 0.3752402336100137,
+          "pcc_tl_trivial": 0.17486814719271643
+        },
+        "19": {
+          "n_fov": 23,
+          "ssim": 0.8160536637599259,
+          "pcc": 0.6951235023908339,
+          "ssim_raw": 0.8468112782121672,
+          "ssim_tl_trivial": 0.06674641739766735,
+          "pcc_tl_trivial": 0.021135734877194168
+        },
+        "23": {
+          "n_fov": 23,
+          "ssim": 0.8095146851761387,
+          "pcc": 0.6654854458715467,
+          "ssim_raw": 0.8160099131376334,
+          "ssim_tl_trivial": 0.04185538619619398,
+          "pcc_tl_trivial": 0.07876438583780222
+        },
+        "7": {
+          "n_fov": 10,
+          "ssim": 0.4937355951156357,
+          "pcc": 0.4333727506084224,
+          "ssim_raw": 0.5096525693284191,
+          "ssim_tl_trivial": 0.06432341062942919,
+          "pcc_tl_trivial": -0.011012107087319456
+        },
+        "8": {
+          "n_fov": 8,
+          "ssim": 0.7389664332778301,
+          "pcc": 0.7338163180004194,
+          "ssim_raw": 0.7825783430838734,
+          "ssim_tl_trivial": 0.06125321384124913,
+          "pcc_tl_trivial": 0.02147354152525015
+        },
+        "9": {
+          "n_fov": 8,
+          "ssim": 0.8339904790798237,
+          "pcc": 0.8382513402756475,
+          "ssim_raw": 0.8531752625951645,
+          "ssim_tl_trivial": 0.03399459140042941,
+          "pcc_tl_trivial": -0.13843230650804472
+        }
+      }
+    },
+    "val|Tubulin|0": {
+      "n_fov": 23,
+      "n_studies": 1,
+      "valid_fov_per_metric": {
+        "ssim": 23,
+        "pcc": 23,
+        "ssim_raw": 23,
+        "ssim_tl_trivial": 23,
+        "pcc_tl_trivial": 23
+      },
+      "fov_mean": {
+        "ssim": 0.47584835881740406,
+        "pcc": 0.7672018164905654,
+        "ssim_raw": 0.8309520622879208,
+        "ssim_tl_trivial": 0.3114593635679084,
+        "pcc_tl_trivial": 0.154190636239952
+      },
+      "study_mean": {
+        "ssim": 0.47584835881740406,
+        "pcc": 0.7672018164905654,
+        "ssim_raw": 0.8309520622879208,
+        "ssim_tl_trivial": 0.3114593635679084,
+        "pcc_tl_trivial": 0.154190636239952
+      },
+      "by_study": {
+        "21": {
+          "n_fov": 23,
+          "ssim": 0.47584835881740406,
+          "pcc": 0.7672018164905654,
+          "ssim_raw": 0.8309520622879208,
+          "ssim_tl_trivial": 0.3114593635679084,
+          "pcc_tl_trivial": 0.154190636239952
+        }
+      }
+    },
+    "val|Tubulin|1": {
+      "n_fov": 31,
+      "n_studies": 1,
+      "valid_fov_per_metric": {
+        "ssim": 31,
+        "pcc": 31,
+        "ssim_raw": 31,
+        "ssim_tl_trivial": 31,
+        "pcc_tl_trivial": 31
+      },
+      "fov_mean": {
+        "ssim": 0.17372858464182683,
+        "pcc": 0.10436386148685128,
+        "ssim_raw": 0.11565768804945531,
+        "ssim_tl_trivial": 0.0392630333421626,
+        "pcc_tl_trivial": 0.10287947686300614
+      },
+      "study_mean": {
+        "ssim": 0.17372858464182683,
+        "pcc": 0.10436386148685128,
+        "ssim_raw": 0.11565768804945531,
+        "ssim_tl_trivial": 0.0392630333421626,
+        "pcc_tl_trivial": 0.10287947686300614
+      },
+      "by_study": {
+        "4": {
+          "n_fov": 31,
+          "ssim": 0.17372858464182683,
+          "pcc": 0.10436386148685128,
+          "ssim_raw": 0.11565768804945531,
+          "ssim_tl_trivial": 0.0392630333421626,
+          "pcc_tl_trivial": 0.10287947686300614
+        }
+      }
+    },
+    "val|Tubulin|2": {
+      "n_fov": 46,
+      "n_studies": 2,
+      "valid_fov_per_metric": {
+        "ssim": 46,
+        "pcc": 46,
+        "ssim_raw": 46,
+        "ssim_tl_trivial": 46,
+        "pcc_tl_trivial": 46
+      },
+      "fov_mean": {
+        "ssim": 0.4880306776875705,
+        "pcc": 0.26186279600703305,
+        "ssim_raw": 0.5789293172392032,
+        "ssim_tl_trivial": 0.29750350895064764,
+        "pcc_tl_trivial": 0.00831732392135793
+      },
+      "study_mean": {
+        "ssim": 0.48803067768757047,
+        "pcc": 0.2618627960070331,
+        "ssim_raw": 0.5789293172392032,
+        "ssim_tl_trivial": 0.2975035089506477,
+        "pcc_tl_trivial": 0.008317323921357932
+      },
+      "by_study": {
+        "20": {
+          "n_fov": 23,
+          "ssim": 0.4625840990636797,
+          "pcc": 0.1823993021789617,
+          "ssim_raw": 0.5431370607932817,
+          "ssim_tl_trivial": 0.2720803021642679,
+          "pcc_tl_trivial": -0.03640559206693984
+        },
+        "24": {
+          "n_fov": 23,
+          "ssim": 0.5134772563114612,
+          "pcc": 0.3413262898351045,
+          "ssim_raw": 0.6147215736851247,
+          "ssim_tl_trivial": 0.32292671573702747,
+          "pcc_tl_trivial": 0.05304023990965571
+        }
+      }
+    },
+    "val|Tubulin|3": {
+      "n_fov": 72,
+      "n_studies": 2,
+      "valid_fov_per_metric": {
+        "ssim": 71,
+        "pcc": 71,
+        "ssim_raw": 71,
+        "ssim_tl_trivial": 71,
+        "pcc_tl_trivial": 71
+      },
+      "fov_mean": {
+        "ssim": 0.32968395799978456,
+        "pcc": 0.41115542172234165,
+        "ssim_raw": 0.779036487665958,
+        "ssim_tl_trivial": 0.442379180297779,
+        "pcc_tl_trivial": 0.14696713361209937
+      },
+      "study_mean": {
+        "ssim": 0.33054687987703546,
+        "pcc": 0.42588994142351916,
+        "ssim_raw": 0.7823668257034344,
+        "ssim_tl_trivial": 0.4495387978757165,
+        "pcc_tl_trivial": 0.14947687826827769
+      },
+      "by_study": {
+        "29": {
+          "n_fov": 48,
+          "ssim": 0.3278830775603045,
+          "pcc": 0.38040511973727553,
+          "ssim_raw": 0.7720862169790508,
+          "ssim_tl_trivial": 0.4274373697003443,
+          "pcc_tl_trivial": 0.14172940563398814
+        },
+        "30": {
+          "n_fov": 24,
+          "ssim": 0.33321068219376637,
+          "pcc": 0.4713747631097628,
+          "ssim_raw": 0.7926474344278179,
+          "ssim_tl_trivial": 0.47164022605108863,
+          "pcc_tl_trivial": 0.15722435090256723
+        }
+      }
+    },
+    "val|Tubulin|4": {
+      "n_fov": 10,
+      "n_studies": 1,
+      "valid_fov_per_metric": {
+        "ssim": 10,
+        "pcc": 10,
+        "ssim_raw": 10,
+        "ssim_tl_trivial": 10,
+        "pcc_tl_trivial": 10
+      },
+      "fov_mean": {
+        "ssim": 0.4888084465186204,
+        "pcc": 0.4737408367347168,
+        "ssim_raw": 0.5507513283584541,
+        "ssim_tl_trivial": 0.08329440999239719,
+        "pcc_tl_trivial": 0.00525025121119651
+      },
+      "study_mean": {
+        "ssim": 0.4888084465186204,
+        "pcc": 0.4737408367347168,
+        "ssim_raw": 0.5507513283584541,
+        "ssim_tl_trivial": 0.08329440999239719,
+        "pcc_tl_trivial": 0.00525025121119651
+      },
+      "by_study": {
+        "7": {
+          "n_fov": 10,
+          "ssim": 0.4888084465186204,
+          "pcc": 0.4737408367347168,
+          "ssim_raw": 0.5507513283584541,
+          "ssim_tl_trivial": 0.08329440999239719,
+          "pcc_tl_trivial": 0.00525025121119651
+        }
+      }
+    }
+  },
+  "source_sha256": {
+    "D:\\PROJECTS\\.cognition\\auditoria-concursos-20261025\\remote-final\\evidence\\fold0\\metrics_rows.csv": "e30e1618c87720d68c02a4312d42cc620aeb71721f42067260e5f416149d95f3",
+    "D:\\PROJECTS\\.cognition\\auditoria-concursos-20261025\\remote-final\\evidence\\fold1\\metrics_rows.csv": "14c57c8b91ad1233a0bbac73f3c6fc7c77231a9c51d7892b0ebb47909dc02fb8",
+    "D:\\PROJECTS\\.cognition\\auditoria-concursos-20261025\\remote-final\\evidence\\fold2\\metrics_rows.csv": "4581d4c68a0801db7c15b360b874966a534f99696cb37b37932e8bb93f7aba9d",
+    "D:\\PROJECTS\\.cognition\\auditoria-concursos-20261025\\remote-final\\evidence\\fold3\\metrics_rows.csv": "6f7f887f6186d1c9338a718a9446402ec38214ca2fc84abebdb3efda19f630f9",
+    "D:\\PROJECTS\\.cognition\\auditoria-concursos-20261025\\remote-final\\evidence\\fold4\\metrics_rows.csv": "d9543a6d859882d910650cee45fb4730103eafc4cbc4182c9fef0eb6ecaadacb"
+  },
+  "limits": [
+    "This is local ed.1 UNet-L1 baseline validation, not an official score or ed.2 validation.",
+    "Actin in a held-out study is untrained when all labelled Actin specimens belong to that fold; inspect coverage before claiming learning.",
+    "Inferred acquisition sites are not verified biological independence."
+  ],
+  "constant_gt_verified": [
+    [
+      "S29_2542",
+      "Tubulin"
+    ]
+  ],
+  "index_sha256": "03cb3a270d0cdf855ab6d2b6c2af59a71456e83ab4d5dbcc6b59fda2e7416c3e"
+}

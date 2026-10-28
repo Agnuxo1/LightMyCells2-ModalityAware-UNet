@@ -1,0 +1,88 @@
+{
+  "utc": "2026-10-25T22:35:24.202013+00:00",
+  "job": "1003c17eea2f4b57",
+  "original_job_state": "failed at legacy summarizer; preserved",
+  "postprocessing_recovered": true,
+  "checkpoints": {
+    "0": {
+      "path": "/home/ai/servidor-ia/jobs/1003c17eea2f4b57/work/resultados/fold0/unet_l1.pt",
+      "bytes": 31092781,
+      "sha256": "e9b1ae1bdc3644db8ce05484cb6e0a3b0d6e693f2f8ea43acc6c5bc92d5ed3d0",
+      "args": {
+        "index": "index.json",
+        "val_fold": 0,
+        "iters": 20000,
+        "batch": 16,
+        "lr": 0.001,
+        "workers": 2,
+        "max_eval_fov": 0,
+        "out": "resultados/fold0"
+      },
+      "px_target": 0.2
+    },
+    "1": {
+      "path": "/home/ai/servidor-ia/jobs/1003c17eea2f4b57/work/resultados/fold1/unet_l1.pt",
+      "bytes": 31092781,
+      "sha256": "d718a25843dfd751f8546073fde486ed4f477243fd532998236802602ee6f63e",
+      "args": {
+        "index": "index.json",
+        "val_fold": 1,
+        "iters": 20000,
+        "batch": 16,
+        "lr": 0.001,
+        "workers": 2,
+        "max_eval_fov": 0,
+        "out": "resultados/fold1"
+      },
+      "px_target": 0.2
+    },
+    "2": {
+      "path": "/home/ai/servidor-ia/jobs/1003c17eea2f4b57/work/resultados/fold2/unet_l1.pt",
+      "bytes": 31092781,
+      "sha256": "97a17067280443c1517d7f5e9be3e99fa0aeac2eb5655e1c7d66235ee22020ce",
+      "args": {
+        "index": "index.json",
+        "val_fold": 2,
+        "iters": 20000,
+        "batch": 16,
+        "lr": 0.001,
+        "workers": 2,
+        "max_eval_fov": 0,
+        "out": "resultados/fold2"
+      },
+      "px_target": 0.2
+    },
+    "3": {
+      "path": "/home/ai/servidor-ia/jobs/1003c17eea2f4b57/work/resultados/fold3/unet_l1.pt",
+      "bytes": 31092781,
+      "sha256": "6448e8d502caff57b6aecde13de0db20a916bcc3aa847cb52feb1c1e856ac111",
+      "args": {
+        "index": "index.json",
+        "val_fold": 3,
+        "iters": 20000,
+        "batch": 16,
+        "lr": 0.001,
+        "workers": 2,
+        "max_eval_fov": 0,
+        "out": "resultados/fold3"
+      },
+      "px_target": 0.2
+    },
+    "4": {
+      "path": "/home/ai/servidor-ia/jobs/1003c17eea2f4b57/work/resultados/fold4/unet_l1.pt",
+      "bytes": 31092781,
+      "sha256": "ac730498fef2500860e0c97315f3c38af9fd527096297aae76905017a31fae3b",
+      "args": {
+        "index": "index.json",
+        "val_fold": 4,
+        "iters": 20000,
+        "batch": 16,
+        "lr": 0.001,
+        "workers": 2,
+        "max_eval_fov": 0,
+        "out": "resultados/fold4"
+      },
+      "px_target": 0.2
+    }
+  }
+}

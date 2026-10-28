@@ -1,0 +1,16 @@
+{
+  "image_tag": "lmc2-selfcontained-20261027-v3",
+  "image_id": "sha256:430fbab208a084d0bdcc6547480b548ee530c7408937ae2dc08163433848128a",
+  "base_image": "lmc2-official-20261027-v2",
+  "size_bytes": 7561495639,
+  "user": "user",
+  "weights": {
+    "fold2.pt": "97a17067280443c1517d7f5e9be3e99fa0aeac2eb5655e1c7d66235ee22020ce",
+    "fold4.pt": "ac730498fef2500860e0c97315f3c38af9fd527096297aae76905017a31fae3b",
+    "fold0.pt": "e9b1ae1bdc3644db8ce05484cb6e0a3b0d6e693f2f8ea43acc6c5bc92d5ed3d0",
+    "fold3.pt": "6448e8d502caff57b6aecde13de0db20a916bcc3aa847cb52feb1c1e856ac111",
+    "fold1.pt": "d718a25843dfd751f8546073fde486ed4f477243fd532998236802602ee6f63e"
+  },
+  "empty_mount_dir": "/home/ai/proyectos/light-my-cells-2/final-20261027/delivery/empty-model-mount-test-20261027",
+  "scope": "same model and inference; internal weight location changed; no platform receipt"
+}

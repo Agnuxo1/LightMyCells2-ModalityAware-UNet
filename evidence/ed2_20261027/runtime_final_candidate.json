@@ -1,0 +1,33 @@
+{
+  "scope": "engineering on a real ed2 input at native XY size; NOT official T4 runtime",
+  "study": 82,
+  "fov": 2697,
+  "pixel_um": 0.065,
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "torch": "2.14.1+cu130",
+  "precision": "fp16",
+  "ensemble_models": 5,
+  "cases": [
+    {
+      "case": "best_focus",
+      "seconds": 2.61075991600228,
+      "shape": [
+        1,
+        2048,
+        2048
+      ],
+      "four_finite_outputs": true
+    },
+    {
+      "case": "mip",
+      "seconds": 8.98130500499974,
+      "shape": [
+        16,
+        2048,
+        2048
+      ],
+      "four_finite_outputs": true
+    }
+  ],
+  "peak_gpu_mib": 475.55126953125
+}

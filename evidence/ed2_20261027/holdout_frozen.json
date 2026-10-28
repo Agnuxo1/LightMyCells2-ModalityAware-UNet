@@ -1,0 +1,160 @@
+{
+  "created_utc": "2026-10-27T07:17:11.423055+00:00",
+  "studies": [
+    76,
+    79,
+    80,
+    81,
+    83,
+    85,
+    87
+  ],
+  "n_fov": 46,
+  "seed": 20261027,
+  "purpose": "untuned new-FOV ed2 best-focus and real MIP evaluation; exploratory site transfer only",
+  "selection_rule": "pre-outcome, no ed1 image-id overlap, all 3 TL modalities and 4 organelles, bounded download",
+  "limitations": "Study/specimen/site metadata incomplete; identifier-disjoint does not prove biological independence",
+  "records": [
+    {
+      "study": 76,
+      "images": 8,
+      "planes": 985,
+      "channels": {
+        "Mitochondria": 197,
+        "Actin": 197,
+        "PC": 197,
+        "BF": 197,
+        "Nucleus": 197
+      },
+      "image_ids": [
+        2670,
+        2671,
+        2672,
+        2673,
+        2674,
+        2675,
+        2676,
+        2677
+      ],
+      "overlap_ed1_ids": []
+    },
+    {
+      "study": 79,
+      "images": 3,
+      "planes": 165,
+      "channels": {
+        "PC": 55,
+        "Actin": 55,
+        "Nucleus": 55
+      },
+      "image_ids": [
+        2686,
+        2687,
+        2688
+      ],
+      "overlap_ed1_ids": []
+    },
+    {
+      "study": 80,
+      "images": 3,
+      "planes": 172,
+      "channels": {
+        "PC": 43,
+        "Actin": 43,
+        "Nucleus": 43,
+        "Tubulin": 43
+      },
+      "image_ids": [
+        2689,
+        2690,
+        2691
+      ],
+      "overlap_ed1_ids": []
+    },
+    {
+      "study": 81,
+      "images": 5,
+      "planes": 210,
+      "channels": {
+        "Nucleus": 70,
+        "PC": 70,
+        "Actin": 70
+      },
+      "image_ids": [
+        2692,
+        2693,
+        2694,
+        2695,
+        2696
+      ],
+      "overlap_ed1_ids": []
+    },
+    {
+      "study": 83,
+      "images": 3,
+      "planes": 192,
+      "channels": {
+        "Nucleus": 48,
+        "DIC": 48,
+        "Tubulin": 48,
+        "Actin": 48
+      },
+      "image_ids": [
+        2707,
+        2708,
+        2709
+      ],
+      "overlap_ed1_ids": []
+    },
+    {
+      "study": 85,
+      "images": 13,
+      "planes": 777,
+      "channels": {
+        "DIC": 259,
+        "Nucleus": 259,
+        "Mitochondria": 259
+      },
+      "image_ids": [
+        2720,
+        2721,
+        2722,
+        2723,
+        2724,
+        2725,
+        2726,
+        2727,
+        2728,
+        2729,
+        2730,
+        2731,
+        2732
+      ],
+      "overlap_ed1_ids": []
+    },
+    {
+      "study": 87,
+      "images": 11,
+      "planes": 858,
+      "channels": {
+        "DIC": 286,
+        "Nucleus": 286,
+        "Tubulin": 286
+      },
+      "image_ids": [
+        2738,
+        2739,
+        2740,
+        2741,
+        2742,
+        2743,
+        2744,
+        2745,
+        2746,
+        2747,
+        2748
+      ],
+      "overlap_ed1_ids": []
+    }
+  ]
+}

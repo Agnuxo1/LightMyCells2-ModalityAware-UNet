@@ -1,0 +1,117 @@
+{
+  "created_utc": "2026-10-27T06:26:29.428987+00:00",
+  "studies": [
+    77,
+    78,
+    82,
+    84,
+    86
+  ],
+  "n_fov": 33,
+  "seed": 20261027,
+  "purpose": "untuned new-FOV ed2 best-focus and real MIP evaluation; exploratory site transfer only",
+  "selection_rule": "pre-outcome, no ed1 image-id overlap, all 3 TL modalities and 4 organelles, bounded download",
+  "limitations": "Study/specimen/site metadata incomplete; identifier-disjoint does not prove biological independence",
+  "records": [
+    {
+      "study": 77,
+      "images": 4,
+      "planes": 208,
+      "channels": {
+        "Actin": 52,
+        "PC": 52,
+        "Nucleus": 52,
+        "Mitochondria": 52
+      },
+      "image_ids": [
+        2678,
+        2679,
+        2680,
+        2681
+      ],
+      "overlap_ed1_ids": []
+    },
+    {
+      "study": 78,
+      "images": 4,
+      "planes": 180,
+      "channels": {
+        "Mitochondria": 60,
+        "PC": 60,
+        "Tubulin": 60
+      },
+      "image_ids": [
+        2682,
+        2683,
+        2684,
+        2685
+      ],
+      "overlap_ed1_ids": []
+    },
+    {
+      "study": 82,
+      "images": 10,
+      "planes": 700,
+      "channels": {
+        "Actin": 175,
+        "Nucleus": 175,
+        "Tubulin": 175,
+        "BF": 175
+      },
+      "image_ids": [
+        2697,
+        2698,
+        2699,
+        2700,
+        2701,
+        2702,
+        2703,
+        2704,
+        2705,
+        2706
+      ],
+      "overlap_ed1_ids": []
+    },
+    {
+      "study": 84,
+      "images": 10,
+      "planes": 120,
+      "channels": {
+        "DIC": 40,
+        "Nucleus": 40,
+        "Mitochondria": 40
+      },
+      "image_ids": [
+        2710,
+        2711,
+        2712,
+        2713,
+        2714,
+        2715,
+        2716,
+        2717,
+        2718,
+        2719
+      ],
+      "overlap_ed1_ids": []
+    },
+    {
+      "study": 86,
+      "images": 5,
+      "planes": 60,
+      "channels": {
+        "Nucleus": 20,
+        "Tubulin": 20,
+        "DIC": 20
+      },
+      "image_ids": [
+        2733,
+        2734,
+        2735,
+        2736,
+        2737
+      ],
+      "overlap_ed1_ids": []
+    }
+  ]
+}

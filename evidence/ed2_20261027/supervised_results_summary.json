@@ -1,0 +1,3980 @@
+{
+  "n_fov": 46,
+  "modality_cases": 54,
+  "n_studies": 7,
+  "rows": 650,
+  "primary_candidate": "supervised_a",
+  "summary": [
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Actin",
+      "modality": "BF",
+      "metric": "pcc",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.6558078591592624,
+      "equal_study": 0.6558078591592624,
+      "ci95_study": [
+        0.6558078591592624,
+        0.6558078591592624
+      ],
+      "ci95_fov_cluster": [
+        0.6558078591592624,
+        0.6558078591592624
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Actin",
+      "modality": "BF",
+      "metric": "ssim",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.642061968077412,
+      "equal_study": 0.642061968077412,
+      "ci95_study": [
+        0.642061968077412,
+        0.642061968077412
+      ],
+      "ci95_fov_cluster": [
+        0.642061968077412,
+        0.642061968077412
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Actin",
+      "modality": "DIC",
+      "metric": "pcc",
+      "n_fov": 3,
+      "n_fov_modality": 3,
+      "n_studies": 1,
+      "equal_fov": 0.4656138646069384,
+      "equal_study": 0.4656138646069384,
+      "ci95_study": [
+        0.4656138646069384,
+        0.4656138646069384
+      ],
+      "ci95_fov_cluster": [
+        0.4656138646069384,
+        0.4656138646069384
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Actin",
+      "modality": "DIC",
+      "metric": "ssim",
+      "n_fov": 3,
+      "n_fov_modality": 3,
+      "n_studies": 1,
+      "equal_fov": 0.5507571084828338,
+      "equal_study": 0.5507571084828338,
+      "ci95_study": [
+        0.5507571084828338,
+        0.5507571084828338
+      ],
+      "ci95_fov_cluster": [
+        0.5507571084828338,
+        0.5507571084828338
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Actin",
+      "modality": "PC",
+      "metric": "pcc",
+      "n_fov": 19,
+      "n_fov_modality": 19,
+      "n_studies": 4,
+      "equal_fov": 0.5050649815498541,
+      "equal_study": 0.45195136188907714,
+      "ci95_study": [
+        0.3570876519133733,
+        0.5912857644293026
+      ],
+      "ci95_fov_cluster": [
+        0.35708765191337327,
+        0.6254901833644287
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Actin",
+      "modality": "PC",
+      "metric": "ssim",
+      "n_fov": 19,
+      "n_fov_modality": 19,
+      "n_studies": 4,
+      "equal_fov": 0.6404216720579528,
+      "equal_study": 0.6352429446646894,
+      "ci95_study": [
+        0.626061269795678,
+        0.6504227966900417
+      ],
+      "ci95_fov_cluster": [
+        0.6262542937401716,
+        0.6546196330201934
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Actin",
+      "modality": "all",
+      "metric": "pcc",
+      "n_fov": 22,
+      "n_fov_modality": 30,
+      "n_studies": 5,
+      "equal_fov": 0.4985862267036146,
+      "equal_study": 0.4540793810379363,
+      "ci95_study": [
+        0.37202561565533243,
+        0.5575706614839367
+      ],
+      "ci95_fov_cluster": [
+        0.3787928944520863,
+        0.6052392291913915
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Actin",
+      "modality": "all",
+      "metric": "ssim",
+      "n_fov": 22,
+      "n_fov_modality": 30,
+      "n_studies": 5,
+      "equal_fov": 0.6252448729671469,
+      "equal_study": 0.6167233801965091,
+      "ci95_study": [
+        0.5819335979388104,
+        0.6412748670797951
+      ],
+      "ci95_fov_cluster": [
+        0.5872159235429094,
+        0.6446884882987174
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Mitochondria",
+      "modality": "BF",
+      "metric": "pcc",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.8807518638032437,
+      "equal_study": 0.8807518638032437,
+      "ci95_study": [
+        0.8807518638032437,
+        0.8807518638032437
+      ],
+      "ci95_fov_cluster": [
+        0.8807518638032437,
+        0.8807518638032437
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Mitochondria",
+      "modality": "BF",
+      "metric": "ssim",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.7854619479601231,
+      "equal_study": 0.7854619479601231,
+      "ci95_study": [
+        0.7854619479601231,
+        0.7854619479601231
+      ],
+      "ci95_fov_cluster": [
+        0.7854619479601231,
+        0.7854619479601231
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Mitochondria",
+      "modality": "DIC",
+      "metric": "pcc",
+      "n_fov": 13,
+      "n_fov_modality": 13,
+      "n_studies": 1,
+      "equal_fov": 0.6895018874518725,
+      "equal_study": 0.6895018874518725,
+      "ci95_study": [
+        0.6895018874518725,
+        0.6895018874518725
+      ],
+      "ci95_fov_cluster": [
+        0.6895018874518725,
+        0.6895018874518725
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Mitochondria",
+      "modality": "DIC",
+      "metric": "ssim",
+      "n_fov": 13,
+      "n_fov_modality": 13,
+      "n_studies": 1,
+      "equal_fov": 0.659125671011188,
+      "equal_study": 0.659125671011188,
+      "ci95_study": [
+        0.659125671011188,
+        0.659125671011188
+      ],
+      "ci95_fov_cluster": [
+        0.659125671011188,
+        0.659125671011188
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Mitochondria",
+      "modality": "PC",
+      "metric": "pcc",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.8918787858169465,
+      "equal_study": 0.8918787858169465,
+      "ci95_study": [
+        0.8918787858169465,
+        0.8918787858169465
+      ],
+      "ci95_fov_cluster": [
+        0.8918787858169465,
+        0.8918787858169465
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Mitochondria",
+      "modality": "PC",
+      "metric": "ssim",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.7907546687342191,
+      "equal_study": 0.7907546687342191,
+      "ci95_study": [
+        0.7907546687342191,
+        0.7907546687342191
+      ],
+      "ci95_fov_cluster": [
+        0.7907546687342191,
+        0.7907546687342191
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Mitochondria",
+      "modality": "all",
+      "metric": "pcc",
+      "n_fov": 21,
+      "n_fov_modality": 29,
+      "n_studies": 2,
+      "equal_fov": 0.7644784350169096,
+      "equal_study": 0.7879086061309838,
+      "ci95_study": [
+        0.6895018874518725,
+        0.8863153248100951
+      ],
+      "ci95_fov_cluster": [
+        0.6895018874518725,
+        0.8863153248100951
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Mitochondria",
+      "modality": "all",
+      "metric": "ssim",
+      "n_fov": 21,
+      "n_fov_modality": 29,
+      "n_studies": 2,
+      "equal_fov": 0.7082619138058482,
+      "equal_study": 0.7236169896791795,
+      "ci95_study": [
+        0.659125671011188,
+        0.7881083083471712
+      ],
+      "ci95_fov_cluster": [
+        0.659125671011188,
+        0.7881083083471712
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Nucleus",
+      "modality": "BF",
+      "metric": "pcc",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.898706800579496,
+      "equal_study": 0.898706800579496,
+      "ci95_study": [
+        0.898706800579496,
+        0.898706800579496
+      ],
+      "ci95_fov_cluster": [
+        0.898706800579496,
+        0.898706800579496
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Nucleus",
+      "modality": "BF",
+      "metric": "ssim",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.7631432614582996,
+      "equal_study": 0.7631432614582996,
+      "ci95_study": [
+        0.7631432614582996,
+        0.7631432614582996
+      ],
+      "ci95_fov_cluster": [
+        0.7631432614582996,
+        0.7631432614582996
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Nucleus",
+      "modality": "DIC",
+      "metric": "pcc",
+      "n_fov": 27,
+      "n_fov_modality": 27,
+      "n_studies": 3,
+      "equal_fov": 0.6488766543234442,
+      "equal_study": 0.6729080655925372,
+      "ci95_study": [
+        0.577002747403236,
+        0.7569739396569487
+      ],
+      "ci95_fov_cluster": [
+        0.577002747403236,
+        0.7569739396569487
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Nucleus",
+      "modality": "DIC",
+      "metric": "ssim",
+      "n_fov": 27,
+      "n_fov_modality": 27,
+      "n_studies": 3,
+      "equal_fov": 0.5885074784255399,
+      "equal_study": 0.6155720188433246,
+      "ci95_study": [
+        0.43383540733779885,
+        0.7513999593152083
+      ],
+      "ci95_fov_cluster": [
+        0.4338354073377988,
+        0.7513999593152083
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Nucleus",
+      "modality": "PC",
+      "metric": "pcc",
+      "n_fov": 19,
+      "n_fov_modality": 19,
+      "n_studies": 4,
+      "equal_fov": 0.8353825300134174,
+      "equal_study": 0.8141844587444131,
+      "ci95_study": [
+        0.7758508797203572,
+        0.8797467055825829
+      ],
+      "ci95_fov_cluster": [
+        0.7741313309539376,
+        0.8977396578677899
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Nucleus",
+      "modality": "PC",
+      "metric": "ssim",
+      "n_fov": 19,
+      "n_fov_modality": 19,
+      "n_studies": 4,
+      "equal_fov": 0.6830323375265926,
+      "equal_study": 0.6592910279687045,
+      "ci95_study": [
+        0.5396866047607127,
+        0.7719962089708942
+      ],
+      "ci95_fov_cluster": [
+        0.5217683787569438,
+        0.7980270066406189
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Nucleus",
+      "modality": "all",
+      "metric": "pcc",
+      "n_fov": 46,
+      "n_fov_modality": 54,
+      "n_studies": 7,
+      "equal_fov": 0.7247441056635237,
+      "equal_study": 0.7526783460281479,
+      "ci95_study": [
+        0.6831656579741932,
+        0.8184885240747868
+      ],
+      "ci95_fov_cluster": [
+        0.639874325761777,
+        0.8364887155942001
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Nucleus",
+      "modality": "all",
+      "metric": "ssim",
+      "n_fov": 46,
+      "n_fov_modality": 54,
+      "n_studies": 7,
+      "equal_fov": 0.6227061477657052,
+      "equal_study": 0.6365751395351059,
+      "ci95_study": [
+        0.5378974417525126,
+        0.7255040728866599
+      ],
+      "ci95_fov_cluster": [
+        0.4925009438057037,
+        0.7476710115326999
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Tubulin",
+      "modality": "DIC",
+      "metric": "pcc",
+      "n_fov": 14,
+      "n_fov_modality": 14,
+      "n_studies": 2,
+      "equal_fov": 0.6955646003507712,
+      "equal_study": 0.6930537897238818,
+      "ci95_study": [
+        0.6886598711268253,
+        0.6974477083209382
+      ],
+      "ci95_fov_cluster": [
+        0.6886598711268253,
+        0.6974477083209382
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Tubulin",
+      "modality": "DIC",
+      "metric": "ssim",
+      "n_fov": 14,
+      "n_fov_modality": 14,
+      "n_studies": 2,
+      "equal_fov": 0.6327141237005974,
+      "equal_study": 0.5769360014607912,
+      "ci95_study": [
+        0.47932428754112993,
+        0.6745477153804523
+      ],
+      "ci95_fov_cluster": [
+        0.47932428754112993,
+        0.6745477153804523
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Tubulin",
+      "modality": "PC",
+      "metric": "pcc",
+      "n_fov": 3,
+      "n_fov_modality": 3,
+      "n_studies": 1,
+      "equal_fov": 0.7529146744551207,
+      "equal_study": 0.7529146744551207,
+      "ci95_study": [
+        0.7529146744551207,
+        0.7529146744551207
+      ],
+      "ci95_fov_cluster": [
+        0.7529146744551207,
+        0.7529146744551207
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Tubulin",
+      "modality": "PC",
+      "metric": "ssim",
+      "n_fov": 3,
+      "n_fov_modality": 3,
+      "n_studies": 1,
+      "equal_fov": 0.8033389229456086,
+      "equal_study": 0.8033389229456086,
+      "ci95_study": [
+        0.8033389229456086,
+        0.8033389229456086
+      ],
+      "ci95_fov_cluster": [
+        0.8033389229456086,
+        0.8033389229456086
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Tubulin",
+      "modality": "all",
+      "metric": "pcc",
+      "n_fov": 17,
+      "n_fov_modality": 17,
+      "n_studies": 3,
+      "equal_fov": 0.7056852016633034,
+      "equal_study": 0.7130074179676281,
+      "ci95_study": [
+        0.6886598711268253,
+        0.7529146744551207
+      ],
+      "ci95_fov_cluster": [
+        0.6886598711268253,
+        0.7529146744551207
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "ed1_ensemble",
+      "organelle": "Tubulin",
+      "modality": "all",
+      "metric": "ssim",
+      "n_fov": 17,
+      "n_fov_modality": 17,
+      "n_studies": 3,
+      "equal_fov": 0.6628243823908936,
+      "equal_study": 0.6524036419557303,
+      "ci95_study": [
+        0.47932428754112993,
+        0.8033389229456086
+      ],
+      "ci95_fov_cluster": [
+        0.47932428754112993,
+        0.8033389229456086
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Actin",
+      "modality": "BF",
+      "metric": "pcc",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.6621314776560714,
+      "equal_study": 0.6621314776560714,
+      "ci95_study": [
+        0.6621314776560714,
+        0.6621314776560714
+      ],
+      "ci95_fov_cluster": [
+        0.6621314776560714,
+        0.6621314776560714
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Actin",
+      "modality": "BF",
+      "metric": "ssim",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.6511898366066066,
+      "equal_study": 0.6511898366066066,
+      "ci95_study": [
+        0.6511898366066066,
+        0.6511898366066066
+      ],
+      "ci95_fov_cluster": [
+        0.6511898366066066,
+        0.6511898366066066
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Actin",
+      "modality": "DIC",
+      "metric": "pcc",
+      "n_fov": 3,
+      "n_fov_modality": 3,
+      "n_studies": 1,
+      "equal_fov": 0.5668003335831463,
+      "equal_study": 0.5668003335831463,
+      "ci95_study": [
+        0.5668003335831463,
+        0.5668003335831463
+      ],
+      "ci95_fov_cluster": [
+        0.5668003335831463,
+        0.5668003335831463
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Actin",
+      "modality": "DIC",
+      "metric": "ssim",
+      "n_fov": 3,
+      "n_fov_modality": 3,
+      "n_studies": 1,
+      "equal_fov": 0.5419338648530486,
+      "equal_study": 0.5419338648530486,
+      "ci95_study": [
+        0.5419338648530486,
+        0.5419338648530486
+      ],
+      "ci95_fov_cluster": [
+        0.5419338648530486,
+        0.5419338648530486
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Actin",
+      "modality": "PC",
+      "metric": "pcc",
+      "n_fov": 19,
+      "n_fov_modality": 19,
+      "n_studies": 4,
+      "equal_fov": 0.47206501448036137,
+      "equal_study": 0.39898617028818095,
+      "ci95_study": [
+        0.24705816126739666,
+        0.5580637448155258
+      ],
+      "ci95_fov_cluster": [
+        0.24705816126739663,
+        0.6142773151833509
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Actin",
+      "modality": "PC",
+      "metric": "ssim",
+      "n_fov": 19,
+      "n_fov_modality": 19,
+      "n_studies": 4,
+      "equal_fov": 0.5723677604093359,
+      "equal_study": 0.5591605129930479,
+      "ci95_study": [
+        0.5199588213396026,
+        0.5983622046464934
+      ],
+      "ci95_fov_cluster": [
+        0.5199588213396026,
+        0.5965565015184436
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Actin",
+      "modality": "all",
+      "metric": "pcc",
+      "n_fov": 22,
+      "n_fov_modality": 30,
+      "n_studies": 5,
+      "equal_fov": 0.4855077045722794,
+      "equal_study": 0.4328373335650201,
+      "ci95_study": [
+        0.28616256644198124,
+        0.5794554063210453
+      ],
+      "ci95_fov_cluster": [
+        0.30456463946531515,
+        0.6106829394947145
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Actin",
+      "modality": "all",
+      "metric": "ssim",
+      "n_fov": 22,
+      "n_fov_modality": 30,
+      "n_studies": 5,
+      "equal_fov": 0.5792453829271141,
+      "equal_study": 0.5617804179165475,
+      "ci95_study": [
+        0.5242003752221434,
+        0.5993567178104604
+      ],
+      "ci95_fov_cluster": [
+        0.5242041180226349,
+        0.61026693989586
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Mitochondria",
+      "modality": "BF",
+      "metric": "pcc",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.841693277835411,
+      "equal_study": 0.841693277835411,
+      "ci95_study": [
+        0.841693277835411,
+        0.841693277835411
+      ],
+      "ci95_fov_cluster": [
+        0.841693277835411,
+        0.841693277835411
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Mitochondria",
+      "modality": "BF",
+      "metric": "ssim",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.6234812598497139,
+      "equal_study": 0.6234812598497139,
+      "ci95_study": [
+        0.6234812598497139,
+        0.6234812598497139
+      ],
+      "ci95_fov_cluster": [
+        0.6234812598497139,
+        0.6234812598497139
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Mitochondria",
+      "modality": "DIC",
+      "metric": "pcc",
+      "n_fov": 13,
+      "n_fov_modality": 13,
+      "n_studies": 1,
+      "equal_fov": 0.6209421360758876,
+      "equal_study": 0.6209421360758876,
+      "ci95_study": [
+        0.6209421360758876,
+        0.6209421360758876
+      ],
+      "ci95_fov_cluster": [
+        0.6209421360758876,
+        0.6209421360758876
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Mitochondria",
+      "modality": "DIC",
+      "metric": "ssim",
+      "n_fov": 13,
+      "n_fov_modality": 13,
+      "n_studies": 1,
+      "equal_fov": 0.5349942892416055,
+      "equal_study": 0.5349942892416055,
+      "ci95_study": [
+        0.5349942892416055,
+        0.5349942892416055
+      ],
+      "ci95_fov_cluster": [
+        0.5349942892416055,
+        0.5349942892416055
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Mitochondria",
+      "modality": "PC",
+      "metric": "pcc",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.8340732966288682,
+      "equal_study": 0.8340732966288682,
+      "ci95_study": [
+        0.8340732966288682,
+        0.8340732966288682
+      ],
+      "ci95_fov_cluster": [
+        0.8340732966288682,
+        0.8340732966288682
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Mitochondria",
+      "modality": "PC",
+      "metric": "ssim",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.5795664808160207,
+      "equal_study": 0.5795664808160207,
+      "ci95_study": [
+        0.5795664808160207,
+        0.5795664808160207
+      ],
+      "ci95_fov_cluster": [
+        0.5795664808160207,
+        0.5795664808160207
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Mitochondria",
+      "modality": "all",
+      "metric": "pcc",
+      "n_fov": 21,
+      "n_fov_modality": 29,
+      "n_studies": 2,
+      "equal_fov": 0.7035863841354122,
+      "equal_study": 0.7294127116540137,
+      "ci95_study": [
+        0.6209421360758876,
+        0.8378832872321397
+      ],
+      "ci95_fov_cluster": [
+        0.6209421360758876,
+        0.8378832872321397
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Mitochondria",
+      "modality": "all",
+      "metric": "ssim",
+      "n_fov": 21,
+      "n_fov_modality": 29,
+      "n_studies": 2,
+      "equal_fov": 0.5603388915620863,
+      "equal_study": 0.5682590797872364,
+      "ci95_study": [
+        0.5349942892416055,
+        0.6015238703328674
+      ],
+      "ci95_fov_cluster": [
+        0.5349942892416055,
+        0.6015238703328674
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Nucleus",
+      "modality": "BF",
+      "metric": "pcc",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.8132721018522067,
+      "equal_study": 0.8132721018522067,
+      "ci95_study": [
+        0.8132721018522067,
+        0.8132721018522067
+      ],
+      "ci95_fov_cluster": [
+        0.8132721018522067,
+        0.8132721018522067
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Nucleus",
+      "modality": "BF",
+      "metric": "ssim",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.765744262006871,
+      "equal_study": 0.765744262006871,
+      "ci95_study": [
+        0.765744262006871,
+        0.765744262006871
+      ],
+      "ci95_fov_cluster": [
+        0.765744262006871,
+        0.765744262006871
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Nucleus",
+      "modality": "DIC",
+      "metric": "pcc",
+      "n_fov": 27,
+      "n_fov_modality": 27,
+      "n_studies": 3,
+      "equal_fov": 0.5276570671491884,
+      "equal_study": 0.5625868705280384,
+      "ci95_study": [
+        0.32977872970569094,
+        0.703458967815403
+      ],
+      "ci95_fov_cluster": [
+        0.32977872970569094,
+        0.703458967815403
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Nucleus",
+      "modality": "DIC",
+      "metric": "ssim",
+      "n_fov": 27,
+      "n_fov_modality": 27,
+      "n_studies": 3,
+      "equal_fov": 0.621278924462669,
+      "equal_study": 0.6559144351139298,
+      "ci95_study": [
+        0.501176680241453,
+        0.7341248448438158
+      ],
+      "ci95_fov_cluster": [
+        0.501176680241453,
+        0.7341248448438158
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Nucleus",
+      "modality": "PC",
+      "metric": "pcc",
+      "n_fov": 19,
+      "n_fov_modality": 19,
+      "n_studies": 4,
+      "equal_fov": 0.8227525540741341,
+      "equal_study": 0.8051040839976147,
+      "ci95_study": [
+        0.7661260446176259,
+        0.8440821233776037
+      ],
+      "ci95_fov_cluster": [
+        0.7661260446176259,
+        0.8548569249250128
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Nucleus",
+      "modality": "PC",
+      "metric": "ssim",
+      "n_fov": 19,
+      "n_fov_modality": 19,
+      "n_studies": 4,
+      "equal_fov": 0.6900907959356863,
+      "equal_study": 0.6948843601016003,
+      "ci95_study": [
+        0.6729935323892439,
+        0.7167751878139567
+      ],
+      "ci95_fov_cluster": [
+        0.6723444951455818,
+        0.71449195952208
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Nucleus",
+      "modality": "all",
+      "metric": "pcc",
+      "n_fov": 46,
+      "n_fov_modality": 54,
+      "n_studies": 7,
+      "equal_fov": 0.6450543415929664,
+      "equal_study": 0.6974799277399358,
+      "ci95_study": [
+        0.568150744814971,
+        0.7966077552478217
+      ],
+      "ci95_fov_cluster": [
+        0.4860259632366436,
+        0.810432526749634
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Nucleus",
+      "modality": "all",
+      "metric": "ssim",
+      "n_fov": 46,
+      "n_fov_modality": 54,
+      "n_studies": 7,
+      "equal_fov": 0.6578906636844529,
+      "equal_study": 0.6849100073607188,
+      "ci95_study": [
+        0.6197616363078959,
+        0.7258401964326296
+      ],
+      "ci95_fov_cluster": [
+        0.5699824194826983,
+        0.7269022362684388
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Tubulin",
+      "modality": "DIC",
+      "metric": "pcc",
+      "n_fov": 14,
+      "n_fov_modality": 14,
+      "n_studies": 2,
+      "equal_fov": 0.5005291691013525,
+      "equal_study": 0.6015265225883427,
+      "ci95_study": [
+        0.4247811539861097,
+        0.7782718911905757
+      ],
+      "ci95_fov_cluster": [
+        0.4247811539861097,
+        0.7782718911905757
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Tubulin",
+      "modality": "DIC",
+      "metric": "ssim",
+      "n_fov": 14,
+      "n_fov_modality": 14,
+      "n_studies": 2,
+      "equal_fov": 0.5757412939319538,
+      "equal_study": 0.5616231538104097,
+      "ci95_study": [
+        0.5369164085977077,
+        0.5863298990231118
+      ],
+      "ci95_fov_cluster": [
+        0.5369164085977077,
+        0.5863298990231118
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Tubulin",
+      "modality": "PC",
+      "metric": "pcc",
+      "n_fov": 3,
+      "n_fov_modality": 3,
+      "n_studies": 1,
+      "equal_fov": 0.690021434367464,
+      "equal_study": 0.690021434367464,
+      "ci95_study": [
+        0.690021434367464,
+        0.690021434367464
+      ],
+      "ci95_fov_cluster": [
+        0.690021434367464,
+        0.690021434367464
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Tubulin",
+      "modality": "PC",
+      "metric": "ssim",
+      "n_fov": 3,
+      "n_fov_modality": 3,
+      "n_studies": 1,
+      "equal_fov": 0.6997864887723758,
+      "equal_study": 0.6997864887723758,
+      "ci95_study": [
+        0.6997864887723758,
+        0.6997864887723758
+      ],
+      "ci95_fov_cluster": [
+        0.6997864887723758,
+        0.6997864887723758
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Tubulin",
+      "modality": "all",
+      "metric": "pcc",
+      "n_fov": 17,
+      "n_fov_modality": 17,
+      "n_studies": 3,
+      "equal_fov": 0.5339689806189015,
+      "equal_study": 0.6310248265147165,
+      "ci95_study": [
+        0.4247811539861097,
+        0.7782718911905757
+      ],
+      "ci95_fov_cluster": [
+        0.4247811539861097,
+        0.7782718911905757
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_a",
+      "organelle": "Tubulin",
+      "modality": "all",
+      "metric": "ssim",
+      "n_fov": 17,
+      "n_fov_modality": 17,
+      "n_studies": 3,
+      "equal_fov": 0.5976316224332047,
+      "equal_study": 0.6076775987977318,
+      "ci95_study": [
+        0.5369164085977077,
+        0.6997864887723758
+      ],
+      "ci95_fov_cluster": [
+        0.5369164085977077,
+        0.6997864887723758
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Actin",
+      "modality": "BF",
+      "metric": "pcc",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.6704209793157958,
+      "equal_study": 0.6704209793157958,
+      "ci95_study": [
+        0.6704209793157958,
+        0.6704209793157958
+      ],
+      "ci95_fov_cluster": [
+        0.6704209793157958,
+        0.6704209793157958
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Actin",
+      "modality": "BF",
+      "metric": "ssim",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.6575642912644779,
+      "equal_study": 0.6575642912644779,
+      "ci95_study": [
+        0.6575642912644779,
+        0.6575642912644779
+      ],
+      "ci95_fov_cluster": [
+        0.6575642912644779,
+        0.6575642912644779
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Actin",
+      "modality": "DIC",
+      "metric": "pcc",
+      "n_fov": 3,
+      "n_fov_modality": 3,
+      "n_studies": 1,
+      "equal_fov": 0.537796272949086,
+      "equal_study": 0.537796272949086,
+      "ci95_study": [
+        0.537796272949086,
+        0.537796272949086
+      ],
+      "ci95_fov_cluster": [
+        0.537796272949086,
+        0.537796272949086
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Actin",
+      "modality": "DIC",
+      "metric": "ssim",
+      "n_fov": 3,
+      "n_fov_modality": 3,
+      "n_studies": 1,
+      "equal_fov": 0.6009875516818312,
+      "equal_study": 0.6009875516818312,
+      "ci95_study": [
+        0.6009875516818312,
+        0.6009875516818312
+      ],
+      "ci95_fov_cluster": [
+        0.6009875516818312,
+        0.6009875516818312
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Actin",
+      "modality": "PC",
+      "metric": "pcc",
+      "n_fov": 19,
+      "n_fov_modality": 19,
+      "n_studies": 4,
+      "equal_fov": 0.45521760605997375,
+      "equal_study": 0.38198045552706933,
+      "ci95_study": [
+        0.2255787696975478,
+        0.5383821413565909
+      ],
+      "ci95_fov_cluster": [
+        0.22557876969754775,
+        0.593082967059877
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Actin",
+      "modality": "PC",
+      "metric": "ssim",
+      "n_fov": 19,
+      "n_fov_modality": 19,
+      "n_studies": 4,
+      "equal_fov": 0.5614565486695962,
+      "equal_study": 0.5508894309815484,
+      "ci95_study": [
+        0.49207419901353794,
+        0.6224311882307879
+      ],
+      "ci95_fov_cluster": [
+        0.49977292560008185,
+        0.6241071211290163
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Actin",
+      "modality": "all",
+      "metric": "pcc",
+      "n_fov": 22,
+      "n_fov_modality": 30,
+      "n_studies": 5,
+      "equal_fov": 0.4725039366696456,
+      "equal_study": 0.41645770083010875,
+      "ci95_study": [
+        0.2683598400747875,
+        0.56455556158543
+      ],
+      "ci95_fov_cluster": [
+        0.28245161242551003,
+        0.6008106249233423
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Actin",
+      "modality": "all",
+      "metric": "ssim",
+      "n_fov": 22,
+      "n_fov_modality": 30,
+      "n_studies": 5,
+      "equal_fov": 0.5864662530986433,
+      "equal_study": 0.5716995673316634,
+      "ci95_study": [
+        0.5097831998682376,
+        0.622858448140424
+      ],
+      "ci95_fov_cluster": [
+        0.5200158508164318,
+        0.6240977578094098
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Mitochondria",
+      "modality": "BF",
+      "metric": "pcc",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.7702834759679829,
+      "equal_study": 0.7702834759679829,
+      "ci95_study": [
+        0.7702834759679829,
+        0.7702834759679829
+      ],
+      "ci95_fov_cluster": [
+        0.7702834759679829,
+        0.7702834759679829
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Mitochondria",
+      "modality": "BF",
+      "metric": "ssim",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.6544216648865381,
+      "equal_study": 0.6544216648865381,
+      "ci95_study": [
+        0.6544216648865381,
+        0.6544216648865381
+      ],
+      "ci95_fov_cluster": [
+        0.6544216648865381,
+        0.6544216648865381
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Mitochondria",
+      "modality": "DIC",
+      "metric": "pcc",
+      "n_fov": 13,
+      "n_fov_modality": 13,
+      "n_studies": 1,
+      "equal_fov": 0.5690791447944343,
+      "equal_study": 0.5690791447944343,
+      "ci95_study": [
+        0.5690791447944343,
+        0.5690791447944343
+      ],
+      "ci95_fov_cluster": [
+        0.5690791447944343,
+        0.5690791447944343
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Mitochondria",
+      "modality": "DIC",
+      "metric": "ssim",
+      "n_fov": 13,
+      "n_fov_modality": 13,
+      "n_studies": 1,
+      "equal_fov": 0.6115561995252257,
+      "equal_study": 0.6115561995252257,
+      "ci95_study": [
+        0.6115561995252257,
+        0.6115561995252257
+      ],
+      "ci95_fov_cluster": [
+        0.6115561995252257,
+        0.6115561995252257
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Mitochondria",
+      "modality": "PC",
+      "metric": "pcc",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.8269485593028034,
+      "equal_study": 0.8269485593028034,
+      "ci95_study": [
+        0.8269485593028034,
+        0.8269485593028034
+      ],
+      "ci95_fov_cluster": [
+        0.8269485593028034,
+        0.8269485593028034
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Mitochondria",
+      "modality": "PC",
+      "metric": "ssim",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.5397405393537731,
+      "equal_study": 0.5397405393537731,
+      "ci95_study": [
+        0.5397405393537731,
+        0.5397405393537731
+      ],
+      "ci95_fov_cluster": [
+        0.5397405393537731,
+        0.5397405393537731
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Mitochondria",
+      "modality": "all",
+      "metric": "pcc",
+      "n_fov": 21,
+      "n_fov_modality": 29,
+      "n_studies": 2,
+      "equal_fov": 0.6565217630195616,
+      "equal_study": 0.6838475812149137,
+      "ci95_study": [
+        0.5690791447944343,
+        0.7986160176353931
+      ],
+      "ci95_fov_cluster": [
+        0.5690791447944343,
+        0.7986160176353931
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Mitochondria",
+      "modality": "all",
+      "metric": "ssim",
+      "n_fov": 21,
+      "n_fov_modality": 29,
+      "n_studies": 2,
+      "equal_fov": 0.6060418767042466,
+      "equal_study": 0.6043186508226905,
+      "ci95_study": [
+        0.5970811021201555,
+        0.6115561995252257
+      ],
+      "ci95_fov_cluster": [
+        0.5970811021201555,
+        0.6115561995252257
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Nucleus",
+      "modality": "BF",
+      "metric": "pcc",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.8274723134091987,
+      "equal_study": 0.8274723134091987,
+      "ci95_study": [
+        0.8274723134091987,
+        0.8274723134091987
+      ],
+      "ci95_fov_cluster": [
+        0.8274723134091987,
+        0.8274723134091987
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Nucleus",
+      "modality": "BF",
+      "metric": "ssim",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.7100863960303452,
+      "equal_study": 0.7100863960303452,
+      "ci95_study": [
+        0.7100863960303452,
+        0.7100863960303452
+      ],
+      "ci95_fov_cluster": [
+        0.7100863960303452,
+        0.7100863960303452
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Nucleus",
+      "modality": "DIC",
+      "metric": "pcc",
+      "n_fov": 27,
+      "n_fov_modality": 27,
+      "n_studies": 3,
+      "equal_fov": 0.545985226489755,
+      "equal_study": 0.5883467534214607,
+      "ci95_study": [
+        0.36618690815955657,
+        0.7471548451894471
+      ],
+      "ci95_fov_cluster": [
+        0.36618690815955657,
+        0.7471548451894471
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Nucleus",
+      "modality": "DIC",
+      "metric": "ssim",
+      "n_fov": 27,
+      "n_fov_modality": 27,
+      "n_studies": 3,
+      "equal_fov": 0.624179070733243,
+      "equal_study": 0.6606357663082111,
+      "ci95_study": [
+        0.4850172621375008,
+        0.7571175489560819
+      ],
+      "ci95_fov_cluster": [
+        0.48501726213750074,
+        0.7571175489560819
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Nucleus",
+      "modality": "PC",
+      "metric": "pcc",
+      "n_fov": 19,
+      "n_fov_modality": 19,
+      "n_studies": 4,
+      "equal_fov": 0.8179693631214319,
+      "equal_study": 0.7904926932233081,
+      "ci95_study": [
+        0.7310838010866052,
+        0.8512692875929254
+      ],
+      "ci95_fov_cluster": [
+        0.7310838010866053,
+        0.8701750980389792
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Nucleus",
+      "modality": "PC",
+      "metric": "ssim",
+      "n_fov": 19,
+      "n_fov_modality": 19,
+      "n_studies": 4,
+      "equal_fov": 0.6947356724305979,
+      "equal_study": 0.696015046012926,
+      "ci95_study": [
+        0.672036654546917,
+        0.719993437478935
+      ],
+      "ci95_fov_cluster": [
+        0.6756686237403472,
+        0.7209528643796926
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Nucleus",
+      "modality": "all",
+      "metric": "pcc",
+      "n_fov": 46,
+      "n_fov_modality": 54,
+      "n_studies": 7,
+      "equal_fov": 0.653298027882263,
+      "equal_study": 0.6997281880949003,
+      "ci95_study": [
+        0.5760688976628477,
+        0.7922141076311046
+      ],
+      "ci95_fov_cluster": [
+        0.5090397980229108,
+        0.8096579856553282
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Nucleus",
+      "modality": "all",
+      "metric": "ssim",
+      "n_fov": 46,
+      "n_fov_modality": 54,
+      "n_studies": 7,
+      "equal_fov": 0.6559358765871837,
+      "equal_study": 0.6829995982293253,
+      "ci95_study": [
+        0.613586213453332,
+        0.7330335227482745
+      ],
+      "ci95_fov_cluster": [
+        0.5614389239995308,
+        0.7420309357866239
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Tubulin",
+      "modality": "DIC",
+      "metric": "pcc",
+      "n_fov": 14,
+      "n_fov_modality": 14,
+      "n_studies": 2,
+      "equal_fov": 0.4827320902729145,
+      "equal_study": 0.5847829083463927,
+      "ci95_study": [
+        0.406193976717806,
+        0.7633718399749793
+      ],
+      "ci95_fov_cluster": [
+        0.406193976717806,
+        0.7633718399749793
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Tubulin",
+      "modality": "DIC",
+      "metric": "ssim",
+      "n_fov": 14,
+      "n_fov_modality": 14,
+      "n_studies": 2,
+      "equal_fov": 0.5851135742304653,
+      "equal_study": 0.6026242930137427,
+      "ci95_study": [
+        0.5719805351430073,
+        0.633268050884478
+      ],
+      "ci95_fov_cluster": [
+        0.5719805351430073,
+        0.633268050884478
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Tubulin",
+      "modality": "PC",
+      "metric": "pcc",
+      "n_fov": 3,
+      "n_fov_modality": 3,
+      "n_studies": 1,
+      "equal_fov": 0.703518038727628,
+      "equal_study": 0.703518038727628,
+      "ci95_study": [
+        0.703518038727628,
+        0.703518038727628
+      ],
+      "ci95_fov_cluster": [
+        0.703518038727628,
+        0.703518038727628
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Tubulin",
+      "modality": "PC",
+      "metric": "ssim",
+      "n_fov": 3,
+      "n_fov_modality": 3,
+      "n_studies": 1,
+      "equal_fov": 0.7002953166174125,
+      "equal_study": 0.7002953166174125,
+      "ci95_study": [
+        0.7002953166174125,
+        0.7002953166174125
+      ],
+      "ci95_fov_cluster": [
+        0.7002953166174125,
+        0.7002953166174125
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Tubulin",
+      "modality": "all",
+      "metric": "pcc",
+      "n_fov": 17,
+      "n_fov_modality": 17,
+      "n_studies": 3,
+      "equal_fov": 0.5216943164708051,
+      "equal_study": 0.6243612851401378,
+      "ci95_study": [
+        0.406193976717806,
+        0.7633718399749793
+      ],
+      "ci95_fov_cluster": [
+        0.406193976717806,
+        0.7633718399749793
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "supervised_b",
+      "organelle": "Tubulin",
+      "modality": "all",
+      "metric": "ssim",
+      "n_fov": 17,
+      "n_fov_modality": 17,
+      "n_studies": 3,
+      "equal_fov": 0.605439764063456,
+      "equal_study": 0.6351813008816326,
+      "ci95_study": [
+        0.5719805351430073,
+        0.7002953166174125
+      ],
+      "ci95_fov_cluster": [
+        0.5719805351430072,
+        0.7002953166174125
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Actin",
+      "modality": "BF",
+      "metric": "pcc",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.25493661206563,
+      "equal_study": 0.25493661206563,
+      "ci95_study": [
+        0.25493661206563,
+        0.25493661206563
+      ],
+      "ci95_fov_cluster": [
+        0.25493661206563,
+        0.25493661206563
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Actin",
+      "modality": "BF",
+      "metric": "ssim",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.3278519697451534,
+      "equal_study": 0.3278519697451534,
+      "ci95_study": [
+        0.3278519697451534,
+        0.3278519697451534
+      ],
+      "ci95_fov_cluster": [
+        0.3278519697451534,
+        0.3278519697451534
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Actin",
+      "modality": "DIC",
+      "metric": "pcc",
+      "n_fov": 3,
+      "n_fov_modality": 3,
+      "n_studies": 1,
+      "equal_fov": -0.004206440578241895,
+      "equal_study": -0.004206440578241895,
+      "ci95_study": [
+        -0.004206440578241895,
+        -0.004206440578241895
+      ],
+      "ci95_fov_cluster": [
+        -0.004206440578241895,
+        -0.004206440578241895
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Actin",
+      "modality": "DIC",
+      "metric": "ssim",
+      "n_fov": 3,
+      "n_fov_modality": 3,
+      "n_studies": 1,
+      "equal_fov": 0.33301479146284335,
+      "equal_study": 0.33301479146284335,
+      "ci95_study": [
+        0.33301479146284335,
+        0.33301479146284335
+      ],
+      "ci95_fov_cluster": [
+        0.33301479146284335,
+        0.33301479146284335
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Actin",
+      "modality": "PC",
+      "metric": "pcc",
+      "n_fov": 19,
+      "n_fov_modality": 19,
+      "n_studies": 4,
+      "equal_fov": 0.1391123489382422,
+      "equal_study": 0.11789625510313087,
+      "ci95_study": [
+        0.07635519128455467,
+        0.16763595387502161
+      ],
+      "ci95_fov_cluster": [
+        0.07635519128455467,
+        0.18388084855597314
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Actin",
+      "modality": "PC",
+      "metric": "ssim",
+      "n_fov": 19,
+      "n_fov_modality": 19,
+      "n_studies": 4,
+      "equal_fov": 0.37944512966605587,
+      "equal_study": 0.40138948210544306,
+      "ci95_study": [
+        0.3371427767548896,
+        0.44724647299846443
+      ],
+      "ci95_fov_cluster": [
+        0.3215406367911634,
+        0.4459246961379843
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Actin",
+      "modality": "all",
+      "metric": "pcc",
+      "n_fov": 22,
+      "n_fov_modality": 30,
+      "n_studies": 5,
+      "equal_fov": 0.13012521359779355,
+      "equal_study": 0.09928170074334587,
+      "ci95_study": [
+        0.0378584148811675,
+        0.16608608942373118
+      ],
+      "ci95_fov_cluster": [
+        0.0434188722767703,
+        0.19534527211244618
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Actin",
+      "modality": "all",
+      "metric": "ssim",
+      "n_fov": 22,
+      "n_fov_modality": 30,
+      "n_studies": 5,
+      "equal_fov": 0.3773852533830324,
+      "equal_study": 0.3900638873865012,
+      "ci95_study": [
+        0.34098930701913677,
+        0.434438078583056
+      ],
+      "ci95_fov_cluster": [
+        0.33103568529038724,
+        0.4347401990083086
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Mitochondria",
+      "modality": "BF",
+      "metric": "pcc",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.41996422527894783,
+      "equal_study": 0.41996422527894783,
+      "ci95_study": [
+        0.41996422527894783,
+        0.41996422527894783
+      ],
+      "ci95_fov_cluster": [
+        0.41996422527894783,
+        0.41996422527894783
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Mitochondria",
+      "modality": "BF",
+      "metric": "ssim",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.3442025230758046,
+      "equal_study": 0.3442025230758046,
+      "ci95_study": [
+        0.3442025230758046,
+        0.3442025230758046
+      ],
+      "ci95_fov_cluster": [
+        0.3442025230758046,
+        0.3442025230758046
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Mitochondria",
+      "modality": "DIC",
+      "metric": "pcc",
+      "n_fov": 13,
+      "n_fov_modality": 13,
+      "n_studies": 1,
+      "equal_fov": 0.22982997599171864,
+      "equal_study": 0.22982997599171864,
+      "ci95_study": [
+        0.22982997599171864,
+        0.22982997599171864
+      ],
+      "ci95_fov_cluster": [
+        0.22982997599171864,
+        0.22982997599171864
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Mitochondria",
+      "modality": "DIC",
+      "metric": "ssim",
+      "n_fov": 13,
+      "n_fov_modality": 13,
+      "n_studies": 1,
+      "equal_fov": 0.33566754125846027,
+      "equal_study": 0.33566754125846027,
+      "ci95_study": [
+        0.33566754125846027,
+        0.33566754125846027
+      ],
+      "ci95_fov_cluster": [
+        0.33566754125846027,
+        0.33566754125846027
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Mitochondria",
+      "modality": "PC",
+      "metric": "pcc",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.2871709456232162,
+      "equal_study": 0.2871709456232162,
+      "ci95_study": [
+        0.2871709456232162,
+        0.2871709456232162
+      ],
+      "ci95_fov_cluster": [
+        0.2871709456232162,
+        0.2871709456232162
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Mitochondria",
+      "modality": "PC",
+      "metric": "ssim",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.2822066669997594,
+      "equal_study": 0.2822066669997594,
+      "ci95_study": [
+        0.2822066669997594,
+        0.2822066669997594
+      ],
+      "ci95_fov_cluster": [
+        0.2822066669997594,
+        0.2822066669997594
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Mitochondria",
+      "modality": "all",
+      "metric": "pcc",
+      "n_fov": 21,
+      "n_fov_modality": 29,
+      "n_studies": 2,
+      "equal_fov": 0.276968112928619,
+      "equal_study": 0.2916987807214003,
+      "ci95_study": [
+        0.22982997599171864,
+        0.353567585451082
+      ],
+      "ci95_fov_cluster": [
+        0.22982997599171864,
+        0.353567585451082
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Mitochondria",
+      "modality": "all",
+      "metric": "ssim",
+      "n_fov": 21,
+      "n_fov_modality": 29,
+      "n_studies": 2,
+      "equal_fov": 0.3271102284124876,
+      "equal_study": 0.32443606814812115,
+      "ci95_study": [
+        0.31320459503778203,
+        0.33566754125846027
+      ],
+      "ci95_fov_cluster": [
+        0.31320459503778203,
+        0.33566754125846027
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Nucleus",
+      "modality": "BF",
+      "metric": "pcc",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.2127394989465232,
+      "equal_study": 0.2127394989465232,
+      "ci95_study": [
+        0.2127394989465232,
+        0.2127394989465232
+      ],
+      "ci95_fov_cluster": [
+        0.2127394989465232,
+        0.2127394989465232
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Nucleus",
+      "modality": "BF",
+      "metric": "ssim",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.1337669973018111,
+      "equal_study": 0.1337669973018111,
+      "ci95_study": [
+        0.1337669973018111,
+        0.1337669973018111
+      ],
+      "ci95_fov_cluster": [
+        0.1337669973018111,
+        0.1337669973018111
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Nucleus",
+      "modality": "DIC",
+      "metric": "pcc",
+      "n_fov": 27,
+      "n_fov_modality": 27,
+      "n_studies": 3,
+      "equal_fov": 0.07041165354350462,
+      "equal_study": 0.04904095898564009,
+      "ci95_study": [
+        -0.021838619765911144,
+        0.11493447621222515
+      ],
+      "ci95_fov_cluster": [
+        -0.021838619765911144,
+        0.11493447621222516
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Nucleus",
+      "modality": "DIC",
+      "metric": "ssim",
+      "n_fov": 27,
+      "n_fov_modality": 27,
+      "n_studies": 3,
+      "equal_fov": 0.22216261775088847,
+      "equal_study": 0.20881636843957307,
+      "ci95_study": [
+        0.10287253871246514,
+        0.32960630536181096
+      ],
+      "ci95_fov_cluster": [
+        0.10287253871246514,
+        0.32960630536181096
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Nucleus",
+      "modality": "PC",
+      "metric": "pcc",
+      "n_fov": 19,
+      "n_fov_modality": 19,
+      "n_studies": 4,
+      "equal_fov": 0.1839042646098903,
+      "equal_study": 0.19508551097253446,
+      "ci95_study": [
+        0.16315290414535386,
+        0.22750877079992188
+      ],
+      "ci95_fov_cluster": [
+        0.159712866141898,
+        0.22384206718060812
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Nucleus",
+      "modality": "PC",
+      "metric": "ssim",
+      "n_fov": 19,
+      "n_fov_modality": 19,
+      "n_studies": 4,
+      "equal_fov": 0.2205569699558707,
+      "equal_study": 0.2537824090844639,
+      "ci95_study": [
+        0.15423569020034367,
+        0.3179126946023694
+      ],
+      "ci95_fov_cluster": [
+        0.12447991601536729,
+        0.3186616505531577
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Nucleus",
+      "modality": "all",
+      "metric": "pcc",
+      "n_fov": 46,
+      "n_fov_modality": 54,
+      "n_studies": 7,
+      "equal_fov": 0.12256478956668078,
+      "equal_study": 0.136828643099665,
+      "ci95_study": [
+        0.06748889841605353,
+        0.1954098071660782
+      ],
+      "ci95_fov_cluster": [
+        0.07582545953105059,
+        0.17998533593789334
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Nucleus",
+      "modality": "all",
+      "metric": "ssim",
+      "n_fov": 46,
+      "n_fov_modality": 54,
+      "n_studies": 7,
+      "equal_fov": 0.22437695458637463,
+      "equal_study": 0.23687494171054108,
+      "ci95_study": [
+        0.16755623595786076,
+        0.30145556202980683
+      ],
+      "ci95_fov_cluster": [
+        0.13832515853097832,
+        0.31425327491089955
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Tubulin",
+      "modality": "DIC",
+      "metric": "pcc",
+      "n_fov": 14,
+      "n_fov_modality": 14,
+      "n_studies": 2,
+      "equal_fov": 0.174353309468776,
+      "equal_study": 0.11628945446613466,
+      "ci95_study": [
+        0.014677708211512314,
+        0.217901200720757
+      ],
+      "ci95_fov_cluster": [
+        0.014677708211512314,
+        0.217901200720757
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Tubulin",
+      "modality": "DIC",
+      "metric": "ssim",
+      "n_fov": 14,
+      "n_fov_modality": 14,
+      "n_studies": 2,
+      "equal_fov": 0.2216529035517651,
+      "equal_study": 0.22572227995089356,
+      "ci95_study": [
+        0.21860087125241867,
+        0.23284368864936847
+      ],
+      "ci95_fov_cluster": [
+        0.21860087125241867,
+        0.23284368864936847
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Tubulin",
+      "modality": "PC",
+      "metric": "pcc",
+      "n_fov": 3,
+      "n_fov_modality": 3,
+      "n_studies": 1,
+      "equal_fov": 0.2044303051592813,
+      "equal_study": 0.2044303051592813,
+      "ci95_study": [
+        0.2044303051592813,
+        0.2044303051592813
+      ],
+      "ci95_fov_cluster": [
+        0.2044303051592813,
+        0.2044303051592813
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Tubulin",
+      "modality": "PC",
+      "metric": "ssim",
+      "n_fov": 3,
+      "n_fov_modality": 3,
+      "n_studies": 1,
+      "equal_fov": 0.6763580329522557,
+      "equal_study": 0.6763580329522557,
+      "ci95_study": [
+        0.6763580329522557,
+        0.6763580329522557
+      ],
+      "ci95_fov_cluster": [
+        0.6763580329522557,
+        0.6763580329522557
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Tubulin",
+      "modality": "all",
+      "metric": "pcc",
+      "n_fov": 17,
+      "n_fov_modality": 17,
+      "n_studies": 3,
+      "equal_fov": 0.17966101459062986,
+      "equal_study": 0.14566973803051686,
+      "ci95_study": [
+        0.014677708211512314,
+        0.217901200720757
+      ],
+      "ci95_fov_cluster": [
+        0.014677708211512312,
+        0.21790120072075703
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_max",
+      "organelle": "Tubulin",
+      "modality": "all",
+      "metric": "ssim",
+      "n_fov": 17,
+      "n_fov_modality": 17,
+      "n_studies": 3,
+      "equal_fov": 0.30189498521067515,
+      "equal_study": 0.3759341976180142,
+      "ci95_study": [
+        0.21860087125241867,
+        0.6763580329522557
+      ],
+      "ci95_fov_cluster": [
+        0.21860087125241867,
+        0.6763580329522557
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Actin",
+      "modality": "BF",
+      "metric": "pcc",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": -0.01896110973777774,
+      "equal_study": -0.01896110973777774,
+      "ci95_study": [
+        -0.01896110973777774,
+        -0.01896110973777774
+      ],
+      "ci95_fov_cluster": [
+        -0.01896110973777774,
+        -0.01896110973777774
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Actin",
+      "modality": "BF",
+      "metric": "ssim",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.26111634118143773,
+      "equal_study": 0.26111634118143773,
+      "ci95_study": [
+        0.26111634118143773,
+        0.26111634118143773
+      ],
+      "ci95_fov_cluster": [
+        0.26111634118143773,
+        0.26111634118143773
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Actin",
+      "modality": "DIC",
+      "metric": "pcc",
+      "n_fov": 3,
+      "n_fov_modality": 3,
+      "n_studies": 1,
+      "equal_fov": -0.09076314581524081,
+      "equal_study": -0.09076314581524081,
+      "ci95_study": [
+        -0.09076314581524081,
+        -0.09076314581524081
+      ],
+      "ci95_fov_cluster": [
+        -0.09076314581524081,
+        -0.09076314581524081
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Actin",
+      "modality": "DIC",
+      "metric": "ssim",
+      "n_fov": 3,
+      "n_fov_modality": 3,
+      "n_studies": 1,
+      "equal_fov": 0.3171829415376959,
+      "equal_study": 0.3171829415376959,
+      "ci95_study": [
+        0.3171829415376959,
+        0.3171829415376959
+      ],
+      "ci95_fov_cluster": [
+        0.3171829415376959,
+        0.3171829415376959
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Actin",
+      "modality": "PC",
+      "metric": "pcc",
+      "n_fov": 19,
+      "n_fov_modality": 19,
+      "n_studies": 4,
+      "equal_fov": 0.018854872268781856,
+      "equal_study": 0.0011094737347106445,
+      "ci95_study": [
+        -0.04070664569185426,
+        0.04292559316127555
+      ],
+      "ci95_fov_cluster": [
+        -0.04070664569185426,
+        0.04924781998848008
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Actin",
+      "modality": "PC",
+      "metric": "ssim",
+      "n_fov": 19,
+      "n_fov_modality": 19,
+      "n_studies": 4,
+      "equal_fov": 0.3524097876767868,
+      "equal_study": 0.3695302224753139,
+      "ci95_study": [
+        0.32219451934346344,
+        0.41300577151598655
+      ],
+      "ci95_fov_cluster": [
+        0.3155531254156494,
+        0.4069177167183936
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Actin",
+      "modality": "all",
+      "metric": "pcc",
+      "n_fov": 22,
+      "n_fov_modality": 30,
+      "n_studies": 5,
+      "equal_fov": -0.01003909049167933,
+      "equal_study": -0.0249353783372316,
+      "ci95_study": [
+        -0.06512917584805702,
+        0.015258419173593819
+      ],
+      "ci95_fov_cluster": [
+        -0.06512917584805702,
+        0.01845578124437809
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Actin",
+      "modality": "all",
+      "metric": "ssim",
+      "n_fov": 22,
+      "n_fov_modality": 30,
+      "n_studies": 5,
+      "equal_fov": 0.33978566086209905,
+      "equal_study": 0.35475951000014383,
+      "ci95_study": [
+        0.31022131668322267,
+        0.39671931220423645
+      ],
+      "ci95_fov_cluster": [
+        0.2995762095984171,
+        0.39504160097379076
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Mitochondria",
+      "modality": "BF",
+      "metric": "pcc",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.0061337106156097885,
+      "equal_study": 0.0061337106156097885,
+      "ci95_study": [
+        0.0061337106156097885,
+        0.0061337106156097885
+      ],
+      "ci95_fov_cluster": [
+        0.0061337106156097885,
+        0.0061337106156097885
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Mitochondria",
+      "modality": "BF",
+      "metric": "ssim",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.23214280034662038,
+      "equal_study": 0.23214280034662038,
+      "ci95_study": [
+        0.23214280034662038,
+        0.23214280034662038
+      ],
+      "ci95_fov_cluster": [
+        0.23214280034662038,
+        0.23214280034662038
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Mitochondria",
+      "modality": "DIC",
+      "metric": "pcc",
+      "n_fov": 13,
+      "n_fov_modality": 13,
+      "n_studies": 1,
+      "equal_fov": 0.08555423852839464,
+      "equal_study": 0.08555423852839464,
+      "ci95_study": [
+        0.08555423852839464,
+        0.08555423852839464
+      ],
+      "ci95_fov_cluster": [
+        0.08555423852839464,
+        0.08555423852839464
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Mitochondria",
+      "modality": "DIC",
+      "metric": "ssim",
+      "n_fov": 13,
+      "n_fov_modality": 13,
+      "n_studies": 1,
+      "equal_fov": 0.2748821538453207,
+      "equal_study": 0.2748821538453207,
+      "ci95_study": [
+        0.2748821538453207,
+        0.2748821538453207
+      ],
+      "ci95_fov_cluster": [
+        0.2748821538453207,
+        0.2748821538453207
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Mitochondria",
+      "modality": "PC",
+      "metric": "pcc",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.06015463389202087,
+      "equal_study": 0.06015463389202087,
+      "ci95_study": [
+        0.06015463389202087,
+        0.06015463389202087
+      ],
+      "ci95_fov_cluster": [
+        0.06015463389202087,
+        0.06015463389202087
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Mitochondria",
+      "modality": "PC",
+      "metric": "ssim",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.27154676846815295,
+      "equal_study": 0.27154676846815295,
+      "ci95_study": [
+        0.27154676846815295,
+        0.27154676846815295
+      ],
+      "ci95_fov_cluster": [
+        0.27154676846815295,
+        0.27154676846815295
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Mitochondria",
+      "modality": "all",
+      "metric": "pcc",
+      "n_fov": 21,
+      "n_fov_modality": 29,
+      "n_studies": 2,
+      "equal_fov": 0.06558849899522157,
+      "equal_study": 0.059349205391104984,
+      "ci95_study": [
+        0.03314417225381533,
+        0.08555423852839464
+      ],
+      "ci95_fov_cluster": [
+        0.03314417225381533,
+        0.08555423852839464
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Mitochondria",
+      "modality": "all",
+      "metric": "ssim",
+      "n_fov": 21,
+      "n_fov_modality": 29,
+      "n_studies": 2,
+      "equal_fov": 0.2661060131070601,
+      "equal_study": 0.26336346912635367,
+      "ci95_study": [
+        0.25184478440738667,
+        0.2748821538453207
+      ],
+      "ci95_fov_cluster": [
+        0.25184478440738667,
+        0.2748821538453207
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Nucleus",
+      "modality": "BF",
+      "metric": "pcc",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.029302785310351086,
+      "equal_study": 0.029302785310351086,
+      "ci95_study": [
+        0.029302785310351086,
+        0.029302785310351086
+      ],
+      "ci95_fov_cluster": [
+        0.029302785310351086,
+        0.029302785310351086
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Nucleus",
+      "modality": "BF",
+      "metric": "ssim",
+      "n_fov": 8,
+      "n_fov_modality": 8,
+      "n_studies": 1,
+      "equal_fov": 0.07452623059963215,
+      "equal_study": 0.07452623059963215,
+      "ci95_study": [
+        0.07452623059963215,
+        0.07452623059963215
+      ],
+      "ci95_fov_cluster": [
+        0.07452623059963215,
+        0.07452623059963215
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Nucleus",
+      "modality": "DIC",
+      "metric": "pcc",
+      "n_fov": 27,
+      "n_fov_modality": 27,
+      "n_studies": 3,
+      "equal_fov": 0.028269769345457656,
+      "equal_study": -0.0005885225917854736,
+      "ci95_study": [
+        -0.08965864021867027,
+        0.05517512438985628
+      ],
+      "ci95_fov_cluster": [
+        -0.08965864021867027,
+        0.05517512438985628
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Nucleus",
+      "modality": "DIC",
+      "metric": "ssim",
+      "n_fov": 27,
+      "n_fov_modality": 27,
+      "n_studies": 3,
+      "equal_fov": 0.18742452965014691,
+      "equal_study": 0.17837823319120602,
+      "ci95_study": [
+        0.08649471414358746,
+        0.27631004886844124
+      ],
+      "ci95_fov_cluster": [
+        0.08649471414358746,
+        0.27631004886844124
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Nucleus",
+      "modality": "PC",
+      "metric": "pcc",
+      "n_fov": 19,
+      "n_fov_modality": 19,
+      "n_studies": 4,
+      "equal_fov": 0.06604994241324343,
+      "equal_study": 0.06938517614074945,
+      "ci95_study": [
+        0.05778463064589167,
+        0.07787570364355977
+      ],
+      "ci95_fov_cluster": [
+        0.05479801354036368,
+        0.07863100124286074
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Nucleus",
+      "modality": "PC",
+      "metric": "ssim",
+      "n_fov": 19,
+      "n_fov_modality": 19,
+      "n_studies": 4,
+      "equal_fov": 0.179962920113836,
+      "equal_study": 0.20234583847089874,
+      "ci95_study": [
+        0.12131749205917962,
+        0.2631562165525499
+      ],
+      "ci95_fov_cluster": [
+        0.10255480016496434,
+        0.26767450891238975
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Nucleus",
+      "modality": "all",
+      "metric": "pcc",
+      "n_fov": 46,
+      "n_fov_modality": 54,
+      "n_studies": 7,
+      "equal_fov": 0.04186541173905698,
+      "equal_study": 0.03774602421640661,
+      "ci95_study": [
+        -0.006317455222060786,
+        0.06851243168682038
+      ],
+      "ci95_fov_cluster": [
+        0.013502475649495013,
+        0.06272366684116372
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Nucleus",
+      "modality": "all",
+      "metric": "ssim",
+      "n_fov": 46,
+      "n_fov_modality": 54,
+      "n_studies": 7,
+      "equal_fov": 0.18321052431558718,
+      "equal_study": 0.1911441207760333,
+      "ci95_study": [
+        0.13231527828941883,
+        0.24571249476234955
+      ],
+      "ci95_fov_cluster": [
+        0.10924440354025536,
+        0.25931478904223076
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Tubulin",
+      "modality": "DIC",
+      "metric": "pcc",
+      "n_fov": 14,
+      "n_fov_modality": 14,
+      "n_studies": 2,
+      "equal_fov": 0.04453292210055789,
+      "equal_study": -0.011493642711334011,
+      "ci95_study": [
+        -0.10954013113214485,
+        0.08655284570947683
+      ],
+      "ci95_fov_cluster": [
+        -0.10954013113214485,
+        0.08655284570947683
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Tubulin",
+      "modality": "DIC",
+      "metric": "ssim",
+      "n_fov": 14,
+      "n_fov_modality": 14,
+      "n_studies": 2,
+      "equal_fov": 0.20050674250775188,
+      "equal_study": 0.20794117526184883,
+      "ci95_study": [
+        0.19493091794217923,
+        0.22095143258151842
+      ],
+      "ci95_fov_cluster": [
+        0.19493091794217923,
+        0.22095143258151842
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Tubulin",
+      "modality": "PC",
+      "metric": "pcc",
+      "n_fov": 3,
+      "n_fov_modality": 3,
+      "n_studies": 1,
+      "equal_fov": -0.002190897121499401,
+      "equal_study": -0.002190897121499401,
+      "ci95_study": [
+        -0.002190897121499401,
+        -0.002190897121499401
+      ],
+      "ci95_fov_cluster": [
+        -0.002190897121499401,
+        -0.002190897121499401
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Tubulin",
+      "modality": "PC",
+      "metric": "ssim",
+      "n_fov": 3,
+      "n_fov_modality": 3,
+      "n_studies": 1,
+      "equal_fov": 0.6205460668460551,
+      "equal_study": 0.6205460668460551,
+      "ci95_study": [
+        0.6205460668460551,
+        0.6205460668460551
+      ],
+      "ci95_fov_cluster": [
+        0.6205460668460551,
+        0.6205460668460551
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Tubulin",
+      "modality": "all",
+      "metric": "pcc",
+      "n_fov": 17,
+      "n_fov_modality": 17,
+      "n_studies": 3,
+      "equal_fov": 0.0362875422378419,
+      "equal_study": -0.008392727514722476,
+      "ci95_study": [
+        -0.10954013113214485,
+        0.08655284570947681
+      ],
+      "ci95_fov_cluster": [
+        -0.10954013113214485,
+        0.08655284570947683
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "method": "tl_mean",
+      "organelle": "Tubulin",
+      "modality": "all",
+      "metric": "ssim",
+      "n_fov": 17,
+      "n_fov_modality": 17,
+      "n_studies": 3,
+      "equal_fov": 0.2746313291556877,
+      "equal_study": 0.34547613912325087,
+      "ci95_study": [
+        0.19493091794217923,
+        0.6205460668460551
+      ],
+      "ci95_fov_cluster": [
+        0.19493091794217923,
+        0.6205460668460552
+      ],
+      "small_cluster_warning": true
+    }
+  ],
+  "paired_differences": [
+    {
+      "model": "supervised_a",
+      "baseline": "ed1_ensemble",
+      "organelle": "Nucleus",
+      "metric": "ssim",
+      "n_fov": 46,
+      "n_fov_modality": 54,
+      "n_studies": 7,
+      "equal_fov": 0.03518451591874772,
+      "equal_study": 0.04833486782561287,
+      "ci95_study": [
+        -0.00993560641397641,
+        0.11564830325950055
+      ],
+      "ci95_fov_cluster": [
+        -0.02452837514130122,
+        0.10663576803977973
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_a",
+      "baseline": "ed1_ensemble",
+      "organelle": "Nucleus",
+      "metric": "pcc",
+      "n_fov": 46,
+      "n_fov_modality": 54,
+      "n_studies": 7,
+      "equal_fov": -0.07968976407055728,
+      "equal_study": -0.055198418288211856,
+      "ci95_study": [
+        -0.12138721409616927,
+        -0.0012019387887694036
+      ],
+      "ci95_fov_cluster": [
+        -0.1665601173613702,
+        -0.003346562778453343
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_a",
+      "baseline": "ed1_ensemble",
+      "organelle": "Mitochondria",
+      "metric": "ssim",
+      "n_fov": 21,
+      "n_fov_modality": 29,
+      "n_studies": 2,
+      "equal_fov": -0.14792302224376203,
+      "equal_study": -0.15535790989194315,
+      "ci95_study": [
+        -0.1865844380143038,
+        -0.12413138176958248
+      ],
+      "ci95_fov_cluster": [
+        -0.1865844380143038,
+        -0.12413138176958248
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_a",
+      "baseline": "ed1_ensemble",
+      "organelle": "Mitochondria",
+      "metric": "pcc",
+      "n_fov": 21,
+      "n_fov_modality": 29,
+      "n_studies": 2,
+      "equal_fov": -0.06089205088149751,
+      "equal_study": -0.05849589447697019,
+      "ci95_study": [
+        -0.06855975137598493,
+        -0.04843203757795546
+      ],
+      "ci95_fov_cluster": [
+        -0.06855975137598493,
+        -0.04843203757795546
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_a",
+      "baseline": "ed1_ensemble",
+      "organelle": "Tubulin",
+      "metric": "ssim",
+      "n_fov": 17,
+      "n_fov_modality": 17,
+      "n_studies": 3,
+      "equal_fov": -0.06519275995768888,
+      "equal_study": -0.044726043157998545,
+      "ci95_study": [
+        -0.10355243417323297,
+        0.05759212105657783
+      ],
+      "ci95_fov_cluster": [
+        -0.10355243417323297,
+        0.057592121056577836
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_a",
+      "baseline": "ed1_ensemble",
+      "organelle": "Tubulin",
+      "metric": "pcc",
+      "n_fov": 17,
+      "n_fov_modality": 17,
+      "n_studies": 3,
+      "equal_fov": -0.1717162210444019,
+      "equal_study": -0.0819825914529116,
+      "ci95_study": [
+        -0.27266655433482845,
+        0.08961202006375042
+      ],
+      "ci95_fov_cluster": [
+        -0.2726665543348285,
+        0.08961202006375042
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_a",
+      "baseline": "ed1_ensemble",
+      "organelle": "Actin",
+      "metric": "ssim",
+      "n_fov": 22,
+      "n_fov_modality": 30,
+      "n_studies": 5,
+      "equal_fov": -0.045999490040032946,
+      "equal_study": -0.054942962279961524,
+      "ci95_study": [
+        -0.10064748785414476,
+        -0.017649934478294976
+      ],
+      "ci95_fov_cluster": [
+        -0.09123560073863096,
+        -0.02190274090006771
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_a",
+      "baseline": "ed1_ensemble",
+      "organelle": "Actin",
+      "metric": "pcc",
+      "n_fov": 22,
+      "n_fov_modality": 30,
+      "n_studies": 5,
+      "equal_fov": -0.013078522131335217,
+      "equal_study": -0.02124204747291625,
+      "ci95_study": [
+        -0.08765168082997862,
+        0.045167585884146114
+      ],
+      "ci95_fov_cluster": [
+        -0.0744906061862333,
+        0.034723394415291
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_a",
+      "baseline": "tl_max",
+      "organelle": "Nucleus",
+      "metric": "ssim",
+      "n_fov": 46,
+      "n_fov_modality": 54,
+      "n_studies": 7,
+      "equal_fov": 0.43351370909807824,
+      "equal_study": 0.44803506565017776,
+      "ci95_study": [
+        0.3326631656983071,
+        0.5494334720741557
+      ],
+      "ci95_fov_cluster": [
+        0.26750224294848146,
+        0.5863827455923838
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_a",
+      "baseline": "tl_max",
+      "organelle": "Nucleus",
+      "metric": "pcc",
+      "n_fov": 46,
+      "n_fov_modality": 54,
+      "n_studies": 7,
+      "equal_fov": 0.5224895520262856,
+      "equal_study": 0.560651284640271,
+      "ci95_study": [
+        0.4353252525428061,
+        0.6536062160712489
+      ],
+      "ci95_fov_cluster": [
+        0.35757916975019666,
+        0.645482329992329
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_a",
+      "baseline": "tl_max",
+      "organelle": "Mitochondria",
+      "metric": "ssim",
+      "n_fov": 21,
+      "n_fov_modality": 29,
+      "n_studies": 2,
+      "equal_fov": 0.23322866314959853,
+      "equal_study": 0.2438230116391152,
+      "ci95_study": [
+        0.19932674798314515,
+        0.2883192752950853
+      ],
+      "ci95_fov_cluster": [
+        0.19932674798314515,
+        0.2883192752950853
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_a",
+      "baseline": "tl_max",
+      "organelle": "Mitochondria",
+      "metric": "pcc",
+      "n_fov": 21,
+      "n_fov_modality": 29,
+      "n_studies": 2,
+      "equal_fov": 0.4266182712067933,
+      "equal_study": 0.43771393093261335,
+      "ci95_study": [
+        0.39111216008416905,
+        0.48431570178105765
+      ],
+      "ci95_fov_cluster": [
+        0.39111216008416905,
+        0.48431570178105765
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_a",
+      "baseline": "tl_max",
+      "organelle": "Tubulin",
+      "metric": "ssim",
+      "n_fov": 17,
+      "n_fov_modality": 17,
+      "n_studies": 3,
+      "equal_fov": 0.2957366372225295,
+      "equal_study": 0.23174340117971748,
+      "ci95_study": [
+        0.023428455820120025,
+        0.36772902777069305
+      ],
+      "ci95_fov_cluster": [
+        0.023428455820120025,
+        0.36772902777069305
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_a",
+      "baseline": "tl_max",
+      "organelle": "Tubulin",
+      "metric": "pcc",
+      "n_fov": 17,
+      "n_fov_modality": 17,
+      "n_studies": 3,
+      "equal_fov": 0.35430796602827164,
+      "equal_study": 0.48535508848419956,
+      "ci95_study": [
+        0.20687995326535272,
+        0.7635941829790633
+      ],
+      "ci95_fov_cluster": [
+        0.20687995326535272,
+        0.7635941829790633
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_a",
+      "baseline": "tl_max",
+      "organelle": "Actin",
+      "metric": "ssim",
+      "n_fov": 22,
+      "n_fov_modality": 30,
+      "n_studies": 5,
+      "equal_fov": 0.20186012954408164,
+      "equal_study": 0.1717165305300464,
+      "ci95_study": [
+        0.10519254200259678,
+        0.24274461555962895
+      ],
+      "ci95_fov_cluster": [
+        0.11146931466933933,
+        0.2730671341630817
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_a",
+      "baseline": "tl_max",
+      "organelle": "Actin",
+      "metric": "pcc",
+      "n_fov": 22,
+      "n_fov_modality": 30,
+      "n_studies": 5,
+      "equal_fov": 0.3553824909744858,
+      "equal_study": 0.3335556328216742,
+      "ci95_study": [
+        0.20067883870580155,
+        0.46590341274517344
+      ],
+      "ci95_fov_cluster": [
+        0.21478512986954723,
+        0.45482015319223423
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_a",
+      "baseline": "tl_mean",
+      "organelle": "Nucleus",
+      "metric": "ssim",
+      "n_fov": 46,
+      "n_fov_modality": 54,
+      "n_studies": 7,
+      "equal_fov": 0.4746801393688656,
+      "equal_study": 0.49376588658468556,
+      "ci95_study": [
+        0.3781443215373502,
+        0.581636982562049
+      ],
+      "ci95_fov_cluster": [
+        0.3157680141716034,
+        0.6119650786985379
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_a",
+      "baseline": "tl_mean",
+      "organelle": "Nucleus",
+      "metric": "pcc",
+      "n_fov": 46,
+      "n_fov_modality": 54,
+      "n_studies": 7,
+      "equal_fov": 0.6031889298539094,
+      "equal_study": 0.6597339035235293,
+      "ci95_study": [
+        0.5187301836558299,
+        0.7558447256213738
+      ],
+      "ci95_fov_cluster": [
+        0.42798226956197055,
+        0.7641207053741528
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_a",
+      "baseline": "tl_mean",
+      "organelle": "Mitochondria",
+      "metric": "ssim",
+      "n_fov": 21,
+      "n_fov_modality": 29,
+      "n_studies": 2,
+      "equal_fov": 0.294232878455026,
+      "equal_study": 0.30489561066088267,
+      "ci95_study": [
+        0.2601121353962847,
+        0.34967908592548064
+      ],
+      "ci95_fov_cluster": [
+        0.2601121353962847,
+        0.34967908592548064
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_a",
+      "baseline": "tl_mean",
+      "organelle": "Mitochondria",
+      "metric": "pcc",
+      "n_fov": 21,
+      "n_fov_modality": 29,
+      "n_studies": 2,
+      "equal_fov": 0.6379978851401906,
+      "equal_study": 0.6700635062629087,
+      "ci95_study": [
+        0.535387897547493,
+        0.8047391149783243
+      ],
+      "ci95_fov_cluster": [
+        0.535387897547493,
+        0.8047391149783243
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_a",
+      "baseline": "tl_mean",
+      "organelle": "Tubulin",
+      "metric": "ssim",
+      "n_fov": 17,
+      "n_fov_modality": 17,
+      "n_studies": 3,
+      "equal_fov": 0.3230002932775169,
+      "equal_study": 0.26220145967448083,
+      "ci95_study": [
+        0.07924042192632057,
+        0.3913989810809326
+      ],
+      "ci95_fov_cluster": [
+        0.07924042192632057,
+        0.3913989810809325
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_a",
+      "baseline": "tl_mean",
+      "organelle": "Tubulin",
+      "metric": "pcc",
+      "n_fov": 17,
+      "n_fov_modality": 17,
+      "n_studies": 3,
+      "equal_fov": 0.4976814383810596,
+      "equal_study": 0.6394175540294389,
+      "ci95_study": [
+        0.3382283082766329,
+        0.8878120223227205
+      ],
+      "ci95_fov_cluster": [
+        0.3382283082766329,
+        0.8878120223227205
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_a",
+      "baseline": "tl_mean",
+      "organelle": "Actin",
+      "metric": "ssim",
+      "n_fov": 22,
+      "n_fov_modality": 30,
+      "n_studies": 5,
+      "equal_fov": 0.23945972206501498,
+      "equal_study": 0.20702090791640376,
+      "ci95_study": [
+        0.13947620257054558,
+        0.2745656132622619
+      ],
+      "ci95_fov_cluster": [
+        0.13947620257054558,
+        0.30515231056785896
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_a",
+      "baseline": "tl_mean",
+      "organelle": "Actin",
+      "metric": "pcc",
+      "n_fov": 22,
+      "n_fov_modality": 30,
+      "n_studies": 5,
+      "equal_fov": 0.4955467950639587,
+      "equal_study": 0.45777271190225166,
+      "ci95_study": [
+        0.3131060801073028,
+        0.6024393436972005
+      ],
+      "ci95_fov_cluster": [
+        0.32503138511815066,
+        0.6073821670490417
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_b",
+      "baseline": "ed1_ensemble",
+      "organelle": "Nucleus",
+      "metric": "ssim",
+      "n_fov": 46,
+      "n_fov_modality": 54,
+      "n_studies": 7,
+      "equal_fov": 0.03322972882147849,
+      "equal_study": 0.04642445869421945,
+      "ci95_study": [
+        -0.015642273282184208,
+        0.1208151639654962
+      ],
+      "ci95_fov_cluster": [
+        -0.02707275309839244,
+        0.1084170785872083
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_b",
+      "baseline": "ed1_ensemble",
+      "organelle": "Nucleus",
+      "metric": "pcc",
+      "n_fov": 46,
+      "n_fov_modality": 54,
+      "n_studies": 7,
+      "equal_fov": -0.07144607778126064,
+      "equal_study": -0.05295015793324741,
+      "ci95_study": [
+        -0.1105414025591919,
+        -0.0072275882800733335
+      ],
+      "ci95_fov_cluster": [
+        -0.14199263207390742,
+        -0.009594921783924112
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_b",
+      "baseline": "ed1_ensemble",
+      "organelle": "Mitochondria",
+      "metric": "ssim",
+      "n_fov": 21,
+      "n_fov_modality": 29,
+      "n_studies": 2,
+      "equal_fov": -0.10222003710160169,
+      "equal_study": -0.11929833885648897,
+      "ci95_study": [
+        -0.19102720622701552,
+        -0.04756947148596242
+      ],
+      "ci95_fov_cluster": [
+        -0.19102720622701552,
+        -0.04756947148596242
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_b",
+      "baseline": "ed1_ensemble",
+      "organelle": "Mitochondria",
+      "metric": "pcc",
+      "n_fov": 21,
+      "n_fov_modality": 29,
+      "n_studies": 2,
+      "equal_fov": -0.10795667199734828,
+      "equal_study": -0.10406102491607014,
+      "ci95_study": [
+        -0.1204227426574383,
+        -0.08769930717470198
+      ],
+      "ci95_fov_cluster": [
+        -0.1204227426574383,
+        -0.08769930717470198
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_b",
+      "baseline": "ed1_ensemble",
+      "organelle": "Tubulin",
+      "metric": "ssim",
+      "n_fov": 17,
+      "n_fov_modality": 17,
+      "n_studies": 3,
+      "equal_fov": -0.05738461832743752,
+      "equal_study": -0.017222341074097643,
+      "ci95_study": [
+        -0.10304360632819613,
+        0.15394376334334808
+      ],
+      "ci95_fov_cluster": [
+        -0.10304360632819613,
+        0.15394376334334808
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_b",
+      "baseline": "ed1_ensemble",
+      "organelle": "Tubulin",
+      "metric": "pcc",
+      "n_fov": 17,
+      "n_fov_modality": 17,
+      "n_studies": 3,
+      "equal_fov": -0.18399088519249826,
+      "equal_study": -0.08864613282749029,
+      "ci95_study": [
+        -0.29125373160313217,
+        0.07471196884815408
+      ],
+      "ci95_fov_cluster": [
+        -0.29125373160313217,
+        0.07471196884815408
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_b",
+      "baseline": "ed1_ensemble",
+      "organelle": "Actin",
+      "metric": "ssim",
+      "n_fov": 22,
+      "n_fov_modality": 30,
+      "n_studies": 5,
+      "equal_fov": -0.03877861986850371,
+      "equal_study": -0.04502381286484578,
+      "ci95_study": [
+        -0.1118350934002292,
+        0.02178746767053764
+      ],
+      "ci95_fov_cluster": [
+        -0.10428887154147934,
+        0.014774128617680909
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_b",
+      "baseline": "ed1_ensemble",
+      "organelle": "Actin",
+      "metric": "pcc",
+      "n_fov": 22,
+      "n_fov_modality": 30,
+      "n_studies": 5,
+      "equal_fov": -0.026082290033969037,
+      "equal_study": -0.037621680207827565,
+      "ci95_study": [
+        -0.10709407225206272,
+        0.03095968453904772
+      ],
+      "ci95_fov_cluster": [
+        -0.0907706241042309,
+        0.019596808015706912
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_b",
+      "baseline": "tl_max",
+      "organelle": "Nucleus",
+      "metric": "ssim",
+      "n_fov": 46,
+      "n_fov_modality": 54,
+      "n_studies": 7,
+      "equal_fov": 0.4315589220008091,
+      "equal_study": 0.44612465651878436,
+      "ci95_study": [
+        0.32774789299405827,
+        0.551040282177261
+      ],
+      "ci95_fov_cluster": [
+        0.25852436473243134,
+        0.5943310986156588
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_b",
+      "baseline": "tl_max",
+      "organelle": "Nucleus",
+      "metric": "pcc",
+      "n_fov": 46,
+      "n_fov_modality": 54,
+      "n_studies": 7,
+      "equal_fov": 0.5307332383155823,
+      "equal_study": 0.5628995449952354,
+      "ci95_study": [
+        0.4433095078773311,
+        0.6625331487930873
+      ],
+      "ci95_fov_cluster": [
+        0.382011014369807,
+        0.6537419973674163
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_b",
+      "baseline": "tl_max",
+      "organelle": "Mitochondria",
+      "metric": "ssim",
+      "n_fov": 21,
+      "n_fov_modality": 29,
+      "n_studies": 2,
+      "equal_fov": 0.2789316482917589,
+      "equal_study": 0.27988258267456945,
+      "ci95_study": [
+        0.2758886582667653,
+        0.28387650708237355
+      ],
+      "ci95_fov_cluster": [
+        0.2758886582667653,
+        0.28387650708237355
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_b",
+      "baseline": "tl_max",
+      "organelle": "Mitochondria",
+      "metric": "pcc",
+      "n_fov": 21,
+      "n_fov_modality": 29,
+      "n_studies": 2,
+      "equal_fov": 0.3795536500909424,
+      "equal_study": 0.3921488004935133,
+      "ci95_study": [
+        0.3392491688027155,
+        0.4450484321843111
+      ],
+      "ci95_fov_cluster": [
+        0.3392491688027155,
+        0.4450484321843111
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_b",
+      "baseline": "tl_max",
+      "organelle": "Tubulin",
+      "metric": "ssim",
+      "n_fov": 17,
+      "n_fov_modality": 17,
+      "n_studies": 3,
+      "equal_fov": 0.30354477885278086,
+      "equal_study": 0.2592471032636184,
+      "ci95_study": [
+        0.023937283665156867,
+        0.4004243622351096
+      ],
+      "ci95_fov_cluster": [
+        0.023937283665156867,
+        0.4004243622351096
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_b",
+      "baseline": "tl_max",
+      "organelle": "Tubulin",
+      "metric": "pcc",
+      "n_fov": 17,
+      "n_fov_modality": 17,
+      "n_studies": 3,
+      "equal_fov": 0.3420333018801753,
+      "equal_study": 0.47869154710962086,
+      "ci95_study": [
+        0.18829277599704897,
+        0.7486941317634669
+      ],
+      "ci95_fov_cluster": [
+        0.18829277599704897,
+        0.7486941317634669
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_b",
+      "baseline": "tl_max",
+      "organelle": "Actin",
+      "metric": "ssim",
+      "n_fov": 22,
+      "n_fov_modality": 30,
+      "n_studies": 5,
+      "equal_fov": 0.2090809997156109,
+      "equal_study": 0.18163567994516222,
+      "ci95_study": [
+        0.09730822409782083,
+        0.2620563923329165
+      ],
+      "ci95_fov_cluster": [
+        0.10713133544347923,
+        0.268538222847561
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_b",
+      "baseline": "tl_max",
+      "organelle": "Actin",
+      "metric": "pcc",
+      "n_fov": 22,
+      "n_fov_modality": 30,
+      "n_studies": 5,
+      "equal_fov": 0.342378723071852,
+      "equal_study": 0.3171760000867629,
+      "ci95_study": [
+        0.17588212189093094,
+        0.45219612733282355
+      ],
+      "ci95_fov_cluster": [
+        0.19254143084977046,
+        0.4400850570828988
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_b",
+      "baseline": "tl_mean",
+      "organelle": "Nucleus",
+      "metric": "ssim",
+      "n_fov": 46,
+      "n_fov_modality": 54,
+      "n_studies": 7,
+      "equal_fov": 0.47272535227159646,
+      "equal_study": 0.4918554774532921,
+      "ci95_study": [
+        0.3731722003386416,
+        0.5863878039514372
+      ],
+      "ci95_fov_cluster": [
+        0.30988421613298467,
+        0.6235608921051585
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_b",
+      "baseline": "tl_mean",
+      "organelle": "Nucleus",
+      "metric": "pcc",
+      "n_fov": 46,
+      "n_fov_modality": 54,
+      "n_studies": 7,
+      "equal_fov": 0.6114326161432061,
+      "equal_study": 0.6619821638784938,
+      "ci95_study": [
+        0.5238464451492332,
+        0.7683879088811995
+      ],
+      "ci95_fov_cluster": [
+        0.45040196777367797,
+        0.7742560101261468
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_b",
+      "baseline": "tl_mean",
+      "organelle": "Mitochondria",
+      "metric": "ssim",
+      "n_fov": 21,
+      "n_fov_modality": 29,
+      "n_studies": 2,
+      "equal_fov": 0.3399358635971864,
+      "equal_study": 0.3409551816963369,
+      "ci95_study": [
+        0.3366740456799049,
+        0.3452363177127689
+      ],
+      "ci95_fov_cluster": [
+        0.3366740456799049,
+        0.3452363177127689
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_b",
+      "baseline": "tl_mean",
+      "organelle": "Mitochondria",
+      "metric": "pcc",
+      "n_fov": 21,
+      "n_fov_modality": 29,
+      "n_studies": 2,
+      "equal_fov": 0.5909332640243399,
+      "equal_study": 0.6244983758238087,
+      "ci95_study": [
+        0.48352490626603967,
+        0.7654718453815779
+      ],
+      "ci95_fov_cluster": [
+        0.48352490626603967,
+        0.7654718453815779
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_b",
+      "baseline": "tl_mean",
+      "organelle": "Tubulin",
+      "metric": "ssim",
+      "n_fov": 17,
+      "n_fov_modality": 17,
+      "n_studies": 3,
+      "equal_fov": 0.3308084349077683,
+      "equal_study": 0.28970516175838174,
+      "ci95_study": [
+        0.0797492497713574,
+        0.4123166183029596
+      ],
+      "ci95_fov_cluster": [
+        0.0797492497713574,
+        0.4123166183029596
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_b",
+      "baseline": "tl_mean",
+      "organelle": "Tubulin",
+      "metric": "pcc",
+      "n_fov": 17,
+      "n_fov_modality": 17,
+      "n_studies": 3,
+      "equal_fov": 0.4854067742329633,
+      "equal_study": 0.6327540126548602,
+      "ci95_study": [
+        0.3196411310083292,
+        0.8729119711071242
+      ],
+      "ci95_fov_cluster": [
+        0.31964113100832925,
+        0.8729119711071242
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_b",
+      "baseline": "tl_mean",
+      "organelle": "Actin",
+      "metric": "ssim",
+      "n_fov": 22,
+      "n_fov_modality": 30,
+      "n_studies": 5,
+      "equal_fov": 0.24668059223654426,
+      "equal_study": 0.2169400573315195,
+      "ci95_study": [
+        0.13457645128909787,
+        0.2987418913183535
+      ],
+      "ci95_fov_cluster": [
+        0.1351382233446855,
+        0.3058692577971693
+      ],
+      "small_cluster_warning": true
+    },
+    {
+      "model": "supervised_b",
+      "baseline": "tl_mean",
+      "organelle": "Actin",
+      "metric": "pcc",
+      "n_fov": 22,
+      "n_fov_modality": 30,
+      "n_studies": 5,
+      "equal_fov": 0.48254302716132486,
+      "equal_study": 0.4413930791673403,
+      "ci95_study": [
+        0.295303353740109,
+        0.5874828045945717
+      ],
+      "ci95_fov_cluster": [
+        0.30895885414044183,
+        0.5962452141630421
+      ],
+      "small_cluster_warning": true
+    }
+  ],
+  "aggregation": "modalities within FOV, equal FOV and equal study, bootstrap study clusters2000seed20261027",
+  "source_sha256": "3c0815f4a69b500e72fdcff843a5c8741c5ad76d18552d95ff53beed6f851c65",
+  "limitations": [
+    "No official score",
+    "No holdout selection; both fixed arms reported",
+    "Few studies per organelle; pointwise intervals, no multiplicity correction",
+    "No verified site or cell-line independence",
+    "Two AMP updates skipped in armB; recorded effective update counts differ"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "task": "mip",
+  "primary_arm": "A",
+  "weights": "arm_a_masked_l1.pt",
+  "sha256": "13acd6780431a0991271f236f691d0c8b06ec82e46d389222be9be8ecdb1355c",
+  "feature_version": "v2-computed-focus-common-stack",
+  "iterations": 2000,
+  "no_holdout_selection": true,
+  "training_fov": 33,
+  "input_relative_path": "images/organelles-transmitted-light-ome-tiff",
+  "interface_note": "template interface, exact MIP phase compatibility still requires authenticated confirmation",
+  "model": "UNet cin6, three common-normalised TL projections plus modality, maskedL1"
+}

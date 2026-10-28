@@ -1,0 +1,16 @@
+{
+  "image_tag": "lmc2-frozen-mip-20261027-v1",
+  "image_id": "sha256:b2527684c410453ade2242ca56ed73239139e079ac6be5b050ecab62851a4c8e",
+  "size_bytes": 7561503080,
+  "base_image": "lmc2-selfcontained-20261027-v3",
+  "original_inference_sha256": "8372d3a09eea1cde736554f7a231c6b151588dc27f8e3170d3757c762d3e85df",
+  "mip_inference_sha256": "00fb56f147beac2621a40a607e9e9e2f04002ded1294e3c5ee8435e2eac44d7e",
+  "change": "only four output socket paths; same inference and frozen weights",
+  "outputs": [
+    "images/mip-nucleus-fluorescence-ome-tiff",
+    "images/mip-mitochondria-fluorescence-ome-tiff",
+    "images/mip-actin-fluorescence-ome-tiff",
+    "images/mip-tubulin-fluorescence-ome-tiff"
+  ],
+  "submitted": false
+}

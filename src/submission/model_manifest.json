@@ -1,0 +1,41 @@
+{
+  "method": "fixed equal-weight five-fold ed1 ensemble; no ed2 fitting",
+  "seed": 20261027,
+  "checkpoint_job": "1003c17eea2f4b57",
+  "training_iterations_per_fold": 20000,
+  "mip_rule": "max over planes of ensemble prediction; common input normalisation over stack",
+  "checkpoints": [
+    {
+      "fold": 0,
+      "file": "fold0.pt",
+      "sha256": "e9b1ae1bdc3644db8ce05484cb6e0a3b0d6e693f2f8ea43acc6c5bc92d5ed3d0"
+    },
+    {
+      "fold": 1,
+      "file": "fold1.pt",
+      "sha256": "d718a25843dfd751f8546073fde486ed4f477243fd532998236802602ee6f63e"
+    },
+    {
+      "fold": 2,
+      "file": "fold2.pt",
+      "sha256": "97a17067280443c1517d7f5e9be3e99fa0aeac2eb5655e1c7d66235ee22020ce"
+    },
+    {
+      "fold": 3,
+      "file": "fold3.pt",
+      "sha256": "6448e8d502caff57b6aecde13de0db20a916bcc3aa847cb52feb1c1e856ac111"
+    },
+    {
+      "fold": 4,
+      "file": "fold4.pt",
+      "sha256": "ac730498fef2500860e0c97315f3c38af9fd527096297aae76905017a31fae3b"
+    }
+  ],
+  "input_relative_path": "images/organelles-transmitted-light-ome-tiff",
+  "outputs": {
+    "Nucleus": "images/nucleus-fluorescence-ome-tiff",
+    "Mitochondria": "images/mitochondria-fluorescence-ome-tiff",
+    "Tubulin": "images/tubulin-fluorescence-ome-tiff",
+    "Actin": "images/actin-fluorescence-ome-tiff"
+  }
+}

@@ -1,0 +1,9 @@
+# Research/training environment (versions of the executed server environment, Python 3.13).
+# Full lock: evidence/ed2_20261027/training-requirements.lock.txt
+numpy==2.5.4
+scipy==1.18.1
+scikit-image==0.26.0
+tifffile==2026.10.15
+imagecodecs==2026.10.10
+requests==2.34.2
+torch==2.14.1

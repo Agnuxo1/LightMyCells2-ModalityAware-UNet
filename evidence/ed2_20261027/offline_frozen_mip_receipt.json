@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "network_internal": true,
+  "read_only_model_mount": true,
+  "gpu_used": false,
+  "image_id": "sha256:b2527684c410453ade2242ca56ed73239139e079ac6be5b050ecab62851a4c8e",
+  "cases": [
+    {
+      "case": "best_focus",
+      "http_status": "201",
+      "seconds": 0.880466211005114,
+      "max_cpu_direct_error": 0.0,
+      "outputs": [
+        {
+          "organelle": "Nucleus",
+          "path": "/home/ai/proyectos/light-my-cells-2/final-20261027/offline-frozen-mip-best_focus-171728/output/images/mip-nucleus-fluorescence-ome-tiff/9c02f838-405c-4802-850c-d0d090c7a078.ome.tiff",
+          "sha256": "af782cbc9d49e5b72ee006fe80a4e177740fbbb068b4252de8d745978f6c542d"
+        },
+        {
+          "organelle": "Mitochondria",
+          "path": "/home/ai/proyectos/light-my-cells-2/final-20261027/offline-frozen-mip-best_focus-171728/output/images/mip-mitochondria-fluorescence-ome-tiff/9c02f838-405c-4802-850c-d0d090c7a078.ome.tiff",
+          "sha256": "c4ec6288a516c12d49e62b038a08170415df768d636c42e032746a948c5a6262"
+        },
+        {
+          "organelle": "Tubulin",
+          "path": "/home/ai/proyectos/light-my-cells-2/final-20261027/offline-frozen-mip-best_focus-171728/output/images/mip-tubulin-fluorescence-ome-tiff/9c02f838-405c-4802-850c-d0d090c7a078.ome.tiff",
+          "sha256": "eb842ef269d6d87c6648b7514366f5beb65436af4de586cd5bcfdfde6a33f663"
+        },
+        {
+          "organelle": "Actin",
+          "path": "/home/ai/proyectos/light-my-cells-2/final-20261027/offline-frozen-mip-best_focus-171728/output/images/mip-actin-fluorescence-ome-tiff/9c02f838-405c-4802-850c-d0d090c7a078.ome.tiff",
+          "sha256": "0c1c8668dc5503a0710c8771ad4f4cf069284991da26bbe743f11671e79d65e0"
+        }
+      ],
+      "scope": "small image/cropped real TL; MIP uses scaled copies for interface only, not biological quality"
+    },
+    {
+      "case": "mip",
+      "http_status": "201",
+      "seconds": 1.5477317350014346,
+      "max_cpu_direct_error": 0.0,
+      "outputs": [
+        {
+          "organelle": "Nucleus",
+          "path": "/home/ai/proyectos/light-my-cells-2/final-20261027/offline-frozen-mip-best_focus-171728/output/images/mip-nucleus-fluorescence-ome-tiff/39b78860-d9b4-4bee-ab46-dbcf31010130.ome.tiff",
+          "sha256": "b75045e913cf850cc7ac7ae717ab64dd88b447f1a56fd1908aee95d91712c75a"
+        },
+        {
+          "organelle": "Mitochondria",
+          "path": "/home/ai/proyectos/light-my-cells-2/final-20261027/offline-frozen-mip-best_focus-171728/output/images/mip-mitochondria-fluorescence-ome-tiff/39b78860-d9b4-4bee-ab46-dbcf31010130.ome.tiff",
+          "sha256": "496f84ee243074a54b92daf8bcef18ffdff461fb7aa529d7d327b9a63b4e5249"
+        },
+        {
+          "organelle": "Tubulin",
+          "path": "/home/ai/proyectos/light-my-cells-2/final-20261027/offline-frozen-mip-best_focus-171728/output/images/mip-tubulin-fluorescence-ome-tiff/39b78860-d9b4-4bee-ab46-dbcf31010130.ome.tiff",
+          "sha256": "c8b55a20b7fb499ec0c549025d5383f8ae2c64a24d362b639fee11f10a19f400"
+        },
+        {
+          "organelle": "Actin",
+          "path": "/home/ai/proyectos/light-my-cells-2/final-20261027/offline-frozen-mip-best_focus-171728/output/images/mip-actin-fluorescence-ome-tiff/39b78860-d9b4-4bee-ab46-dbcf31010130.ome.tiff",
+          "sha256": "d2d95731eb01952fc32e969bc4e5a1573336d47de48418b1abe8435f31a58293"
+        }
+      ],
+      "scope": "small image/cropped real TL; MIP uses scaled copies for interface only, not biological quality"
+    }
+  ],
+  "directory": "/home/ai/proyectos/light-my-cells-2/final-20261027/offline-frozen-mip-best_focus-171728",
+  "not_claimed": "official case acceptance, T4 speed, real MIP quality"
+}
