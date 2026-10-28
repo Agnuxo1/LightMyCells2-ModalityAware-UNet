@@ -56,7 +56,7 @@ out = dict(kind='completed_GPU_measurements_recovered_after_summary_dependency_e
                    'One hash-selected FOV per study; no posthoc channel selection.',
                    'Bootstrap intervals are exploratory and not multiplicity adjusted.',
                    'No official score, model retraining or deployment promotion claimed.'])
-(DATA / 'results.json').write_text(json.dumps(out, indent=2) + '\n', encoding='utf-8')
+(DATA / 'results.json').write_text(json.dumps(out, indent=2) + '\n', encoding='utf-8', newline='\n')
 lines = ['# Frozen-ensemble MIP aggregation pilot', '',
          'Seven hash-selected real fields of view from seven already evaluated studies.',
          'Five frozen U-Nets; only stack aggregation changes. No retraining.',
@@ -73,5 +73,5 @@ lines += ['', 'The half-max/half-mean blend has a small positive mean on both SS
           'None of the arms supports promotion on this exploratory pilot.',
           'Per-FOV positive and negative outcomes are preserved in results.json.',
           f'The reproduced control differs from archived SSIM by at most {baseline_difference:.9f}.', '']
-(DATA / 'SUMMARY.md').write_text('\n'.join(lines), encoding='utf-8')
+(DATA / 'SUMMARY.md').write_text('\n'.join(lines), encoding='utf-8', newline='\n')
 print(json.dumps(out, indent=2))
