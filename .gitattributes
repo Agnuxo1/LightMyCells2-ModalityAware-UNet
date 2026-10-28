@@ -1,3 +1,6 @@
+* text=auto eol=lf
+*.gif binary
+*.png binary
 README.md text eol=lf
 docs/DELIVERY_20261027.md text eol=lf
 docs/ENMIENDA_3_20261027.md text eol=lf
@@ -12,3 +15,4 @@ docs/UPDATE_CONTAINER_V3_20261027.md text eol=lf
 docs/SUBMISSION_METHODS_DRAFT_20261027.md text eol=lf
 docs/UPDATE_MIP_INTERFACE_20261027.md text eol=lf
 tools/check_phase_interfaces.py text eol=lf
+evidence/** -text
