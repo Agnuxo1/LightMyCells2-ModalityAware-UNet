@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "n_input_files": 8,
+  "n_consumed_files": 8,
+  "records": [
+    {
+      "socket": "mip-actin-fluorescence-ome-tiff",
+      "input_files": 2,
+      "consumed": 2,
+      "new_images": 2,
+      "output_files": 2,
+      "conversion_strategy_diagnostics": 8
+    },
+    {
+      "socket": "mip-mitochondria-fluorescence-ome-tiff",
+      "input_files": 2,
+      "consumed": 2,
+      "new_images": 2,
+      "output_files": 2,
+      "conversion_strategy_diagnostics": 8
+    },
+    {
+      "socket": "mip-nucleus-fluorescence-ome-tiff",
+      "input_files": 2,
+      "consumed": 2,
+      "new_images": 2,
+      "output_files": 2,
+      "conversion_strategy_diagnostics": 8
+    },
+    {
+      "socket": "mip-tubulin-fluorescence-ome-tiff",
+      "input_files": 2,
+      "consumed": 2,
+      "new_images": 2,
+      "output_files": 2,
+      "conversion_strategy_diagnostics": 8
+    }
+  ],
+  "scope": "local panimg package version archived; per-socket CPU conversion of two offline-test cases; not official acceptance"
+}

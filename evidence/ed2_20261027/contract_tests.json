@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "checks": [
+    "BF/YX",
+    "BF/ZYX",
+    "BF/TCZYX",
+    "PC/YX",
+    "PC/ZYX",
+    "PC/TCZYX",
+    "DIC/YX",
+    "DIC/ZYX",
+    "DIC/TCZYX",
+    "reject-TCYX-BF",
+    "reject-CYX-['BF', 'PC']",
+    "reject-YX-unknown",
+    "reject-nonfinite-output"
+  ],
+  "n": 13,
+  "scope": "axes, modality, separate exact outputs and metadata; no panimg or official acceptance claim"
+}

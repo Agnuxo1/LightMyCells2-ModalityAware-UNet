@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below, and cite the Light My Cells challenge and dataset publications."
+title: "Light My Cells 2: Modality-Aware Five-Fold U-Net for transmitted-light to fluorescence prediction"
+authors:
+  - family-names: "Angulo de Lafuente"
+    given-names: "Francisco"
+    affiliation: "Independent Researcher, Spain"
+repository-code: "https://github.com/Agnuxo1/LightMyCells2-ModalityAware-UNet"
+license: Apache-2.0
+date-released: "2026-10-28"
+keywords:
+  - in-silico labelling
+  - label-free microscopy
+  - transmitted light
+  - fluorescence prediction
+  - U-Net
+  - Light My Cells
+  - Grand Challenge

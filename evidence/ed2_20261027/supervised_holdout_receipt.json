@@ -1,0 +1,16 @@
+{
+  "complete": true,
+  "n_fov": 46,
+  "n_studies": 7,
+  "rows": 650,
+  "modality_cases": 54,
+  "primary_candidate": "supervised_a",
+  "no_holdout_selection": true,
+  "seconds": 854.9440782419988,
+  "checks_vs_cpu": 11,
+  "max_cpu_difference": 7.882583474838611e-15,
+  "source_sha256": "3c0815f4a69b500e72fdcff843a5c8741c5ad76d18552d95ff53beed6f851c65",
+  "training_receipt_sha256": "678ceb5e23af07232dbadb00eb0c02dda5c7261344597f95f1be5c4d00a2a29b",
+  "peak_gpu0_mib": 1034.296875,
+  "peak_gpu1_mib": 736.0
+}

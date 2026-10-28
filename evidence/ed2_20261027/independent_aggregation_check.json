@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "rows": 650,
+  "unique_keys": 650,
+  "summaries_checked": 40,
+  "max_abs_difference": 2.220446049250313e-16,
+  "scope": "independent modality-within-FOV and study aggregation; not an official score"
+}

@@ -1,0 +1,7 @@
+# v3 changes only where the exact same five frozen checkpoints are stored.
+# The parent image already includes the tested inference code and the weights.
+FROM lmc2-official-20261027-v2
+USER root
+COPY --chown=user:user model/ /opt/app/resources/lmc2/
+ENV LMC_MODEL_DIR=/opt/app/resources/lmc2
+USER user

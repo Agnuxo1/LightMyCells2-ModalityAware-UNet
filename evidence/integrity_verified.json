@@ -1,0 +1,37 @@
+{
+  "started_utc": "2026-10-25T22:00:54.760910+00:00",
+  "files": 56984,
+  "bytes": 109287061290,
+  "errors": [],
+  "constant_gt": [
+    {
+      "path": "Images/Study_29/image_2542_Tubulin.ome.tiff",
+      "value": 0.0,
+      "shape": [
+        2048,
+        2048
+      ]
+    }
+  ],
+  "nonfinite": [],
+  "repairs": {
+    "image_2416_PC_z7.ome.tiff": {
+      "decode_ok": true,
+      "shape": [
+        2048,
+        2048
+      ],
+      "bytes": 7280029
+    },
+    "image_2301_PC_z19.ome.tiff": {
+      "decode_ok": true,
+      "shape": [
+        2048,
+        2048
+      ],
+      "bytes": 7020363
+    }
+  },
+  "elapsed_s": 537.53,
+  "finished_utc": "2026-10-25T22:09:52.288702+00:00"
+}

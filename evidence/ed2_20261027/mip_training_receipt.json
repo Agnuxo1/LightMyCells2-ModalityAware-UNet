@@ -1,0 +1,41 @@
+{
+  "complete": true,
+  "iterations": 2000,
+  "batch": 4,
+  "crop": 256,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "seed": 20261027,
+  "feature_version": "v2-computed-focus-common-stack",
+  "training_fov": 33,
+  "holdout_studies": [
+    76,
+    79,
+    80,
+    81,
+    83,
+    85,
+    87
+  ],
+  "no_holdout_selection": true,
+  "skipped_updates": [
+    0,
+    2
+  ],
+  "seconds": 330.7863478520012,
+  "torch": "2.14.1+cu130",
+  "artifacts": [
+    {
+      "arm": 0,
+      "path": "/home/ai/proyectos/light-my-cells-2/final-20261027/supervised-mip/arm_a_masked_l1.pt",
+      "sha256": "13acd6780431a0991271f236f691d0c8b06ec82e46d389222be9be8ecdb1355c"
+    },
+    {
+      "arm": 1,
+      "path": "/home/ai/proyectos/light-my-cells-2/final-20261027/supervised-mip/arm_b_l1_ssim.pt",
+      "sha256": "9b5fd00a1107a8e94a2299f8e39b91638785ef14dec424e91ac075414dd40ec3"
+    }
+  ],
+  "training_cache_manifest_sha256": "8669e58c69ca1f5b7735d23a4787e8ed166862a49bb35e9c2f96e29d72aa5a94",
+  "holdout_freeze_sha256": "6cc69c3e89b6f784afaf1a766eb4be7e03fbc5bfc72cd063ef6ec366f3ca8115"
+}

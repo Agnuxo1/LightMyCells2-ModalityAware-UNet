@@ -1,0 +1,8 @@
+{
+  "complete": true,
+  "training_tiffs": 1268,
+  "holdout_tiffs": 3359,
+  "nonconstant_matches": [],
+  "seconds": 389.55778241800726,
+  "scope": "exact canonical pixel duplicates between supervised development33 and fresh holdout46, not proof of specimen/line/site independence; pretraining ed1-vs-holdout checked by provided global IDs only"
+}
