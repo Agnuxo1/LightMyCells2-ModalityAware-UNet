@@ -17,3 +17,5 @@ jobs:
         env:
           PYTEST_DISABLE_PLUGIN_AUTOLOAD: '1'
       - run: python tools/reproduce_audit.py
+      - run: python tools/summarize_mip_pilot.py
+      - run: git diff --exit-code -- evidence/mip-pilot-20261028/results.json evidence/mip-pilot-20261028/SUMMARY.md

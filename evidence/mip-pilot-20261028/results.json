@@ -1,0 +1,239 @@
+{
+  "kind": "completed_GPU_measurements_recovered_after_summary_dependency_error",
+  "job": "df555647b9884ad4",
+  "rows": 80,
+  "physical_fov": 7,
+  "paired": [
+    {
+      "method": "L4_mean",
+      "metric": "ssim",
+      "n_fov": 7,
+      "mean_delta": -0.00730744137209245,
+      "improved": 2,
+      "worsened": 5,
+      "bootstrap_95": [
+        -0.014889572898641448,
+        0.0008886395000908741
+      ],
+      "per_fov_delta": [
+        0.007617978949817084,
+        -0.0202117803247277,
+        -0.017356160958552302,
+        -0.013549366214307357,
+        -0.008104987012186982,
+        -0.009065260672783876,
+        0.009517486628093985
+      ]
+    },
+    {
+      "method": "L4_mean",
+      "metric": "pcc",
+      "n_fov": 7,
+      "mean_delta": -0.006432819961370023,
+      "improved": 1,
+      "worsened": 6,
+      "bootstrap_95": [
+        -0.03022276404332202,
+        0.032437847797176164
+      ],
+      "per_fov_delta": [
+        -0.006087937401239622,
+        -0.033811909045248945,
+        -0.02769662525453283,
+        -0.036050138065391424,
+        -0.023787113165021617,
+        -0.023188428923791526,
+        0.1055924121256358
+      ]
+    },
+    {
+      "method": "L5_mix_half",
+      "metric": "ssim",
+      "n_fov": 7,
+      "mean_delta": 0.0003316022814972009,
+      "improved": 3,
+      "worsened": 4,
+      "bootstrap_95": [
+        -0.002975634650450053,
+        0.004013759415049604
+      ],
+      "per_fov_delta": [
+        0.005564441395888335,
+        -0.004438096668744951,
+        -0.004169807409531101,
+        -0.003380377167189086,
+        -0.0008674943828512008,
+        0.0006342371534420188,
+        0.008978313049466391
+      ]
+    },
+    {
+      "method": "L5_mix_half",
+      "metric": "pcc",
+      "n_fov": 7,
+      "mean_delta": 0.0011090648785138618,
+      "improved": 1,
+      "worsened": 6,
+      "bootstrap_95": [
+        -0.009803325314393187,
+        0.018481087271525372
+      ],
+      "per_fov_delta": [
+        -0.0004542349744014092,
+        -0.011604369322120667,
+        -0.008567723577499279,
+        -0.013187558735544808,
+        -0.00698081678889928,
+        -0.002225576795396478,
+        0.05078373434345895
+      ]
+    },
+    {
+      "method": "L6_logmeanexp",
+      "metric": "ssim",
+      "n_fov": 7,
+      "mean_delta": -0.009375909637696711,
+      "improved": 2,
+      "worsened": 5,
+      "bootstrap_95": [
+        -0.016859073461135302,
+        -0.001169548531194352
+      ],
+      "per_fov_delta": [
+        0.007085564647391,
+        -0.021621074752478375,
+        -0.016714113866929337,
+        -0.017811175063107254,
+        -0.010486809107008943,
+        -0.013045152819015499,
+        0.006961393497271429
+      ]
+    },
+    {
+      "method": "L6_logmeanexp",
+      "metric": "pcc",
+      "n_fov": 7,
+      "mean_delta": -0.010382009205378486,
+      "improved": 1,
+      "worsened": 6,
+      "bootstrap_95": [
+        -0.028167405160482894,
+        0.017649436599951177
+      ],
+      "per_fov_delta": [
+        -0.006191464848632792,
+        -0.029607494652575617,
+        -0.022542088343673366,
+        -0.034484475782437185,
+        -0.025040475668529332,
+        -0.02378392504615756,
+        0.06897585990435645
+      ]
+    }
+  ],
+  "organelle_summary": [
+    {
+      "organelle": "Actin",
+      "method": "control_max",
+      "ssim": 0.6406507617421322,
+      "pcc": 0.5052859355228235
+    },
+    {
+      "organelle": "Actin",
+      "method": "L4_mean",
+      "ssim": 0.6329218375742705,
+      "pcc": 0.4729958521942888
+    },
+    {
+      "organelle": "Actin",
+      "method": "L5_mix_half",
+      "ssim": 0.6402173405162536,
+      "pcc": 0.491976180004314
+    },
+    {
+      "organelle": "Actin",
+      "method": "L6_logmeanexp",
+      "ssim": 0.6320309677520155,
+      "pcc": 0.47544825365487503
+    },
+    {
+      "organelle": "Mitochondria",
+      "method": "control_max",
+      "ssim": 0.724326176344501,
+      "pcc": 0.7253593630392814
+    },
+    {
+      "organelle": "Mitochondria",
+      "method": "L4_mean",
+      "ssim": 0.7148573046211548,
+      "pcc": 0.7033542457708013
+    },
+    {
+      "organelle": "Mitochondria",
+      "method": "L5_mix_half",
+      "ssim": 0.7226973817509643,
+      "pcc": 0.7212268519707057
+    },
+    {
+      "organelle": "Mitochondria",
+      "method": "L6_logmeanexp",
+      "ssim": 0.7144175119148528,
+      "pcc": 0.7067050823433612
+    },
+    {
+      "organelle": "Nucleus",
+      "method": "control_max",
+      "ssim": 0.6572776767045811,
+      "pcc": 0.765490406483578
+    },
+    {
+      "organelle": "Nucleus",
+      "method": "L4_mean",
+      "ssim": 0.6493023553083767,
+      "pcc": 0.7757789342784869
+    },
+    {
+      "organelle": "Nucleus",
+      "method": "L5_mix_half",
+      "ssim": 0.6575821419724771,
+      "pcc": 0.7756231085909868
+    },
+    {
+      "organelle": "Nucleus",
+      "method": "L6_logmeanexp",
+      "ssim": 0.6470460436594893,
+      "pcc": 0.7658440306951787
+    },
+    {
+      "organelle": "Tubulin",
+      "method": "control_max",
+      "ssim": 0.6674634343139875,
+      "pcc": 0.7628177145825074
+    },
+    {
+      "organelle": "Tubulin",
+      "method": "L4_mean",
+      "ssim": 0.6652175229237263,
+      "pcc": 0.75808764836094
+    },
+    {
+      "organelle": "Tubulin",
+      "method": "L5_mix_half",
+      "ssim": 0.6702844376425413,
+      "pcc": 0.7639540538945848
+    },
+    {
+      "organelle": "Tubulin",
+      "method": "L6_logmeanexp",
+      "ssim": 0.6618499799377281,
+      "pcc": 0.7577841957539222
+    }
+  ],
+  "baseline_max_abs_ssim_difference": 8.630470426873593e-06,
+  "limits": [
+    "Previously evaluated cohort; exploratory, not a fresh holdout.",
+    "One hash-selected FOV per study; no posthoc channel selection.",
+    "Bootstrap intervals are exploratory and not multiplicity adjusted.",
+    "No official score, model retraining or deployment promotion claimed."
+  ]
+}

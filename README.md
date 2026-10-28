@@ -20,6 +20,23 @@
 
 ## Highlights
 
+**28 October: three new MIP aggregation experiments on real images.** A
+hash-selected seven-FOV pilot compared mean, half-max/half-mean and logmeanexp
+aggregation with the frozen five-model maximum projection. The half blend has
+an equal-FOV SSIM delta **+0.000332** (95% exploratory bootstrap
+[-0.002976,+0.004014]) and PCC delta **+0.001109**. Three FOV improve and four
+worsen on SSIM. Mean and logmeanexp have SSIM deltas -0.007307 and -0.009376.
+All per-FOV gains and regressions are preserved. These previously evaluated
+images are an exploratory pilot; they do not justify replacing the frozen
+baseline. [Full results and scope](evidence/mip-pilot-20261028/SUMMARY.md).
+
+All **80 measurement rows** survived a missing-pandas error in the GPU job's
+summary stage. They were recovered without repeating inference; the standalone
+summary and updated GPU runner now use the Python standard library for
+aggregation. The reproduced maximum control agrees with archived SSIM within
+0.000008631. Reproduce the evidence summary with
+`python tools/summarize_mip_pilot.py`.
+
 - **One model family, every modality.** A single four-output U-Net receives the transmitted-light image plus a bright-field / phase-contrast / DIC code, so one network serves all three microscopes and all four organelles.
 - **Large gains over the transmitted-light control.** In leakage-safe grouped cross-validation on the public edition-1 data, nucleus SSIM rises from 0.085 (transmitted light used as the prediction) to **0.564**, and PCC from 0.041 to **0.538**. Every organelle beats the control on both metrics.
 - **Strong MIP transfer without MIP training.** On a frozen hold-out cohort of 46 fields of view from seven edition-2 studies, the ensemble's maximum-over-planes projection reaches SSIM **0.62–0.71** and PCC **0.50–0.76** across organelles. The best transmitted-light projection reaches SSIM 0.22–0.38 and PCC 0.12–0.28.
