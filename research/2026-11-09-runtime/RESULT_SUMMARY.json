@@ -1,0 +1,89 @@
+{
+  "cases": 9,
+  "pairs": 27,
+  "geomean_speedup": 1.0947185333517735,
+  "minimum_case_speedup": 0.9962119897319957,
+  "maximum_case_speedup": 1.150900994416357,
+  "all_bitwise_equal": true,
+  "max_abs_error": 0.0,
+  "gpu_peak_GiB": 3.208125114440918,
+  "rss_peak_GiB": 2.4187240600585938,
+  "checks": {
+    "nine_cases": true,
+    "twentyseven_pairs": true,
+    "all_output_equivalent": true,
+    "geomean_speedup": true,
+    "no_case_regression_over_five_percent": true,
+    "gpu_memory": true,
+    "rss_memory": true
+  },
+  "candidate_promoted": true,
+  "biological_gain_claimed": false,
+  "t4_claimed": false,
+  "per_case": [
+    {
+      "seed": 20261109,
+      "case": "constant-bf",
+      "baseline_s": 0.019345342996530235,
+      "streaming_s": 0.019418901996687055,
+      "speedup": 0.9962119897319957
+    },
+    {
+      "seed": 20261109,
+      "case": "odd-strided-dic",
+      "baseline_s": 0.4805957979988307,
+      "streaming_s": 0.4175822249962948,
+      "speedup": 1.150900994416357
+    },
+    {
+      "seed": 20261109,
+      "case": "large-pc",
+      "baseline_s": 18.50828905501112,
+      "streaming_s": 16.138025150008616,
+      "speedup": 1.1468744708829033
+    },
+    {
+      "seed": 7,
+      "case": "constant-bf",
+      "baseline_s": 0.01951030299824197,
+      "streaming_s": 0.019466810990707017,
+      "speedup": 1.0022341619053945
+    },
+    {
+      "seed": 7,
+      "case": "odd-strided-dic",
+      "baseline_s": 0.47913949900248554,
+      "streaming_s": 0.41939742300019134,
+      "speedup": 1.14244740841497
+    },
+    {
+      "seed": 7,
+      "case": "large-pc",
+      "baseline_s": 18.582942773995455,
+      "streaming_s": 16.21028500200191,
+      "speedup": 1.1463674310291603
+    },
+    {
+      "seed": 1234,
+      "case": "constant-bf",
+      "baseline_s": 0.01952107400575187,
+      "streaming_s": 0.01953538099769503,
+      "speedup": 0.9992676369124899
+    },
+    {
+      "seed": 1234,
+      "case": "odd-strided-dic",
+      "baseline_s": 0.4791844699939247,
+      "streaming_s": 0.4200141170003917,
+      "speedup": 1.1408770576953675
+    },
+    {
+      "seed": 1234,
+      "case": "large-pc",
+      "baseline_s": 18.605806345993187,
+      "streaming_s": 16.213687657000264,
+      "speedup": 1.147536990942349
+    }
+  ],
+  "hardware_scope": "RTX3090 / hostTorch2.14.1+cu130; imageTorch2.13.0+cu126 CPU integration separately checked. No T4 timing or biological/official score improvement inferred."
+}

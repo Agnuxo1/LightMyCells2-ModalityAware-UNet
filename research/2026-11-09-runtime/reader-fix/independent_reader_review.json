@@ -1,0 +1,215 @@
+{
+  "environment": {
+    "LMC_DEVICE": "cpu",
+    "numpy": "2.5.4",
+    "tifffile": "2025.8.28",
+    "model_imports": false
+  },
+  "checks": {
+    "1_source_drift": {
+      "passed": true,
+      "only_changed_function": "read_case",
+      "protected_functions": [
+        "init_model",
+        "predict_normalized",
+        "predict_normalized_tensor",
+        "predict_stack",
+        "run",
+        "write_outputs"
+      ],
+      "source_sha256": "019be8bc00d2e6af0b2aa95e65ae255c70a24d300db1f6b9bf29d6bd148641d7"
+    },
+    "2_new_real_tiff_equivalence": {
+      "passed": true,
+      "rows": [
+        {
+          "modality": "BF",
+          "depth": 2,
+          "real_tiff": {
+            "series": 1,
+            "axes": "IYX",
+            "shape": [
+              2,
+              17,
+              19
+            ],
+            "ome": true
+          },
+          "canonical_pixels_and_metadata_equal": true
+        },
+        {
+          "modality": "PC",
+          "depth": 7,
+          "real_tiff": {
+            "series": 1,
+            "axes": "IYX",
+            "shape": [
+              7,
+              17,
+              19
+            ],
+            "ome": true
+          },
+          "canonical_pixels_and_metadata_equal": true
+        },
+        {
+          "modality": "DIC",
+          "depth": 28,
+          "real_tiff": {
+            "series": 1,
+            "axes": "IYX",
+            "shape": [
+              28,
+              17,
+              19
+            ],
+            "ome": true
+          },
+          "canonical_pixels_and_metadata_equal": true
+        }
+      ],
+      "single_plane_regression_passed": true,
+      "prediction_code_identical_by_check1": true,
+      "real_frozen_model_inference_rerun": false
+    },
+    "3_metadata_ambiguity": {
+      "passed": true,
+      "rows": [
+        {
+          "case": "missing-C",
+          "rejected": true,
+          "error_type": "KeyError",
+          "real_tiff": {
+            "header_error": "KeyError"
+          }
+        },
+        {
+          "case": "missing-T",
+          "rejected": true,
+          "error_type": "KeyError",
+          "real_tiff": {
+            "header_error": "KeyError"
+          }
+        },
+        {
+          "case": "missing-C-and-T",
+          "rejected": true,
+          "error_type": "KeyError",
+          "real_tiff": {
+            "header_error": "KeyError"
+          }
+        },
+        {
+          "case": "missing-Z",
+          "rejected": true,
+          "error_type": "KeyError",
+          "real_tiff": {
+            "header_error": "KeyError"
+          }
+        },
+        {
+          "case": "C-zero",
+          "rejected": true,
+          "error_type": "ValueError",
+          "real_tiff": {
+            "series": 1,
+            "axes": "IYX",
+            "shape": [
+              3,
+              17,
+              19
+            ],
+            "ome": true
+          }
+        },
+        {
+          "case": "T-zero",
+          "rejected": true,
+          "error_type": "ValueError",
+          "real_tiff": {
+            "series": 1,
+            "axes": "IYX",
+            "shape": [
+              3,
+              17,
+              19
+            ],
+            "ome": true
+          }
+        },
+        {
+          "case": "wrong-Z",
+          "rejected": true,
+          "error_type": "ValueError",
+          "real_tiff": {
+            "series": 1,
+            "axes": "IYX",
+            "shape": [
+              3,
+              17,
+              19
+            ],
+            "ome": true
+          }
+        },
+        {
+          "case": "two-C",
+          "rejected": true,
+          "error_type": "ValueError",
+          "real_tiff": {
+            "series": 1,
+            "axes": "IYX",
+            "shape": [
+              3,
+              17,
+              19
+            ],
+            "ome": true
+          }
+        },
+        {
+          "case": "two-T",
+          "rejected": true,
+          "error_type": "ValueError",
+          "real_tiff": {
+            "series": 1,
+            "axes": "IYX",
+            "shape": [
+              3,
+              17,
+              19
+            ],
+            "ome": true
+          }
+        }
+      ],
+      "unexpected_acceptances": []
+    }
+  },
+  "findings": [],
+  "decision_file_readable": true,
+  "decision": {
+    "mode": "v2-query",
+    "exit_code": 0,
+    "provenance": "jev",
+    "status": "connected",
+    "connected": null,
+    "configured": null,
+    "model": "jev-1.14.0",
+    "decision_source": null,
+    "error_type": null,
+    "decisions": {
+      "next": {
+        "value": "minimal_contract_fix_and_new_mock",
+        "confidence": 1.0
+      }
+    },
+    "usage": {
+      "input_tokens": 698,
+      "output_tokens": 56,
+      "cached_tokens": 0
+    }
+  },
+  "official_header_inspected": false,
+  "PASS": true
+}

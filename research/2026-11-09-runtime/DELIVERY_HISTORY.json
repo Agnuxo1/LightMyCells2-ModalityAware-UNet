@@ -1,0 +1,67 @@
+[
+  {
+    "phase": "MIP - Mock",
+    "submission_id": "8bc97c8c-ccd6-4131-ae7f-7496e7013f71",
+    "url": "https://lightmycells2.grand-challenge.org/evaluation/mip-mock/submissions/8bc97c8c-ccd6-4131-ae7f-7496e7013f71/",
+    "created_utc_minute": "2026-11-09T21:30:00Z",
+    "submission_status": "Accepted",
+    "evaluation_id": "316b5e1a-64cc-4f73-a5e9-e159e0c2eb06",
+    "evaluation_status": "Failed",
+    "image_id": "994022dc-ea6d-4386-8129-6105f29c5dbf",
+    "image_sha256": "sha256:9484d48e47167dfc24cc07ca591174315e4c30f95c0cc2bad59e04a57e0c0d11",
+    "archive_sha256": "bb01bc91c25c7ad0af6f6bda142f755cfd1b4c7302d3ee6140ebc9381375ac75",
+    "same_five_frozen_weights": true,
+    "local_runtime_geomean_speedup": 1.0947185333517735,
+    "official_score": null,
+    "rank": null,
+    "prize": null,
+    "december_final_submitted": false,
+    "evaluation_error": "The algorithm failed on one or more cases.",
+    "t4_runtime_passed": false,
+    "current_action": "Read official algorithm logs, reproduce failure, correct and validate before any new submission."
+  },
+  {
+    "phase": "MIP - Mock",
+    "submission_id": "bb264226-a9c4-4a82-bbdc-f2429d1f4e45",
+    "url": "https://lightmycells2.grand-challenge.org/evaluation/mip-mock/submissions/bb264226-a9c4-4a82-bbdc-f2429d1f4e45/",
+    "created_utc_minute": "2026-11-09T22:22:00Z",
+    "submission_status": "Accepted",
+    "evaluation_id": "9e5e6d11-8c2d-44f9-bcef-db5ff4976406",
+    "evaluation_url": "https://lightmycells2.grand-challenge.org/evaluation/9e5e6d11-8c2d-44f9-bcef-db5ff4976406/",
+    "evaluation_status": "Succeeded",
+    "image_id": "c212057d-1920-4dce-a697-c508b9519eb0",
+    "image_sha256": "sha256:163d236171db0dea3c7332096c6592fa1cada9f253b1674f3d531d1d3c60ab9c",
+    "source_sha256": "019be8bc00d2e6af0b2aa95e65ae255c70a24d300db1f6b9bf29d6bd148641d7",
+    "archive_sha256": "da0741a96e8f51843f2633c5b2121d62d54d974c28845ab94a054884a1121c72",
+    "previous_failed_submission": "8bc97c8c-ccd6-4131-ae7f-7496e7013f71",
+    "reader_correction": "Generic IYX allowed only for one OME channel/time and matching z depth; other metadata and prediction checks retained",
+    "same_five_frozen_weights": true,
+    "local_runtime_geomean_speedup": 1.0947185333517735,
+    "official_score": null,
+    "rank": null,
+    "prize": null,
+    "december_final_submitted": false,
+    "t4_runtime_passed": true,
+    "current_action": "Official mock execution verified. Preserve private metrics; publish reviewed source/weights and engineering receipt only; December final remains separate.",
+    "observed_algorithm_jobs": [
+      {
+        "job_id": "c5b2b843-226e-49ba-9330-c57e131f157f",
+        "status": "Succeeded",
+        "health_http": 200,
+        "invoke_http": 201,
+        "inference_seconds": 42.25797908499999,
+        "device": "cuda"
+      },
+      {
+        "job_id": "0f70389a-6a89-456a-8498-a00b5cd0b426",
+        "status": "Succeeded",
+        "health_http": 200,
+        "invoke_http": 201,
+        "inference_seconds": 3.062856174999979,
+        "device": "cuda"
+      }
+    ],
+    "terminal_observed_utc": "2026-11-09T22:31:50.328181+00:00",
+    "metrics_disclosure": "Biological metrics and mock leaderboard position are omitted from this public engineering release under challenge publication restrictions; they are retained in the private official record. No final ranking or prize is claimed."
+  }
+]

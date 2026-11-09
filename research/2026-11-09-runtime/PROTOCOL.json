@@ -1,0 +1,69 @@
+{
+  "study": "LMC2 frozen MIP transport optimization 20261109",
+  "hypothesis": "Keeping the per-z maximum on the GPU avoids full-resolution per-plane device-to-host copies without changing the frozen ensemble computation.",
+  "baseline_image": "sha256:b2527684c410453ade2242ca56ed73239139e079ac6be5b050ecab62851a4c8e",
+  "baseline_inference_sha256": "00fb56f147beac2621a40a607e9e9e2f04002ded1294e3c5ee8435e2eac44d7e",
+  "models": "all five existing fixed ed1 folds, equal weights, checked against embedded manifest",
+  "changes_allowed": "Only where the running maximum and final device-to-host transfer occur; no fitting, new data, labels, fold changes or model selection.",
+  "seeds": [
+    20261109,
+    7,
+    1234
+  ],
+  "cases": [
+    {
+      "id": "constant-bf",
+      "shape": [
+        1,
+        64,
+        80
+      ],
+      "px": 0.2,
+      "mod": "BF",
+      "kind": "constant"
+    },
+    {
+      "id": "odd-strided-dic",
+      "shape": [
+        5,
+        529,
+        611
+      ],
+      "px": 0.19,
+      "mod": "DIC",
+      "kind": "strided"
+    },
+    {
+      "id": "large-pc",
+      "shape": [
+        16,
+        2048,
+        2048
+      ],
+      "px": 0.2,
+      "mod": "PC",
+      "kind": "random"
+    }
+  ],
+  "warmups_per_algorithm_and_case": 1,
+  "paired_repetitions": 3,
+  "order": "AB for even seed-index+case-index+repeat-index, BA for odd; explicit synchronization around each timed call",
+  "output_gate": {
+    "shape": "4,H,W",
+    "finite": true,
+    "allclose_atol": 1e-06,
+    "allclose_rtol": 1e-06,
+    "report_bitwise_and_max_error": true
+  },
+  "promotion_gate": {
+    "every_output_check_passes": true,
+    "geomean_of_nine_case_median_speedups_at_least": 1.05,
+    "every_case_median_speedup_at_least": 0.95,
+    "gpu_peak_bytes_below": 15032385536,
+    "process_peak_rss_bytes_below": 15032385536
+  },
+  "hardware_scope": "RTX3090 runtime and equivalence only; does not prove T4 runtime, biological accuracy, generalization, official acceptance or improved official score.",
+  "budget": "Managed servidor-ia timeout30m; native PyTorch child timeout25m; exactly the scheduler-assigned GPU, four CPU threads,8GiB requested DRAM; no network code or shared-environment changes.",
+  "fallback": "Keep the original v1 image if any promotion criterion fails; report all negative cases without retuning. Official mock is a separate authorized operation after final audit.",
+  "amendment": "V1 failed before inference: Docker GPU driver unavailable. V2 extracts exact source/weights from the same image using CPU-only docker cp, then executes both arms in the managed host PyTorch runtime. No case, seed, tolerance, model or promotion criterion changed; no outcome was observed."
+}

@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "valid_real_iyx_cases": 3,
+  "rejection_cases": 4,
+  "rows": [
+    {
+      "mode": "BF",
+      "depth": 3,
+      "real_tiff_axes": "IYX",
+      "old_rejection_reproduced": true,
+      "canonical_pixels_equal": true,
+      "predictions_bitwise_equal": true,
+      "four_ome_outputs": true
+    },
+    {
+      "mode": "PC",
+      "depth": 5,
+      "real_tiff_axes": "IYX",
+      "old_rejection_reproduced": true,
+      "canonical_pixels_equal": true,
+      "predictions_bitwise_equal": true,
+      "four_ome_outputs": true
+    },
+    {
+      "mode": "DIC",
+      "depth": 28,
+      "real_tiff_axes": "IYX",
+      "old_rejection_reproduced": true,
+      "canonical_pixels_equal": true,
+      "predictions_bitwise_equal": true,
+      "four_ome_outputs": true
+    },
+    {
+      "rejection_case": "multiple-channels",
+      "rejected": true
+    },
+    {
+      "rejection_case": "multiple-times",
+      "rejected": true
+    },
+    {
+      "rejection_case": "depth-mismatch",
+      "rejected": true
+    },
+    {
+      "rejection_case": "missing-ome",
+      "rejected": true
+    }
+  ],
+  "no_mock_or_target_pixels_used": true,
+  "model_and_normalization_unchanged": true,
+  "gpu_used": false
+}

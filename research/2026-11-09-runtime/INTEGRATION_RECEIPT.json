@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "single-constant-bf",
+      "all_four_sockets": true,
+      "shape_dtype_finite": true,
+      "ome_spacing_preserved": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "case": "odd-mip-pc",
+      "all_four_sockets": true,
+      "shape_dtype_finite": true,
+      "ome_spacing_preserved": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "case": "anisotropic-mip-dic",
+      "all_four_sockets": true,
+      "shape_dtype_finite": true,
+      "ome_spacing_preserved": true,
+      "max_abs_error": 0.0
+    },
+    {
+      "case": "unknown-modality",
+      "both_reject": true
+    },
+    {
+      "case": "nonfinite-input",
+      "both_reject": true
+    }
+  ],
+  "actual_image_adapter_run_tested": true,
+  "gpu_used": false,
+  "t4_runtime_tested": false,
+  "biological_quality_tested": false,
+  "image_torch": "2.13.0+cu126",
+  "candidate_inference_sha256": "5dbd3db82ee583588aabcee8801f624eb722bd46c563dd4e49176a43a510c746"
+}

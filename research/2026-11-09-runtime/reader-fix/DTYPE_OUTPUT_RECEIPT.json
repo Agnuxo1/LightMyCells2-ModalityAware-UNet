@@ -1,0 +1,113 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "dtype": "uint16",
+      "kind": "random",
+      "modality": "BF",
+      "seed": 20261109,
+      "input_shape": [
+        28,
+        2048,
+        2048
+      ],
+      "finite": true,
+      "prediction_bytes_equal": true,
+      "serialized_four_outputs_equal": true,
+      "shape_and_spacing_pass": true,
+      "seconds": 70.80510355200386,
+      "prediction_sha256": "4e413333a53badc6df30bbf928ff6434de12a0a3278d2b757837b45e19d7ac5e"
+    },
+    {
+      "dtype": "uint16",
+      "kind": "zero",
+      "modality": "PC",
+      "seed": 7,
+      "input_shape": [
+        28,
+        2048,
+        2048
+      ],
+      "finite": true,
+      "prediction_bytes_equal": true,
+      "serialized_four_outputs_equal": true,
+      "shape_and_spacing_pass": true,
+      "seconds": 68.88091462300508,
+      "prediction_sha256": "76cf3511d5a77997077390fd7f974f36c4619e4e229ec84ad3489439e3a9425e"
+    },
+    {
+      "dtype": "uint16",
+      "kind": "max",
+      "modality": "DIC",
+      "seed": 1234,
+      "input_shape": [
+        28,
+        2048,
+        2048
+      ],
+      "finite": true,
+      "prediction_bytes_equal": true,
+      "serialized_four_outputs_equal": true,
+      "shape_and_spacing_pass": true,
+      "seconds": 68.81562638600008,
+      "prediction_sha256": "bfef45db51375794e2021f912a7900d27168b2b8fa153b2aa8c7b5c153a90ca9"
+    },
+    {
+      "dtype": "uint8",
+      "kind": "random",
+      "modality": "DIC",
+      "seed": 20261109,
+      "input_shape": [
+        28,
+        2048,
+        2048
+      ],
+      "finite": true,
+      "prediction_bytes_equal": true,
+      "serialized_four_outputs_equal": true,
+      "shape_and_spacing_pass": true,
+      "seconds": 70.15145117399516,
+      "prediction_sha256": "3801582a6460a667723baf2ad8172d74be16cfb869ae40e486eaa0b752d0c153"
+    },
+    {
+      "dtype": "uint8",
+      "kind": "zero",
+      "modality": "BF",
+      "seed": 7,
+      "input_shape": [
+        28,
+        2048,
+        2048
+      ],
+      "finite": true,
+      "prediction_bytes_equal": true,
+      "serialized_four_outputs_equal": true,
+      "shape_and_spacing_pass": true,
+      "seconds": 68.68225298500329,
+      "prediction_sha256": "05a215ce03f12ba4fe15291e3a825ce1a28c93b78e418cce04b8dcaadf56a8f3"
+    },
+    {
+      "dtype": "uint8",
+      "kind": "max",
+      "modality": "PC",
+      "seed": 1234,
+      "input_shape": [
+        28,
+        2048,
+        2048
+      ],
+      "finite": true,
+      "prediction_bytes_equal": true,
+      "serialized_four_outputs_equal": true,
+      "shape_and_spacing_pass": true,
+      "seconds": 68.79222451099486,
+      "prediction_sha256": "76cf3511d5a77997077390fd7f974f36c4619e4e229ec84ad3489439e3a9425e"
+    }
+  ],
+  "source_sha256": "019be8bc00d2e6af0b2aa95e65ae255c70a24d300db1f6b9bf29d6bd148641d7",
+  "gpu_peak_bytes": 3444698112,
+  "torch": "2.14.1+cu130",
+  "single_assigned_gpu": "0",
+  "synthetic_only": true,
+  "t4_tested": false
+}

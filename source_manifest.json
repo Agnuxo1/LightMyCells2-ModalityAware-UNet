@@ -2,9 +2,10 @@
   "origin": "Public release 2026-10-28 of the private LMC2 research repository; see docs/REPRODUCING.md",
   "files": {
     "README.md": {
-      "sha256": "a30fd2160d8677999443a2ca37420cd1bc14fb82438f152fe3e1494253ed3093",
+      "sha256": "5b6c4c543fa2d7bb5ab8133946b1f4c462de4ca4aba181cfb9a9934694ab0a9d",
       "private_sha256": "9f4410a65fcaae5d24d4ae703903bccdf0552a24717d4a2f40875d6b82466d00",
-      "relation": "Public README updated with the 28 October real-image aggregation pilot; private_sha256 is the historical source, not current README equivalence."
+      "relation": "Current README adds a 9 November runtime/reader/status prefix; the complete 28 October public README remains an exact byte suffix with previous_public_sha256. Original private_sha256 is retained.",
+      "previous_public_sha256": "a30fd2160d8677999443a2ca37420cd1bc14fb82438f152fe3e1494253ed3093"
     },
     "evidence/checkpoints_manifest.json": {
       "sha256": "a7514bb267393546394f06c4ab82c716bcf33b43efd7b84cdaf72b6abf1f72cf",

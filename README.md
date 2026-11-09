@@ -1,3 +1,23 @@
+## MIP runtime and reader update - 9 November 2026
+
+A transport change keeps the maximum over z on GPU while retaining the five frozen models and preprocessing. Across nine specified synthetic RTX 3090 cases and 27 paired repetitions, geometric mean throughput improved 1.09472x with identical output bytes. The corrected reader additionally supports strictly constrained single-channel IYX OME-TIFF stacks, with CPU/API, full-shape GPU and independent review records. [Protocol, source, records and scope](research/2026-11-09-runtime/README.md).
+
+Corrected MIP mock submission `bb264226-a9c4-4a82-bbdc-f2429d1f4e45` was Accepted; its official evaluation status is **Succeeded**. [Latest official receipt](research/2026-11-09-runtime/DELIVERY_LATEST.json). The first failed entry is retained in the delivery history. December final testing remains a later phase. Synthetic timing checks do not establish SSIM/PCC or ranking improvement. Earlier measurements below retain their original configurations.
+
+<!-- author-background:start -->
+## Author background
+
+**Francisco Angulo de Lafuente**, independent AI researcher · [ORCID](https://orcid.org/0009-0001-1634-7063) · [arXiv](https://arxiv.org/a/angulodelafuente_f_1.html) · [Google Scholar](https://scholar.google.com/citations?user=6nOpJ9IAAAAJ) · [ResearchGate](https://www.researchgate.net/profile/Francisco-Angulo-Lafuente-3) · [Figshare](https://figshare.com/authors/Francisco_Angulo_de_Lafuente/22601234) · [Wikipedia](https://es.wikipedia.org/wiki/Francisco_Angulo_de_Lafuente)
+
+Earlier research at ECOFA focused on biotechnology for clean energy and on second-generation biofuels obtained by microbiological processing of organic waste. Two Spanish patents document that work:
+
+- **ES 2273594 B1**, *Process for obtaining fuels from organic waste*. Filed 5 September 2005, grant published 16 February 2008. [OEPM](https://www.oepm.es/pdf/ES/0000/000/02/27/35/ES-2273594_B1.pdf) · [Google Patents](https://patents.google.com/patent/ES2273594B1/en)
+- **ES 2341194 B1**, *Method for obtaining paraffin by a biological process with microorganisms from organic matter, and its refining for use as fuel*. Filed 11 September 2007, grant published 26 April 2011. Also published as EP2196519 and WO2009034217. [OEPM](https://www.oepm.es/pdf/ES/0000/000/02/34/11/ES-2341194_B1.pdf) · [Google Patents](https://patents.google.com/patent/ES2341194B1/en)
+
+These are historical publication and grant records under the inventor name Francisco Angulo Lafuente, and both have since lapsed. They are cited as evidence of a research trajectory and make no statement about current enforceability.
+<!-- author-background:end -->
+
+
 <div align="center">
 
 # Light My Cells 2 · Modality-Aware Five-Fold U-Net

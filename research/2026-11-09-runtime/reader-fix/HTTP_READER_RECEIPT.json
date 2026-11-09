@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "same_synthetic_iyx28_input": true,
+  "old500_reproduced": true,
+  "fixed201_and_four_outputs": true,
+  "records": [
+    {
+      "version": "old",
+      "image_id": "sha256:9484d48e47167dfc24cc07ca591174315e4c30f95c0cc2bad59e04a57e0c0d11",
+      "health": 200,
+      "invoke": 500,
+      "outputs": [],
+      "offline_network_none": true
+    },
+    {
+      "version": "fixed",
+      "image_id": "sha256:163d236171db0dea3c7332096c6592fa1cada9f253b1674f3d531d1d3c60ab9c",
+      "health": 200,
+      "invoke": 201,
+      "outputs": [
+        "images/mip-actin-fluorescence-ome-tiff/synthetic-iyx28.tiff",
+        "images/mip-mitochondria-fluorescence-ome-tiff/synthetic-iyx28.tiff",
+        "images/mip-nucleus-fluorescence-ome-tiff/synthetic-iyx28.tiff",
+        "images/mip-tubulin-fluorescence-ome-tiff/synthetic-iyx28.tiff"
+      ],
+      "offline_network_none": true
+    }
+  ],
+  "no_mock_or_target_data": true,
+  "gpu_used": false
+}

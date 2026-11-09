@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "seed": 20261109,
+      "modality": "BF",
+      "input_axes": "IYX",
+      "input_shape": [
+        28,
+        2048,
+        2048
+      ],
+      "old_rejection_reproduced": true,
+      "prediction_bytes_equal": true,
+      "max_abs_error": 0.0,
+      "seconds_for_pair": 60.804896162997466,
+      "sha256": "15a85a13a8e7eeea4d333a9880c755110cfe89ed0e78879fe81bfe913876d771"
+    },
+    {
+      "seed": 7,
+      "modality": "PC",
+      "input_axes": "IYX",
+      "input_shape": [
+        28,
+        2048,
+        2048
+      ],
+      "old_rejection_reproduced": true,
+      "prediction_bytes_equal": true,
+      "max_abs_error": 0.0,
+      "seconds_for_pair": 60.58414572199399,
+      "sha256": "063a55dac7aa19b9556e897b0be7ef552cfa2824160e36b6dbc308fa21fca454"
+    },
+    {
+      "seed": 1234,
+      "modality": "DIC",
+      "input_axes": "IYX",
+      "input_shape": [
+        28,
+        2048,
+        2048
+      ],
+      "old_rejection_reproduced": true,
+      "prediction_bytes_equal": true,
+      "max_abs_error": 0.0,
+      "seconds_for_pair": 60.7850132349995,
+      "sha256": "081fe6d56b43db85feaab99b37d686cfccdd49f30b7fbdb2460596e725385036"
+    }
+  ],
+  "source_sha256": "019be8bc00d2e6af0b2aa95e65ae255c70a24d300db1f6b9bf29d6bd148641d7",
+  "single_assigned_gpu": "1",
+  "gpu_peak_bytes": 3444698112,
+  "torch": "2.14.1+cu130",
+  "no_mock_or_target_data": true,
+  "t4_tested": false
+}

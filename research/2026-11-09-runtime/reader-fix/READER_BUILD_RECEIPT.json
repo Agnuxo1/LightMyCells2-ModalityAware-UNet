@@ -1,0 +1,18 @@
+{
+  "image_id": "sha256:163d236171db0dea3c7332096c6592fa1cada9f253b1674f3d531d1d3c60ab9c",
+  "image_tag": "lmc2-mip-iyx-20261109-v2",
+  "source_sha256": "019be8bc00d2e6af0b2aa95e65ae255c70a24d300db1f6b9bf29d6bd148641d7",
+  "previous_source_sha256": "5dbd3db82ee583588aabcee8801f624eb722bd46c563dd4e49176a43a510c746",
+  "only_read_case_changed": true,
+  "protected_functions_ast_identical": [
+    "init_model",
+    "predict_normalized",
+    "predict_normalized_tensor",
+    "predict_stack",
+    "write_outputs",
+    "run"
+  ],
+  "five_weights_unchanged": true,
+  "input_scope": "MIP single-channel/time genericIYX accepted only with matching OME SizeZ; no new normalization/modality/spacing fallback",
+  "official_header_not_inspected": true
+}

@@ -1,0 +1,997 @@
+{
+  "started_utc": "2026-11-09T20:52:53.938443+00:00",
+  "protocol": {
+    "study": "LMC2 frozen MIP transport optimization 20261109",
+    "hypothesis": "Keeping the per-z maximum on the GPU avoids full-resolution per-plane device-to-host copies without changing the frozen ensemble computation.",
+    "baseline_image": "sha256:b2527684c410453ade2242ca56ed73239139e079ac6be5b050ecab62851a4c8e",
+    "baseline_inference_sha256": "00fb56f147beac2621a40a607e9e9e2f04002ded1294e3c5ee8435e2eac44d7e",
+    "models": "all five existing fixed ed1 folds, equal weights, checked against embedded manifest",
+    "changes_allowed": "Only where the running maximum and final device-to-host transfer occur; no fitting, new data, labels, fold changes or model selection.",
+    "seeds": [
+      20261109,
+      7,
+      1234
+    ],
+    "cases": [
+      {
+        "id": "constant-bf",
+        "shape": [
+          1,
+          64,
+          80
+        ],
+        "px": 0.2,
+        "mod": "BF",
+        "kind": "constant"
+      },
+      {
+        "id": "odd-strided-dic",
+        "shape": [
+          5,
+          529,
+          611
+        ],
+        "px": 0.19,
+        "mod": "DIC",
+        "kind": "strided"
+      },
+      {
+        "id": "large-pc",
+        "shape": [
+          16,
+          2048,
+          2048
+        ],
+        "px": 0.2,
+        "mod": "PC",
+        "kind": "random"
+      }
+    ],
+    "warmups_per_algorithm_and_case": 1,
+    "paired_repetitions": 3,
+    "order": "AB for even seed-index+case-index+repeat-index, BA for odd; explicit synchronization around each timed call",
+    "output_gate": {
+      "shape": "4,H,W",
+      "finite": true,
+      "allclose_atol": 1e-06,
+      "allclose_rtol": 1e-06,
+      "report_bitwise_and_max_error": true
+    },
+    "promotion_gate": {
+      "every_output_check_passes": true,
+      "geomean_of_nine_case_median_speedups_at_least": 1.05,
+      "every_case_median_speedup_at_least": 0.95,
+      "gpu_peak_bytes_below": 15032385536,
+      "process_peak_rss_bytes_below": 15032385536
+    },
+    "hardware_scope": "RTX3090 runtime and equivalence only; does not prove T4 runtime, biological accuracy, generalization, official acceptance or improved official score.",
+    "budget": "Managed servidor-ia timeout30m; native PyTorch child timeout25m; exactly the scheduler-assigned GPU, four CPU threads,8GiB requested DRAM; no network code or shared-environment changes.",
+    "fallback": "Keep the original v1 image if any promotion criterion fails; report all negative cases without retuning. Official mock is a separate authorized operation after final audit.",
+    "amendment": "V1 failed before inference: Docker GPU driver unavailable. V2 extracts exact source/weights from the same image using CPU-only docker cp, then executes both arms in the managed host PyTorch runtime. No case, seed, tolerance, model or promotion criterion changed; no outcome was observed."
+  },
+  "source_sha256": {
+    "streaming.py": "e4bd5273922af808ba046b80f92a73b5553e46fc0d6915c664b096e1a3e811d3",
+    "study.py": "9d6402946a404ca415a48489f00e8a90e97a50cd6ca89daf0cf4d7b1fbf66042",
+    "launch_native.py": "2738bbc7564e15ef456bb3b01687858ee29c056c587155b33eb2a5b92a56f0c5",
+    "PROTOCOL.json": "cedba2f3caaa6dcadd7a0fe5e71b02a0e25cc11afba4c7e33de4b38538f27253",
+    "LAUNCH_RECEIPT.json": "875ea2dad10461f32fef3e57e2d9c1c4c51beab824f07e85a108a0007c90ead7"
+  },
+  "torch": "2.14.1+cu130",
+  "cuda": "13.0",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "visible_device_count": 1,
+  "baseline_source_verified": true,
+  "all_five_weight_hashes_verified": true,
+  "cases": [
+    {
+      "seed": 20261109,
+      "case": {
+        "id": "constant-bf",
+        "shape": [
+          1,
+          64,
+          80
+        ],
+        "px": 0.2,
+        "mod": "BF",
+        "kind": "constant"
+      },
+      "pairs": [
+        {
+          "repeat": 0,
+          "order": [
+            "baseline",
+            "streaming"
+          ],
+          "seconds": {
+            "baseline": 0.019271956000011414,
+            "streaming": 0.019466890997136943
+          },
+          "gpu_peak_bytes": {
+            "baseline": 168525312,
+            "streaming": 168525312
+          },
+          "shape": [
+            4,
+            64,
+            80
+          ],
+          "finite": true,
+          "max_abs_error": 0.0,
+          "bitwise_equal": true,
+          "allclose": true,
+          "baseline_sha256": "a1ee3ef3089c1a8aae607841554c8dfd26b840e81637bb6b3dcac1fef6ab4cc0",
+          "streaming_sha256": "a1ee3ef3089c1a8aae607841554c8dfd26b840e81637bb6b3dcac1fef6ab4cc0"
+        },
+        {
+          "repeat": 1,
+          "order": [
+            "streaming",
+            "baseline"
+          ],
+          "seconds": {
+            "streaming": 0.019418901996687055,
+            "baseline": 0.019345342996530235
+          },
+          "gpu_peak_bytes": {
+            "streaming": 168525312,
+            "baseline": 168525312
+          },
+          "shape": [
+            4,
+            64,
+            80
+          ],
+          "finite": true,
+          "max_abs_error": 0.0,
+          "bitwise_equal": true,
+          "allclose": true,
+          "baseline_sha256": "a1ee3ef3089c1a8aae607841554c8dfd26b840e81637bb6b3dcac1fef6ab4cc0",
+          "streaming_sha256": "a1ee3ef3089c1a8aae607841554c8dfd26b840e81637bb6b3dcac1fef6ab4cc0"
+        },
+        {
+          "repeat": 2,
+          "order": [
+            "baseline",
+            "streaming"
+          ],
+          "seconds": {
+            "baseline": 0.019498490990372375,
+            "streaming": 0.019391980007640086
+          },
+          "gpu_peak_bytes": {
+            "baseline": 168525312,
+            "streaming": 168525312
+          },
+          "shape": [
+            4,
+            64,
+            80
+          ],
+          "finite": true,
+          "max_abs_error": 0.0,
+          "bitwise_equal": true,
+          "allclose": true,
+          "baseline_sha256": "a1ee3ef3089c1a8aae607841554c8dfd26b840e81637bb6b3dcac1fef6ab4cc0",
+          "streaming_sha256": "a1ee3ef3089c1a8aae607841554c8dfd26b840e81637bb6b3dcac1fef6ab4cc0"
+        }
+      ],
+      "median_seconds": {
+        "baseline": 0.019345342996530235,
+        "streaming": 0.019418901996687055
+      },
+      "median_speedup": 0.9962119897319957
+    },
+    {
+      "seed": 20261109,
+      "case": {
+        "id": "odd-strided-dic",
+        "shape": [
+          5,
+          529,
+          611
+        ],
+        "px": 0.19,
+        "mod": "DIC",
+        "kind": "strided"
+      },
+      "pairs": [
+        {
+          "repeat": 0,
+          "order": [
+            "streaming",
+            "baseline"
+          ],
+          "seconds": {
+            "streaming": 0.4175822249962948,
+            "baseline": 0.4791857969976263
+          },
+          "gpu_peak_bytes": {
+            "streaming": 398013952,
+            "baseline": 388174336
+          },
+          "shape": [
+            4,
+            529,
+            611
+          ],
+          "finite": true,
+          "max_abs_error": 0.0,
+          "bitwise_equal": true,
+          "allclose": true,
+          "baseline_sha256": "02444be7379a0b78f2e9951dcb4f12c69ce4577f5799ba3f6eede23b4db4063f",
+          "streaming_sha256": "02444be7379a0b78f2e9951dcb4f12c69ce4577f5799ba3f6eede23b4db4063f"
+        },
+        {
+          "repeat": 1,
+          "order": [
+            "baseline",
+            "streaming"
+          ],
+          "seconds": {
+            "baseline": 0.4805957979988307,
+            "streaming": 0.41691652400186285
+          },
+          "gpu_peak_bytes": {
+            "baseline": 388174336,
+            "streaming": 398013952
+          },
+          "shape": [
+            4,
+            529,
+            611
+          ],
+          "finite": true,
+          "max_abs_error": 0.0,
+          "bitwise_equal": true,
+          "allclose": true,
+          "baseline_sha256": "02444be7379a0b78f2e9951dcb4f12c69ce4577f5799ba3f6eede23b4db4063f",
+          "streaming_sha256": "02444be7379a0b78f2e9951dcb4f12c69ce4577f5799ba3f6eede23b4db4063f"
+        },
+        {
+          "repeat": 2,
+          "order": [
+            "streaming",
+            "baseline"
+          ],
+          "seconds": {
+            "streaming": 0.42350718699162826,
+            "baseline": 0.4843327410053462
+          },
+          "gpu_peak_bytes": {
+            "streaming": 398013952,
+            "baseline": 388174336
+          },
+          "shape": [
+            4,
+            529,
+            611
+          ],
+          "finite": true,
+          "max_abs_error": 0.0,
+          "bitwise_equal": true,
+          "allclose": true,
+          "baseline_sha256": "02444be7379a0b78f2e9951dcb4f12c69ce4577f5799ba3f6eede23b4db4063f",
+          "streaming_sha256": "02444be7379a0b78f2e9951dcb4f12c69ce4577f5799ba3f6eede23b4db4063f"
+        }
+      ],
+      "median_seconds": {
+        "baseline": 0.4805957979988307,
+        "streaming": 0.4175822249962948
+      },
+      "median_speedup": 1.150900994416357
+    },
+    {
+      "seed": 20261109,
+      "case": {
+        "id": "large-pc",
+        "shape": [
+          16,
+          2048,
+          2048
+        ],
+        "px": 0.2,
+        "mod": "PC",
+        "kind": "random"
+      },
+      "pairs": [
+        {
+          "repeat": 0,
+          "order": [
+            "baseline",
+            "streaming"
+          ],
+          "seconds": {
+            "baseline": 18.47920858299767,
+            "streaming": 16.11990202299785
+          },
+          "gpu_peak_bytes": {
+            "baseline": 3310480384,
+            "streaming": 3444698112
+          },
+          "shape": [
+            4,
+            2048,
+            2048
+          ],
+          "finite": true,
+          "max_abs_error": 0.0,
+          "bitwise_equal": true,
+          "allclose": true,
+          "baseline_sha256": "60b586fd2f77f56667141682843348c471a9e7c4c1d40677dc944826e187e154",
+          "streaming_sha256": "60b586fd2f77f56667141682843348c471a9e7c4c1d40677dc944826e187e154"
+        },
+        {
+          "repeat": 1,
+          "order": [
+            "streaming",
+            "baseline"
+          ],
+          "seconds": {
+            "streaming": 16.138025150008616,
+            "baseline": 18.607032735002576
+          },
+          "gpu_peak_bytes": {
+            "streaming": 3444698112,
+            "baseline": 3310480384
+          },
+          "shape": [
+            4,
+            2048,
+            2048
+          ],
+          "finite": true,
+          "max_abs_error": 0.0,
+          "bitwise_equal": true,
+          "allclose": true,
+          "baseline_sha256": "60b586fd2f77f56667141682843348c471a9e7c4c1d40677dc944826e187e154",
+          "streaming_sha256": "60b586fd2f77f56667141682843348c471a9e7c4c1d40677dc944826e187e154"
+        },
+        {
+          "repeat": 2,
+          "order": [
+            "baseline",
+            "streaming"
+          ],
+          "seconds": {
+            "baseline": 18.50828905501112,
+            "streaming": 16.16109090601094
+          },
+          "gpu_peak_bytes": {
+            "baseline": 3310480384,
+            "streaming": 3444698112
+          },
+          "shape": [
+            4,
+            2048,
+            2048
+          ],
+          "finite": true,
+          "max_abs_error": 0.0,
+          "bitwise_equal": true,
+          "allclose": true,
+          "baseline_sha256": "60b586fd2f77f56667141682843348c471a9e7c4c1d40677dc944826e187e154",
+          "streaming_sha256": "60b586fd2f77f56667141682843348c471a9e7c4c1d40677dc944826e187e154"
+        }
+      ],
+      "median_seconds": {
+        "baseline": 18.50828905501112,
+        "streaming": 16.138025150008616
+      },
+      "median_speedup": 1.1468744708829033
+    },
+    {
+      "seed": 7,
+      "case": {
+        "id": "constant-bf",
+        "shape": [
+          1,
+          64,
+          80
+        ],
+        "px": 0.2,
+        "mod": "BF",
+        "kind": "constant"
+      },
+      "pairs": [
+        {
+          "repeat": 0,
+          "order": [
+            "streaming",
+            "baseline"
+          ],
+          "seconds": {
+            "streaming": 0.01957997500721831,
+            "baseline": 0.01951030299824197
+          },
+          "gpu_peak_bytes": {
+            "streaming": 168525312,
+            "baseline": 168525312
+          },
+          "shape": [
+            4,
+            64,
+            80
+          ],
+          "finite": true,
+          "max_abs_error": 0.0,
+          "bitwise_equal": true,
+          "allclose": true,
+          "baseline_sha256": "a1ee3ef3089c1a8aae607841554c8dfd26b840e81637bb6b3dcac1fef6ab4cc0",
+          "streaming_sha256": "a1ee3ef3089c1a8aae607841554c8dfd26b840e81637bb6b3dcac1fef6ab4cc0"
+        },
+        {
+          "repeat": 1,
+          "order": [
+            "baseline",
+            "streaming"
+          ],
+          "seconds": {
+            "baseline": 0.019570135002140887,
+            "streaming": 0.019437406997894868
+          },
+          "gpu_peak_bytes": {
+            "baseline": 168525312,
+            "streaming": 168525312
+          },
+          "shape": [
+            4,
+            64,
+            80
+          ],
+          "finite": true,
+          "max_abs_error": 0.0,
+          "bitwise_equal": true,
+          "allclose": true,
+          "baseline_sha256": "a1ee3ef3089c1a8aae607841554c8dfd26b840e81637bb6b3dcac1fef6ab4cc0",
+          "streaming_sha256": "a1ee3ef3089c1a8aae607841554c8dfd26b840e81637bb6b3dcac1fef6ab4cc0"
+        },
+        {
+          "repeat": 2,
+          "order": [
+            "streaming",
+            "baseline"
+          ],
+          "seconds": {
+            "streaming": 0.019466810990707017,
+            "baseline": 0.019463406002614647
+          },
+          "gpu_peak_bytes": {
+            "streaming": 168525312,
+            "baseline": 168525312
+          },
+          "shape": [
+            4,
+            64,
+            80
+          ],
+          "finite": true,
+          "max_abs_error": 0.0,
+          "bitwise_equal": true,
+          "allclose": true,
+          "baseline_sha256": "a1ee3ef3089c1a8aae607841554c8dfd26b840e81637bb6b3dcac1fef6ab4cc0",
+          "streaming_sha256": "a1ee3ef3089c1a8aae607841554c8dfd26b840e81637bb6b3dcac1fef6ab4cc0"
+        }
+      ],
+      "median_seconds": {
+        "baseline": 0.01951030299824197,
+        "streaming": 0.019466810990707017
+      },
+      "median_speedup": 1.0022341619053945
+    },
+    {
+      "seed": 7,
+      "case": {
+        "id": "odd-strided-dic",
+        "shape": [
+          5,
+          529,
+          611
+        ],
+        "px": 0.19,
+        "mod": "DIC",
+        "kind": "strided"
+      },
+      "pairs": [
+        {
+          "repeat": 0,
+          "order": [
+            "baseline",
+            "streaming"
+          ],
+          "seconds": {
+            "baseline": 0.47666965700045694,
+            "streaming": 0.41938049100281205
+          },
+          "gpu_peak_bytes": {
+            "baseline": 388174336,
+            "streaming": 398013952
+          },
+          "shape": [
+            4,
+            529,
+            611
+          ],
+          "finite": true,
+          "max_abs_error": 0.0,
+          "bitwise_equal": true,
+          "allclose": true,
+          "baseline_sha256": "01f781e06b52691453fd78874565e01db4f18087fbdd2a9eb86369c22afbb786",
+          "streaming_sha256": "01f781e06b52691453fd78874565e01db4f18087fbdd2a9eb86369c22afbb786"
+        },
+        {
+          "repeat": 1,
+          "order": [
+            "streaming",
+            "baseline"
+          ],
+          "seconds": {
+            "streaming": 0.4199000869994052,
+            "baseline": 0.47913949900248554
+          },
+          "gpu_peak_bytes": {
+            "streaming": 398013952,
+            "baseline": 388174336
+          },
+          "shape": [
+            4,
+            529,
+            611
+          ],
+          "finite": true,
+          "max_abs_error": 0.0,
+          "bitwise_equal": true,
+          "allclose": true,
+          "baseline_sha256": "01f781e06b52691453fd78874565e01db4f18087fbdd2a9eb86369c22afbb786",
+          "streaming_sha256": "01f781e06b52691453fd78874565e01db4f18087fbdd2a9eb86369c22afbb786"
+        },
+        {
+          "repeat": 2,
+          "order": [
+            "baseline",
+            "streaming"
+          ],
+          "seconds": {
+            "baseline": 0.4845392860006541,
+            "streaming": 0.41939742300019134
+          },
+          "gpu_peak_bytes": {
+            "baseline": 388174336,
+            "streaming": 398013952
+          },
+          "shape": [
+            4,
+            529,
+            611
+          ],
+          "finite": true,
+          "max_abs_error": 0.0,
+          "bitwise_equal": true,
+          "allclose": true,
+          "baseline_sha256": "01f781e06b52691453fd78874565e01db4f18087fbdd2a9eb86369c22afbb786",
+          "streaming_sha256": "01f781e06b52691453fd78874565e01db4f18087fbdd2a9eb86369c22afbb786"
+        }
+      ],
+      "median_seconds": {
+        "baseline": 0.47913949900248554,
+        "streaming": 0.41939742300019134
+      },
+      "median_speedup": 1.14244740841497
+    },
+    {
+      "seed": 7,
+      "case": {
+        "id": "large-pc",
+        "shape": [
+          16,
+          2048,
+          2048
+        ],
+        "px": 0.2,
+        "mod": "PC",
+        "kind": "random"
+      },
+      "pairs": [
+        {
+          "repeat": 0,
+          "order": [
+            "streaming",
+            "baseline"
+          ],
+          "seconds": {
+            "streaming": 16.192668703995878,
+            "baseline": 18.616698326004553
+          },
+          "gpu_peak_bytes": {
+            "streaming": 3444698112,
+            "baseline": 3310480384
+          },
+          "shape": [
+            4,
+            2048,
+            2048
+          ],
+          "finite": true,
+          "max_abs_error": 0.0,
+          "bitwise_equal": true,
+          "allclose": true,
+          "baseline_sha256": "dca00771c8a24676acf8cfa39257a75db6a9dd97b69f10c8bdf175884e0cf2ab",
+          "streaming_sha256": "dca00771c8a24676acf8cfa39257a75db6a9dd97b69f10c8bdf175884e0cf2ab"
+        },
+        {
+          "repeat": 1,
+          "order": [
+            "baseline",
+            "streaming"
+          ],
+          "seconds": {
+            "baseline": 18.582942773995455,
+            "streaming": 16.21028500200191
+          },
+          "gpu_peak_bytes": {
+            "baseline": 3310480384,
+            "streaming": 3444698112
+          },
+          "shape": [
+            4,
+            2048,
+            2048
+          ],
+          "finite": true,
+          "max_abs_error": 0.0,
+          "bitwise_equal": true,
+          "allclose": true,
+          "baseline_sha256": "dca00771c8a24676acf8cfa39257a75db6a9dd97b69f10c8bdf175884e0cf2ab",
+          "streaming_sha256": "dca00771c8a24676acf8cfa39257a75db6a9dd97b69f10c8bdf175884e0cf2ab"
+        },
+        {
+          "repeat": 2,
+          "order": [
+            "streaming",
+            "baseline"
+          ],
+          "seconds": {
+            "streaming": 16.217037834998337,
+            "baseline": 18.58064826800546
+          },
+          "gpu_peak_bytes": {
+            "streaming": 3444698112,
+            "baseline": 3310480384
+          },
+          "shape": [
+            4,
+            2048,
+            2048
+          ],
+          "finite": true,
+          "max_abs_error": 0.0,
+          "bitwise_equal": true,
+          "allclose": true,
+          "baseline_sha256": "dca00771c8a24676acf8cfa39257a75db6a9dd97b69f10c8bdf175884e0cf2ab",
+          "streaming_sha256": "dca00771c8a24676acf8cfa39257a75db6a9dd97b69f10c8bdf175884e0cf2ab"
+        }
+      ],
+      "median_seconds": {
+        "baseline": 18.582942773995455,
+        "streaming": 16.21028500200191
+      },
+      "median_speedup": 1.1463674310291603
+    },
+    {
+      "seed": 1234,
+      "case": {
+        "id": "constant-bf",
+        "shape": [
+          1,
+          64,
+          80
+        ],
+        "px": 0.2,
+        "mod": "BF",
+        "kind": "constant"
+      },
+      "pairs": [
+        {
+          "repeat": 0,
+          "order": [
+            "baseline",
+            "streaming"
+          ],
+          "seconds": {
+            "baseline": 0.01952107400575187,
+            "streaming": 0.01953538099769503
+          },
+          "gpu_peak_bytes": {
+            "baseline": 168525312,
+            "streaming": 168525312
+          },
+          "shape": [
+            4,
+            64,
+            80
+          ],
+          "finite": true,
+          "max_abs_error": 0.0,
+          "bitwise_equal": true,
+          "allclose": true,
+          "baseline_sha256": "a1ee3ef3089c1a8aae607841554c8dfd26b840e81637bb6b3dcac1fef6ab4cc0",
+          "streaming_sha256": "a1ee3ef3089c1a8aae607841554c8dfd26b840e81637bb6b3dcac1fef6ab4cc0"
+        },
+        {
+          "repeat": 1,
+          "order": [
+            "streaming",
+            "baseline"
+          ],
+          "seconds": {
+            "streaming": 0.01958946201193612,
+            "baseline": 0.019397441996261477
+          },
+          "gpu_peak_bytes": {
+            "streaming": 168525312,
+            "baseline": 168525312
+          },
+          "shape": [
+            4,
+            64,
+            80
+          ],
+          "finite": true,
+          "max_abs_error": 0.0,
+          "bitwise_equal": true,
+          "allclose": true,
+          "baseline_sha256": "a1ee3ef3089c1a8aae607841554c8dfd26b840e81637bb6b3dcac1fef6ab4cc0",
+          "streaming_sha256": "a1ee3ef3089c1a8aae607841554c8dfd26b840e81637bb6b3dcac1fef6ab4cc0"
+        },
+        {
+          "repeat": 2,
+          "order": [
+            "baseline",
+            "streaming"
+          ],
+          "seconds": {
+            "baseline": 0.019645628010039218,
+            "streaming": 0.0194879610062344
+          },
+          "gpu_peak_bytes": {
+            "baseline": 168525312,
+            "streaming": 168525312
+          },
+          "shape": [
+            4,
+            64,
+            80
+          ],
+          "finite": true,
+          "max_abs_error": 0.0,
+          "bitwise_equal": true,
+          "allclose": true,
+          "baseline_sha256": "a1ee3ef3089c1a8aae607841554c8dfd26b840e81637bb6b3dcac1fef6ab4cc0",
+          "streaming_sha256": "a1ee3ef3089c1a8aae607841554c8dfd26b840e81637bb6b3dcac1fef6ab4cc0"
+        }
+      ],
+      "median_seconds": {
+        "baseline": 0.01952107400575187,
+        "streaming": 0.01953538099769503
+      },
+      "median_speedup": 0.9992676369124899
+    },
+    {
+      "seed": 1234,
+      "case": {
+        "id": "odd-strided-dic",
+        "shape": [
+          5,
+          529,
+          611
+        ],
+        "px": 0.19,
+        "mod": "DIC",
+        "kind": "strided"
+      },
+      "pairs": [
+        {
+          "repeat": 0,
+          "order": [
+            "streaming",
+            "baseline"
+          ],
+          "seconds": {
+            "streaming": 0.41994564900232945,
+            "baseline": 0.4788453610090073
+          },
+          "gpu_peak_bytes": {
+            "streaming": 398013952,
+            "baseline": 388174336
+          },
+          "shape": [
+            4,
+            529,
+            611
+          ],
+          "finite": true,
+          "max_abs_error": 0.0,
+          "bitwise_equal": true,
+          "allclose": true,
+          "baseline_sha256": "2660fe8a53318f11da5d49f3b9b19e493aa07bbaa9aa11427e8d6ad8e4496ab0",
+          "streaming_sha256": "2660fe8a53318f11da5d49f3b9b19e493aa07bbaa9aa11427e8d6ad8e4496ab0"
+        },
+        {
+          "repeat": 1,
+          "order": [
+            "baseline",
+            "streaming"
+          ],
+          "seconds": {
+            "baseline": 0.48622467899986077,
+            "streaming": 0.42002356400189456
+          },
+          "gpu_peak_bytes": {
+            "baseline": 388174336,
+            "streaming": 398013952
+          },
+          "shape": [
+            4,
+            529,
+            611
+          ],
+          "finite": true,
+          "max_abs_error": 0.0,
+          "bitwise_equal": true,
+          "allclose": true,
+          "baseline_sha256": "2660fe8a53318f11da5d49f3b9b19e493aa07bbaa9aa11427e8d6ad8e4496ab0",
+          "streaming_sha256": "2660fe8a53318f11da5d49f3b9b19e493aa07bbaa9aa11427e8d6ad8e4496ab0"
+        },
+        {
+          "repeat": 2,
+          "order": [
+            "streaming",
+            "baseline"
+          ],
+          "seconds": {
+            "streaming": 0.4200141170003917,
+            "baseline": 0.4791844699939247
+          },
+          "gpu_peak_bytes": {
+            "streaming": 398013952,
+            "baseline": 388174336
+          },
+          "shape": [
+            4,
+            529,
+            611
+          ],
+          "finite": true,
+          "max_abs_error": 0.0,
+          "bitwise_equal": true,
+          "allclose": true,
+          "baseline_sha256": "2660fe8a53318f11da5d49f3b9b19e493aa07bbaa9aa11427e8d6ad8e4496ab0",
+          "streaming_sha256": "2660fe8a53318f11da5d49f3b9b19e493aa07bbaa9aa11427e8d6ad8e4496ab0"
+        }
+      ],
+      "median_seconds": {
+        "baseline": 0.4791844699939247,
+        "streaming": 0.4200141170003917
+      },
+      "median_speedup": 1.1408770576953675
+    },
+    {
+      "seed": 1234,
+      "case": {
+        "id": "large-pc",
+        "shape": [
+          16,
+          2048,
+          2048
+        ],
+        "px": 0.2,
+        "mod": "PC",
+        "kind": "random"
+      },
+      "pairs": [
+        {
+          "repeat": 0,
+          "order": [
+            "baseline",
+            "streaming"
+          ],
+          "seconds": {
+            "baseline": 18.612960908998502,
+            "streaming": 16.213687657000264
+          },
+          "gpu_peak_bytes": {
+            "baseline": 3310480384,
+            "streaming": 3444698112
+          },
+          "shape": [
+            4,
+            2048,
+            2048
+          ],
+          "finite": true,
+          "max_abs_error": 0.0,
+          "bitwise_equal": true,
+          "allclose": true,
+          "baseline_sha256": "66ebffd5bc28e7a94e81587abb2017831960ea3906e6ec7e82a59dce4d0a1fea",
+          "streaming_sha256": "66ebffd5bc28e7a94e81587abb2017831960ea3906e6ec7e82a59dce4d0a1fea"
+        },
+        {
+          "repeat": 1,
+          "order": [
+            "streaming",
+            "baseline"
+          ],
+          "seconds": {
+            "streaming": 16.231676148992847,
+            "baseline": 18.605806345993187
+          },
+          "gpu_peak_bytes": {
+            "streaming": 3444698112,
+            "baseline": 3310480384
+          },
+          "shape": [
+            4,
+            2048,
+            2048
+          ],
+          "finite": true,
+          "max_abs_error": 0.0,
+          "bitwise_equal": true,
+          "allclose": true,
+          "baseline_sha256": "66ebffd5bc28e7a94e81587abb2017831960ea3906e6ec7e82a59dce4d0a1fea",
+          "streaming_sha256": "66ebffd5bc28e7a94e81587abb2017831960ea3906e6ec7e82a59dce4d0a1fea"
+        },
+        {
+          "repeat": 2,
+          "order": [
+            "baseline",
+            "streaming"
+          ],
+          "seconds": {
+            "baseline": 18.600206814007834,
+            "streaming": 16.21195168500708
+          },
+          "gpu_peak_bytes": {
+            "baseline": 3310480384,
+            "streaming": 3444698112
+          },
+          "shape": [
+            4,
+            2048,
+            2048
+          ],
+          "finite": true,
+          "max_abs_error": 0.0,
+          "bitwise_equal": true,
+          "allclose": true,
+          "baseline_sha256": "66ebffd5bc28e7a94e81587abb2017831960ea3906e6ec7e82a59dce4d0a1fea",
+          "streaming_sha256": "66ebffd5bc28e7a94e81587abb2017831960ea3906e6ec7e82a59dce4d0a1fea"
+        }
+      ],
+      "median_seconds": {
+        "baseline": 18.605806345993187,
+        "streaming": 16.213687657000264
+      },
+      "median_speedup": 1.147536990942349
+    }
+  ],
+  "complete": true,
+  "finished_utc": "2026-11-09T21:00:07.422465+00:00",
+  "geomean_speedup": 1.0947185333517735,
+  "max_abs_error": 0.0,
+  "all_bitwise_equal": true,
+  "gpu_peak_bytes": 3444698112,
+  "process_peak_rss_bytes": 2597085184,
+  "checks": {
+    "nine_cases": true,
+    "twentyseven_pairs": true,
+    "all_output_equivalent": true,
+    "geomean_speedup": true,
+    "no_case_regression_over_five_percent": true,
+    "gpu_memory": true,
+    "rss_memory": true
+  },
+  "candidate_promoted": true,
+  "biological_accuracy_tested": false,
+  "t4_tested": false
+}
