@@ -1,3 +1,7 @@
+<!-- impact-note:start -->
+<sub><strong>Efficiency and practical value.</strong> Predicting organelle channels from transmitted light offers a route to reducing fluorescence labelling, subject to biological validation. Reusing the frozen ensemble for both focus and projection tasks avoids separate MIP training. The repository reports 1.09472× throughput after keeping the projection maximum on GPU, with identical output bytes on nine synthetic RTX 3090 cases. The <a href="#mip-runtime-and-reader-update---9-november-2026">runtime study</a> establishes that scoped processing gain, not measured laboratory-resource savings.</sub>
+<!-- impact-note:end -->
+
 ## MIP runtime and reader update - 9 November 2026
 
 A transport change keeps the maximum over z on GPU while retaining the five frozen models and preprocessing. Across nine specified synthetic RTX 3090 cases and 27 paired repetitions, geometric mean throughput improved 1.09472x with identical output bytes. The corrected reader additionally supports strictly constrained single-channel IYX OME-TIFF stacks, with CPU/API, full-shape GPU and independent review records. [Protocol, source, records and scope](research/2026-11-09-runtime/README.md).
